@@ -1,4 +1,4 @@
-# quadrifilial 
+# quadrifilar 
 ## Quadrifilar Helical Antenna Project
 
 The idea with this project is to be able to simulate an antenna, then print working version that is within 1% of simulated frequency.
