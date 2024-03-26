@@ -1,0 +1,19 @@
+<XMLVersionControl>SimNEC:2.1k2</XMLVersionControl><element><type>USE_BLOCK</type><sweeperLabel>Balun</sweeperLabel><fromFile><powerFormat>0</powerFormat><voltageFormat>0</voltageFormat><rotationCount>0</rotationCount><flipped>false</flipped></fromFile><showInPGain>true</showInPGain><showInPath>true</showInPath><showInSWR>true</showInSWR><escapeHatch/><p><n>equ</n><v>//name
+P1 w1 gnd;
+P2 w2 gnd;
+R0 0 w1 w2;
+</v><w>1473</w><h>767</h><relx>467</relx><rely>143</rely><Schematic><WORKSETMENU> <allow><n>SPRM</n><v>false</v></allow> <allow><n>VCVS</n><v>false</v></allow> <allow><n>VCCS</n><v>false</v></allow> <allow><n>CCCS</n><v>false</v></allow> <allow><n>PORTS3</n><v>false</v></allow> <allow><n>PORTS4</n><v>false</v></allow> <allow><n>SPST</n><v>false</v></allow> <allow><n>SPDT</n><v>false</v></allow> <allow><n>NEC2</n><v>true</v></allow></WORKSETMENU><STextBlock><root/><fontScale>1</fontScale><x>532</x><y>498</y><w>891</w><h>208</h><text>//Current Balun
+   
+     
+
+
+
+
+
+       </text></STextBlock>
+<SComponent><type>P1</type><loc>P1</loc><scale>0.07266948767222628</scale><x>86</x><y>158</y><pin>_net30</pin><pin>_net32</pin><value>none</value></SComponent>
+<SComponent><type>P2</type><loc>P2</loc><scale>0.07266948767222628</scale><x>563</x><y>120</y><pin>_net3</pin><pin>_net12</pin><value>none</value></SComponent>
+<SComponent><type>TLine</type><loc>T1</loc><rot>5</rot><scale>0.07266948767222628</scale><x>297</x><y>155</y><pin>_net3</pin><pin>_net12</pin><pin>_net30</pin><pin>_net14</pin><value>len2 meter {&quot;Belden 8267&quot;}</value></SComponent>
+<SComponent><type>TLine</type><loc>T2</loc><rot>5</rot><scale>0.07266948767222628</scale><x>316</x><y>289</y><pin>_net3</pin><pin>_net12</pin><pin>_net32</pin><pin>_net14</pin><value>len meter {&quot;Belden 8267&quot;}</value></SComponent>
+<SComponent><type>LABEL</type><loc>_Label0</loc><scale>0.07266948767222628</scale><x>444</x><y>402</y><pin>_net12</pin><value>gnd</value></SComponent>
+</Schematic></p><p><numericParam>len2</numericParam><v>341</v><sweepParam><name>Balun.len2</name><listed>false</listed><p><n>points</n><v>100</v></p><p><n>from</n><v>0</v></p><p><n>to</n><v>0</v></p><p><n>log</n><v>lin</v></p><p><n>doSweep</n><v>n</v></p><p><n>expr</n><v>Vary</v><fontScale>1</fontScale><w>1060</w><h>567</h><relx>71</relx><rely>1065</rely><ProgrammingDialog><ThreeSplitPane><errDiv>0.3</errDiv><outDiv>0.7</outDiv></ThreeSplitPane></ProgrammingDialog></p></sweepParam></p><p><numericParam>len</numericParam><v>114</v><sweepParam><name>Balun.len</name><listed>false</listed><p><n>points</n><v>100</v></p><p><n>from</n><v>0</v></p><p><n>to</n><v>0</v></p><p><n>log</n><v>lin</v></p><p><n>doSweep</n><v>n</v></p><p><n>expr</n><v>Vary</v><fontScale>1</fontScale><w>1060</w><h>567</h><relx>21</relx><rely>421</rely><ProgrammingDialog><ThreeSplitPane><errDiv>0.3</errDiv><outDiv>0.7</outDiv></ThreeSplitPane></ProgrammingDialog></p></sweepParam></p></element>
