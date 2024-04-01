@@ -106,8 +106,8 @@ cloneLoad</v></p>
                    <p><n>traceParams</n><v/></p>
                </parameters>
                <SCREENSIZE>
-                   <x>129</x>
-                   <y>381</y>
+                   <x>123</x>
+                   <y>288</y>
                    <width>1659</width>
                    <height>880</height>
                    <controllerFractionX>0.25</controllerFractionX>
@@ -131,8 +131,8 @@ cloneLoad</v></p>
                    <recent>/Users/jan/.SimNEC/2/1/Examples/vnas</recent>
                </FILECHOOSER>
                <WARNINGFRAME>
-                   <relx>854</relx>
-                   <rely>367</rely>
+                   <relx>196</relx>
+                   <rely>267</rely>
                    <w>374</w>
                    <h>692</h>
                </WARNINGFRAME>
@@ -414,28 +414,12 @@ cloneLoad</v></p>
            <PLOTENVIRONMENT/>
            <FILEARCHIVE>
                <element>
-                   <name>/Users/jan/Desktop/SJ000007.s1p</name>
-                   <compressed>H4sIAAAAAAAA/12WO69dNRCF+0j5DxtRJ7LnPSVNBE2KIKUPkAIpAgnRwK9n7RkfaTanuUd3Hduf17z83Yffv329fv3r65e/v/52/fLP9fHLH39+/vjDuw/XZ3r75vvrx3+vn69PP12fLl1v31y8zud6t96vVPZ1Xeu9acby0mnoIczSuodE6TJ0l2VHZxMu3YZutiRbX4ut9Bi6brZdumCDOn9PPmEnan1t26VPPiYiLZ1t7Sx98tHO1et54wqlT76VZq2T4selTz58NFpfLOUfvfjw37XXDi99c3idTzT1dG59efb+JEOn8MWtL28+sqGzC9X5mnCi18fQxSRbDyMuPp58KqoVH4QvREqffCY7y3+1xG9Ln3yg6/gpDNrFx5PPM7X8VyXnuj9PvjDbvV5kc+0vky/ZsvxXVhhX+uBDLljWNyWDMaXL1C2OPxv3p9IH38aZ1nzLkSClx9QDiXF/E9yjdR18m3BcxUdCvetDJx9hWcVXHAb0+skHN6X8FxTIKn908nGYt470t6ovnXyCCm0+5EHrNvlENMpfoUQoSp98yI9d90ecl7Y++SQie/26K7h0e+pW/nLKqV978CUKpPSg9Movn3yKCrbSLY1ap4e+u/5Ynbju508+P/sjkbPXP/icqfxhON356Q8+zuj9aUXXVzz82979jVF+VvvH5AOtVXwpTdv/+H98i48ChJV/Mfkotpd/5Gg1lb8x+QjtrvwnvQ+49Zx8aFpc+Ufi1vWRj/oI2FE66846Px/1gW5c9yeCFRX/nPWbFFLxIaCe8x/1C67mX/jBrb/K99Q/rb4f0stzlz77C27V/u7YCFbps7+I7q6fjT6/o/RH/9vW8dt3+bc++bbS0VVh5q0/5sfavv1kkkWd/5gf6OovXRCK0uf8QNn0/IHe/UUe88O2nvVoG5U/8pgfaPqUzY9av/0Xmnwor93+ue/2lx7zF/O59UCoip8e8zeF/PgvNR+FJp8jm+n4b9X/hSZf3Al2/Neo+/HkS7TD4z/Gc+3Pg28vHH8q2TBgSh986K+uR0fj7fWDD/WTPf/g46r5IDz4kDLhR1/d30QGH7LCe35hPWvFXyafm9nR78FV+uTDTO75hT9e/U1k8BHmi5z74yp1Pxl8yFn0y9bR3mp/HXyoytXzB/6uPl8HH0m+4uu5dvmjgw9Dj05+YVBF5b9OPkdSNF/ipMoPnXyhe++uX+76Fpt8yYtP/SsGfOmDD489PTrx8d8GH98NuvsX3gle+WODj9HTU7p/oVLLPxt8eIykdH/FA6Tv74OPUZQ9P8kMk670yYf5on0+2j7X/X3yISs7vwi7d3745MPzqd8XePZavW/FJ58vjIjSt0bXb0w+/Ljvh2cZnrqlT75AXrYuhBQpffKFw/eefyjsXj/57qHd8/e2rfyJyZd4dDTfXd91v5x86dnxwVigrPzLyZeYOmf+e88vycEn9wM1X+8H7vU2dYtd/qEt4IlYekz9Nf/uh0q9j1/lcfSk7j9IS2z29s1/LrR4Cc8MAAA</compressed>
-               </element>
-               <element>
-                   <name>/Users/jan/Desktop/SJ000008.s1p</name>
-                   <compressed>H4sIAAAAAAAA/1VWu65cRRDMLfkfDiLG6pnp14QkFiQOjOSchwMkBBIiga+nTtdcnd57k9XW1kw/aqr7m4+///H1+vXvrz//8/W365d/r08///nXl0/ff/fx+jLfv/v2+uG/66fr84/X58vk/btLh/DvuuSDjJE+ru/kwwqROLgRx7eiS7YSXx6r8HNA4TvGzsI905P4w8fHlatwU5s8fz78sXf4LHxNGQd/+FNtqBcuww9/PfyZljPqk6uvQfzhr7E1K/45pxjj14e/1MKLP2KpbuKN74ibkYI/ybfGDxXGLx6WB2/8QNJVHxlrJ+P3xvfQyOrESlMn3vg2TInvIaf+0fgz0ZcbHytVjHir3w78F56oSxSerX4+5ho3PkemKPHGR6/UCte9lPXdrX+B8FbhMfdg/Xbr/9wyovBEfBX/lIcvCE94/3ZZQbzpb02lUue25P3zTX+lX5Xc53x3IW4PbunG+NHfqPzmbPyda/B+W8M28Yc/IMtTn+m5qj9zPfzhqFbhY+P6JN74afgFfzkn9T314UPzIRXfgICD5+vDnwN1rfpKJgRauDX+iGnKTIdQX9M63/BcT6U0Z+He748YQX1mUN/TW/xbbbETJkAKj5Z/5FrkR+g24o1vt22UEu6vGH82PnLSej8wonTen40v27Pe/1gjT3z74QuKIuTjIRrz2y/9R4GJa0rpZ0njL0M5iS8fi3jjQwBLeT+UXOev7n/ivg+ODA7e9HuLhThkTf9azf8EBjMW65MoNvHuv36//3JaPfpazf9wZrJ+aP7x59X8T8zxao4/nfextPMDPH5CeLxfX/gaJxI0hvWzzoc+xskk/OCdP0KVldiQWuHN/0Q35EAc/XHiL/nH5vmQ6qlfdL7l+QSD4/xZ0fnm1Af0n4P35wsfvkN8IlfinR85jZ3GAye+e/6oG/uDUmzev3v+UCPvhw7o7yqdjwvq/YPv7L/KS/2Pv8ktsOqvdv2Zg1b4xNwy4p1vGHxUOmIpf9WuP3Rvk493NHn/i/62reMvsOfyR+36w/Ol/4tDS0K8+3fCOAsPKJD8rj+M9ZN/YDwevPGxXZz8MndUfbXrT2C/x8nxElmf5n8iMBj6LwSazL/5H24/8cNpjP6pzf9Ax4JUOAyG/qPN/1AVD/o/DP70r/mfoKfH/4e95d/8T+6hG8TXW/wv/of94MSXevjN/zAehp38sMux/83/sDzNeKtfUL8mjQ/P3OwfjFon8T6/Ri7yzfHCC2/zF1MvQ0+lnPPN2vzF8rM5H7HcKf3d2vyt+XX2I9B5f5u/99a25lHaNsbf5i9wDEjOHx++iff559uN/nq3ovCX+Xu71pu/c/6b9vk3z34Hc/HN/Nv8RfjYC7jJonwH7/W3e75z/1TOb2v6G5hOqG9tusvSiDf9YLwa91cXH+R3/UGM3I9RBqV/WtffLc9JPNGLwrv/YbzNg0ccfve/QDsPPpT6t77/Ydk98cGHOP+t739oRpK/bie/cZfGz8RWVDje312//wF4Scb2zwwAAA</compressed>
-               </element>
-               <element>
-                   <name>/Users/jan/Desktop/SJ000009.s1p</name>
-                   <compressed>H4sIAAAAAAAA/1WWP49lNQzF+5HmO1xEvav4f1zSrKDZYpG2X2AKJAQSooFPz4l9R8/vTvd+k8Q+sY/z3aff/3i7fv377ds/b79dv/x7ff72519fP//w4dP1lV9fvr9+/O/6+fry0/XlsvX6csm2Vd91rY+xMrZcH9ZHXsEkxf3BPfaWKO7BocVjcCWPPFzYNKj4fnBLy1zFAyft4jm4ivM+XIXcav8bF9eNCGq97uVZ8ScNzixmhxuLau2f/OBiTtHcifr8lAdnZHev32nUXAdfKlHxOSHxyi+HfiS8e3/HrmbFh37LRNmbO0sWf9cPvy7GvnHzRb1+PzgtnMDF2be3Pjk4NNE7PhJx8Dv65iyxhDu/0CXFafAMT299VqQW5weHfuHNGX+ruDy4roi0vh/HuuI6uKlF5acq2Ky4DZ5mXvEhLVIu7g9uwu5aXF3q/nDk4BbbtDOBgs2HfhbnXoqro4CKD/0sHRVYSqZo1Hoa+vm5gOoPwr1yFKfJg7r+1w6+OT/x5OYiHHU+yeQZSVUphPLt9Tq5WHBXUobU/dHQzxfLrvW0vPsPHTnzO3kX163Z+U39gpfv4ju99aOpnyHvqE44X/OpHydHd4oZc+XHQz9bHE7daVC47peHfhoWUlzQCqvi56EfqoY9i/Nqf1J+qr+NqIrLXl1fPPST0FgVP24XWhcf+qEmtfVFce6ufx764ahEfRyOX6Xy56Ef2lfhH7UeZ3X8Qz+UhHuvx7nc+c/+TQTQ+Qtxln4y9CPHDh0fGTYuPvQj8YzWNyWk4pehH2HTrcXR59R86LfSUMDFEZ+UPjL0Q1X7rvMhPgqnuE3O2hxV492f4k/rj/8dbktaH5n+lyiLrj9Ghff66X8YL9ROmjCKun/Jp/xhPMVDd/mnvhtgcSwK6/7Zsio/nfrhzrLXow6k8tOpXx67LS7G9/5DP6bjC8X5eFXxoR+f8RDd34JhWHzoxzDI3fEtTKK6fx36MUyv/WkRjur4Z/1tcuWeJCiQXj/0k0Xn/tt/JKr+dOgnfGypOO6Fqz5s6AfXZe71Bvuq823oh7vM1f5mZ5QWn/MDpkVUHFa36n5t9i8aqOf/clZq/jQ/AmXR+9v7+XN+bNiidfx4v/T66X9wb5XOH6Oi10//g9h868e3fvY0PzbdlYqxJp3f0A8zZevu+92YfIf70M/R1qJdX+qtj8/5gfeBZNcvNqj4fM6PwHy6/R0bNZ/zA12/7v7Bu676y4d+UM9Su/8cvVR86Bcon/Yv2qfVig/90BM4ol9CgVoqHpMn5k1xGJR1/kM/3L7J7vmw5eY5ueJZWDxOXRwea/KVZO1v+Kp+g5440z0fMFdK3+AZH/5b239PpRaXp/x29nq4i1f/xtTvGHDzza4Vfzzpt/DeLJ54Nzef+mGq9f3DVaTfBzH0gynjXovjXdT+GUM/WKq0vnrKt/msPzx/uPTBtv0+fW//mxP3/FK8BLp/9qw/XyibeonDPqz5rD88APr9YLB/Kv33rD9D30m/5E9fFJ/vl/N8Lv1OV2r5957vF1xbx485hEnz+vI/oVD1Bc8MAAA</compressed>
-               </element>
-               <element>
                    <name>/Users/jan/Desktop/SJ000010.s1p</name>
                    <compressed>H4sIAAAAAAAA/1WXPY9eRQyF+5X2P1xEncjfnilpImhSBCl9gBRICCREA7+ec+15s37T7T57Z8bH9rHz3Yff//h6/fr31y//fP3t+uXf6+OXP//6/PGHdx+uz/L68v3143/Xz9enn65Pl9Pry6XLqf5d7+i9JhvJddH79AhpHoMbxdLisXdy8RyclikVz8jD1xuXJcxRfLm5F9+D28YDim9hs5sf3Fx4Wb9vL+Pm/MZ5RVI2376by+COYIovYvYsroNLiD24RnN747Qt3M75O1fxoR/5sjj3O1N/P/Qj2Xz02+y2iz/0w2+JXISOPiF9/hpcU7T1wwWkxffgyTihOeW69T+vbw5q3t8HaURxHtzInYtbsktxGTyNtd+vgkwU1zcuFJwdv5ByFrfBVWLt4vh17OI+ePCmOj9Qdtnvi8G3oMSKhzH390M/RfZ2xR+GSJsP/dSVdsUf4sZefOin6el9PsKK4jz0Q7J3c08kus7noZ9x4sfiZktKHx76mdrje0hpFR8P/Qzp7/fbCjYtPvSzCCfvv2Q75w/9LFH0u19iu+rPOCbfW/NEiriLD/1sqXf9qqJ8+vw1uZicTESqFd+T0+KqH8i7pN4vNO9n54pfGKVc75OpX8jWU2mS2d9P/QwFUO+7Vav+N5n6KWyp6odgC1nxydSPN1JQ3FG4lT8Z+qGZNtf5xEu6f2Top/A05O/uZIYX9fmz/lwC77s5qk+bz/oTZfjrzVPj8KEfVHXv77fLuvvfdOgnYfDbcirc3/WnQ7+7v4SPk/mu+tKhnyAs1uKKi0t/Hfpx7LW8eSLxxYd+8ES1vl+DvM8f+kFztb5fkenKnw790IvLrN8H/ZtP/0Nb+YkvtetPn/zP4efFcZRXfnT6H++I49Twx6qPhwG2v8YjPxuN1nzMD8IF/T5a6/SHjflBGCCqzTcmVPExP2AaKMc+n2yVvjbnB/5a/UwS3X3/nB/w/HM/KrH90eb8WLSz84PoV+lvY/7SnT46+qATio/5C8tkWad+9nnfmL/wGvzYHA5Q+jsNHhr8+B6ZKf40f+92aI4OLn186CeQ5dv7tOvPh36oXzn1QeJdXz70E0fW4+QPBlZ86IeWjY7vrrTWx+f+QoEKaqUxocrffe4vaJZs7oIMFB/63bV88qt69PWhH5YpDI6ulHsXunkM/exeOrgrlbc3H/qhWSXtVHrWfgRLHBzH935CYWe+x9AP/g+Lb/+Dsfb5Qz+sV7Rq/rEogik+9MNwkfY/vheR5kM/x9LS98MeqfYPjMHBYfv7+Dud/ouhn0PgqPvR/miM4nvyhYPb6Vx7/uXQD7UAWdopcXzVZ/LkGKtynDY7fymTy8rmtqznY+rT/fbN6TOa2+SCAq1JgvBW5SenfgI5uCcRBkXlJ5/1c+r57Eup+dSPHvsp5v/q+ZhDP9sJu6394TaIjn/oZ3D33g9csQmUvmvWX/Lu/LvvrP0anzzX1/kei2zvV2vWH7LvvZ+hT3o+rVl/ynH2J7TP4bP+sNP0+QGpun+e/v+BqWdnv0tseK8v/wNkT/wLzwwAAA</compressed>
                </element>
                <element>
                    <name>/Users/jan/Desktop/SJ000011.s1p</name>
                    <compressed>H4sIAAAAAAAA/0WaPa+2yVGEc0v+DwcRrzXfHyGJBYkDIzk3sAGSBRIigV9PTV11L2c3OO/pZ3pmuru6q3uev/vjv//t159//a9f//rfv/7bz7/8z8+f/vof//mXP/3DL3/8+Uv7/e/+/ucf//fnn3/+/E8/f/6Z5fe/++lnFv/8/FL+UM6u8/78lD/0uWrvyLt/LB+tlmn5anMM5Ms/76+l1H4K8lFHQ379Y/mY7S7kpU70L6tvlp/T72b/1grnQ713re324k/2fte8yK3+WL5uO8hbHQf5tv76/trK7sPna/ecxfm39Q//dfRxu3/bdV/Ot61/89dxOUkbddVp+bF+bl1aztfK6iVy6++cSgbISY9UILd+rDJaWyU3bbHvtXk+r7RysNRaFftc62+xerkVS49Ss94/8dqu3FQO38v3u8X6D/JZx8bTY9yN3Por++++6xcpuyG3/sH5h6775LWdUn2/W60fr7Z1WV/XPity64/9xtjjyVuZ9S7k1h+vnNEcie3Fle17m/UvvLLOsX5tpBBF7vCx/VptVfHx5Hcu4vs267f9qvzbLO8KpY1+wpP4kwPOtbwrMApy68crV0Hn8/Ux9+F+3frxyuz72r4vvom/O6wfr1RFfUXeZWzk1o9XuhB20H/u4fzD+sHvLntz/n5nP5Ybv1itFlndn9SGa2If43fitdH1v+Vl1Yp+45db1z0352unl8SH8YvVhK89rEnZYRN/hOeceE1pw5qavFYit/7DKv3CSZV2Luczfhu77qmPc1I5Cvsbv5OoOatVblKLAhC59W+8rkX3s1Tub/y2EvmtWFpRsbCf8TuJuqMDkMmqchnxaYAR9W3vvoiEcU/BPg6gyq2X8kMJfvdFvw00sZ+yygj+FQqRWz/2q7uQaevU7y+/jWL8EhVVyQqkSai4QG79oG7OFynOT7rgQG79A9TqWuQvAcX4VhqxfqxyXlRargA+Bbn1l9SHhn2USZfjV3Lrp34UpbsWpLbLeuO3Uj+kffesL4vzGb8Dq+8Xddmf/D+K8YtWeb0mE7R6C/uT/sHv6Dvnf5kmcusnKysmkFfF9+Z89sBJ/VB6Z6ep9Mn+xm+lfjTZv+K/lyCRWz+7jhfWZIpZ50Fu/XhF5yCTCn5KsZYbvzX5T5p8k9KUnjmf8Tu4tfyz7Ekl/+r6JLnLF145Km+OlJdeG/sbv7VlvVIYnr5CMnLrn9lf/xEpSmUdufUfzi8y0cjvciv6jd+K/YaqAfIrk2A/43dgv670BhIVXZf7G787Xtv1yxSnxH7GbwU1R/wDpBypr8itv+M1Bdgivx1BALn1g6rWJvlJBXEHH8ZvueEnygrkXx0M+xq/oEa+epXE+VvxgX7oA17TAbO/Kt72+asDtOCV9m6LXHm7ILd+qu5UeIzI4VeSWz9eu6o6nG/1b73xW/Ca6vBMfVnnk1t/wWtHaMv9NvmjGr+b/FdU9D/73Oxv/BbyX//4gQzWiL9q/Pbkv60UiH8Utuxv/O5UZX2QT+oi5iejQq8mu75slPiY5Idq/PZ4RW6dxNc+xFc1fnOqeSaZXHlWnrHc+C1YVfSI8wm/M+uN307VPqKVZDrRlsb+xu+mqmpP4rfMqWJnufFbqKrnzhF8Kuywj/HbsbrYUw8TWKdiX+OXqqf9D/VBkTYa641fUCfzD/J7ucq12Bf6if2kq4dJvwhDbv2xn8rXTH7r4Kcav2ElcvBKftxr4h/jt2O/VxbJBCpQk/2NX7KG8kdPfVFeTfwYv/QfqgqCBZmknYp9jd94varQJ5Mp7jm/8UvUijXUEn4vSob8mj7DGlS0DkxaaeeCP+M3WQn8PbncnviFns9kxTlgwspDw/HRivUnq6o+Z/3VH5FbP/iVTW7WK2V05NYfVq6iFLnypvdv1fo39XGE6SqglHmRWz9eX0rfVArFJ/5rvgD9x2MdJ53MaZE36yf/Caw9mbzQf7yO5LUXF/47Tj3pf+q33vpTFccmfrSrCqDltC9ElTjh8U3rQzr3N37TFYnUh/9s8Zust36qqvJoTiL3dM43rH+kqh+YtE434R/N+G2pH+fxY+PjHQu59RM1Cirio4ieuX8QyqwfqyrmUr+fX9nf+A3rUADMlkxfiK9m/NJ/yBU1+BdtiHxZP/ZTeWkjkZL80mjvYr+dTCD6kvzUjN+ZrlKsG/kSF+H+2/qxn0hD6rv8X9nf+I3VXlClktSS/Y3fsCL5BP4soqWaYfmx/mQdoaJ//DvxYfy2xF9dZPL6GkDOb/xO+J/ioKd/1Hr2N37jFd16wHR1vfjH+IWVlaaw6WGy4uTIrT/1V2yT84v+TOvvxi9VUznzwsTro4obufXXZO1GphQ8G/yjG7/0H+XRCpiuPN28fzd+T7pqHat9/Ir80I3flqpR0j8rDy3qXzd+qVqq/yOZaJ3dbd9u/GaV8nz6c0WH5w8vYbz2PVGxB5VOrLRin24DceunNUxCSIef0P6eb9ea+7Uxyf/d+KX/kKkq9VN1WpwEufXXRKXiCkuLPyI3fuk/dL8WT8mVC/sYv+k/pqI58pv+pxu/X/+xpRZPax32MX7Tf4wXwcjV/0du/dhP/0imNRVC7vEG9hOPJVNKfhM/xi9TBfUqyY/Sr48gt37sp2R6kx/UgXN+43d8/G8kkytSG/Fn/J7En4I69xcTZr3xW5M1yqpfJanxn/GbqU5rmW+V9wH8Z/yGtag+wZ9KqdXzpcEArsbrZ+STMlVlf+N3xH5v7pD8Ngr2MX537Hc2TPHlvx659bdktY/plldTkVv/DD6Sf975uu3jBk/lDPnK/EzxM1vk1v/FX0l/9ep/RW79I/F7Zvzfkl9NQJVLQWX5KulrBRdy68/8ZaTTepYiviAQZMWi7jbx0UXUbV8XyLaD+nML+pXIqf8UgG9qoawV/rfE5JFbf8v6kfh9IWf7MV7a2E/sjf5UvykXIbd+7Cd0ZX8xWfo7HBCvLPcfZHpxIsuN32QN0btUOiWyFrn1B7/r9lSS24iPYfyGVQ8lit/6Z/j5MH7pP1563mEiql+cz/hNVLVdvkonJsj+xi9Z/6ESfiYm2BI/xi/9h6JmZX/tA/8ZjCdTP9RU00muV7eQWz9ebT38sj7KzfmM32Sd8fIOchF0/GP8Fqz65jPo3zpLQ279eHX3Vr/5sUqt5cbvzlRJWr/9Z8G/xi9elUku/YXOP+n/h/Hbv/63hJ+pjiS+jd/1WX1n0i618Ldh/JaP/yV+lf7byXrrD38p4e+eD3v9NH7Xx/9GTiKeBD6n8VvC/xRV5N/Xci3k1j/C315/a0vod+NrGr90La29uAMfituD3PrLN3/4XipkGPY3fjv87zWIwb/6f8fPNH5X5s+Kq538Wslfs3n8nKmYwJJMrwSQ9dafrqivrz4fFSDLGW/n1UFpM/xNXJj7d+uHlff5veSoo/vWWz/zlzbO/0/6yA/T+M37h0gd/KSK9zH/mcP6w58VCJnfP+KL3Pozf9mX+XJVoaC/n8bvCmpO5k8CP+8/klv/Cj/tmaS217chf/rD+nXOzA9UdnM/4zf9x9OaSaroB/b1eJL+o5wS/qQy0ZmfTeOX/uNF5/zeD278b/zSfxQPMOhkM9+W3PrD6l/bjlypOOutP/N7lfVPPi/nN36xmqr3ZpIg/YP6Oo/1h1XWb9K+1H9zfuO3hTW/CZjl6kQT38bvTP9bVuZj8i/97bzWj9e3UJ352xsQIrd+VomARV7eC9+TL+N34lVhfqQTL5f+dhXr59bjzO8kSsBZb/3M75e6AuLrOcD7L+OX94/25ntUInWC5JdVrf+b359UyjUn8+Fl/La8ajyGgCda+rtl/M5MBXWqE/5Qsr/xm1efMuseqd+L+cIyfvNq9MayrN+vwbOc5yPspz4k+depHrn1Yz+RhtRHFRLwt4zfL2pK9n+NGPltGb95/5iCdd4fhTDOZ/zm/aPX3+bjVwQEufXHq/ubnzwijNz4zdRM3T2VSnYu1Pdl/ObV7+2VlzxZGv86gGq6rvccYPl7SjJ+lvGb/uO8YLC8qwJxP+M3/YeKKf17Fzrg18v4Tf/x2kpeOsfXHy3jN1VBnDr7zzcpQW79v9Xf6BdSeP9Yxm/dqa+N39yVYB/jd+bVphx2UiOd+cMyfk/mz6/b537v3QW59ZP/Tr9UKnWFk/5vGb+ZetU3dfdvr2XGPsbv96qi+OW31z9iX+O3Zn6vbnHEvwd+s43fTO3u3pnUK5TBzzZ+ef/o6i94f24i4uT/bfzWvP+qQ/74TSU/beN35FV/DZiKyHvDf9v4/b41cBvzKYXxWRu59WO1/V4zqd9nc79t/PL+0WX9fJPgtdzsb/zCGkVfxv06/YZ/t/HL+4eKz1zpZM7Evzw/8v6hkrM/pv4etpFbP+/ne3Qy1Rt/LO5n/GLV1ytmPjLUUnM+43fEfqJPeWkVleZ+xi/vHx5k1mTiRf7bxi/vH73K799La+Zj2/jNVPAdikywXtOH3PrJCtqU++mTB36xjV9Y5RsaU+n6G/AYX9v4Hd+3Hir5+b0I877C8+wO/xO9Z1KuQsv7znaAlrBKlRUm7Upb5N9t/DJ1VVQUMlnXsclP2/hNVl7OD7/YU71yPuOXqXJRAs7+4ieRG7/pPxTr2Pd9vYD6vo3f9B/qzul0pH8wX9/Gb/oPbTYziV/pb7fx+02dRKrzPrMm87Nt/O6wLk96n3y+xge59TM1229ciX2FFOPzGL+/saqTlwYFCPz5GL9MhQT+9Pfv+y/En1PuLakfN/NDNYwr+o3fnvq7ylfJF9/PkNz6saofwyxXK9DQb/x+p7rvmzLmByLSyI3f/turE5MM9RenRP705/1jPrRgyTfJQG79WF1VP/OvvRK/PO/n/eMlo1QScb2N3PrxivLjN/8Q0WF/4zfvH+9bA+nfxX9d/47xm/ePpW6ipP4n/x/jN1Et1pP+rSy+/yG59QcV7xsqIEH20fr/A79Rk+DPJQAA</compressed>
-               </element>
-               <element>
-                   <name>/Users/jan/Desktop/SJ000012.s1p</name>
-                   <compressed>H4sIAAAAAAAA/1VWPa9dRQzsI+U/HESdaP3tLdNE0KQIUvoAr0CKQEI04dczx97H9b16xdOdu7v2eDz2Dx//+PZy/fb3y9d/Xn6/fv1+ffr6519fPn149/H6wm/f/Hj99O/1y/X55+vzZevtm0vSVn2ua72nNF9yvVvvGf+KFO4PfG3n2IWHrPTC4+D4di3OoMI38bk/HzgtXgcPcs7C98AzeWe/vzfV+wcuHFdKx0eyXaNwGngKU+EL31uf54GH76TKxPFLK1wGLvh54WQ7lQvXEZ/TOc+iyyr/bQ98eaR74bFFqPDJn5A7F76Ra5+PB04itrJwTzrx5QNnfLbWf5Qsnf8e+DZB/nWT4w/4ib5xESXvSJRATOE0cMXXJxO11MJ54Lw4spnYWfzqkvG++8rWB6q7uXAd+UFfUvffiVb9QePgJyGfOi+5kFfhr/zdUSE6isI3h1rhQ3/EoKvqL2EZUfjQHzOFlP4EPFLHN/THO2J5Kw0B1P009CcamvU+BYRc/NLQnwQdfSMqb35o6E9cUcFWwlJufOhP2LZZMcVbkgof+gOr0FsxvUxL/0pDf5TrVR+GAHfhk79NBP5KnxBqnx/6W4tQosYRd/FDQ3/g0lpfd6dk1Y+G/hCr7tZfqGrhPPRHqG7W+7TUveJjmniavnZKaOXPQ3+EqlDzKypR+uChP0J7eWeK7tLSLw/9QUsKfm6mIP/qP+XZv7jdj5KMmx+e/Jlp65tQXu/8pv9tx8Hun1Tp/Kb/wfS4/Yny6I+n/5GQ7s6fpfxFZegPWWWUP6ywzXW/DP3d7Ic2vyIdn/DMzyHgxlGI4lcGf3gVZW+nz7TKX574Q9je75NY9YfM/g0YoPVN6lz8y/Q/9IxmR7JsV/1k6s9g31w4qtP6kak/sGe7M4W99vk98wv4auN06vNqgK0a4VOfexTUeX3mb/V8AVMUlZ9O/gwDqPhd9yDo8zJxvv2r/FWIi1/Veb+ESDMJeRY/OvUna3f/YLhy9vtTfyvF+NQ3pM9P/tDM1PVFq0XnP/kz6LLPo2209KWjf6GvvVo/tOHUN26zfzFg9+lf9GWdt9m/Djvep9LW/mCzf/ft8F1J393fNucHBKjeTOB83z/nx4aauv4bgZd/mj29732eDJtI40N/hARW1R/mxie+yR/IYj6bwDrvj/69ozr7Eea69Pmn/iU/8w/+0vXxoT+Yaxj1/PQt1f8+9xdB1aPzE+/56XN/gX/FayfTwef+YigHH/3gU/icH7f/9HwJTNCK3+f8sBXS/o+LWv8+9YdH7WwaKFXfP/m794vaj2RFUOc/9HfvhN77zb6NpfC5v6xEv/X8ugt74zH0h+qpn00Ck6Lij7m/MBZUPv519peY+wvcfx3/QXuUf8bQn0jywTd+2eeH/rCcwk6Lqf/zj6E/lFzaf7AJSes7pv7upafmj8A/ur/iyf/QN2fTwHwo/cbUH1St3Dj8pfw5pv40sTf2/fCqwnPoj2/5t75NznzMp/05YYu933jvx5pzf4FrakcCnXDjc3+BKUvPJ7zU9c+hP6hCWx/Yb3o/1xz6w9CFBfR+iwUU/P4HawJCXc8MAAA</compressed>
                </element>
            </FILEARCHIVE>
            <SPREADSHEET>
@@ -474,8 +458,8 @@ cloneLoad</v></p>
                                <fontScale>1</fontScale>
                                <w>635</w>
                                <h>364</h>
-                               <relx>-586</relx>
-                               <rely>534</rely>
+                               <relx>-602</relx>
+                               <rely>564</rely>
                                <ProgrammingDialog>
                                    <ThreeSplitPane>
                                        <errDiv>0.3</errDiv>
@@ -502,8 +486,8 @@ cloneLoad</v></p>
                                <fontScale>1</fontScale>
                                <w>635</w>
                                <h>364</h>
-                               <relx>-586</relx>
-                               <rely>534</rely>
+                               <relx>-602</relx>
+                               <rely>564</rely>
                                <ProgrammingDialog>
                                    <ThreeSplitPane>
                                        <errDiv>0.3</errDiv>
@@ -553,8 +537,8 @@ R0 0 w1 w2;
 </v>
                        <w>1622</w>
                        <h>1415</h>
-                       <relx>531</relx>
-                       <rely>110</rely>
+                       <relx>515</relx>
+                       <rely>140</rely>
                        <Schematic>
                            <WORKSETMENU>
                                <allow><n>SPRM</n><v>false</v></allow>
@@ -645,7 +629,7 @@ $wire.insulation={Thickness, Dielectric};
 
 dcl smallDrive = NECSource({drv, gnd}, $wire, 50);  
 dcl largeDrive = NECSource({drv, gnd}, $wireLarge, 50);  
-       </text>
+        </text>
                            </STextBlock>
                            <SComponent>
                                <type>P1</type>
@@ -699,7 +683,7 @@ dcl largeDrive = NECSource({drv, gnd}, $wireLarge, 50);
                    </p>
                    <p>
                        <numericParam>H1</numericParam>
-                       <v>230.8</v>
+                       <v>234.1</v>
                        <sweepParam>
                            <name>QFA.H1</name>
                            <listed>false</listed>
@@ -714,8 +698,8 @@ dcl largeDrive = NECSource({drv, gnd}, $wireLarge, 50);
                                <fontScale>1</fontScale>
                                <w>781</w>
                                <h>511</h>
-                               <relx>-691</relx>
-                               <rely>664</rely>
+                               <relx>-707</relx>
+                               <rely>694</rely>
                                <ProgrammingDialog>
                                    <ThreeSplitPane>
                                        <errDiv>0.3</errDiv>
@@ -727,7 +711,7 @@ dcl largeDrive = NECSource({drv, gnd}, $wireLarge, 50);
                    </p>
                    <p>
                        <numericParam>D1</numericParam>
-                       <v>101.5</v>
+                       <v>103</v>
                        <sweepParam>
                            <name>QFA.D1</name>
                            <listed>false</listed>
@@ -742,8 +726,8 @@ dcl largeDrive = NECSource({drv, gnd}, $wireLarge, 50);
                                <fontScale>1</fontScale>
                                <w>781</w>
                                <h>511</h>
-                               <relx>-575</relx>
-                               <rely>644</rely>
+                               <relx>-591</relx>
+                               <rely>674</rely>
                                <ProgrammingDialog>
                                    <ThreeSplitPane>
                                        <errDiv>0.3</errDiv>
@@ -755,7 +739,7 @@ dcl largeDrive = NECSource({drv, gnd}, $wireLarge, 50);
                    </p>
                    <p>
                        <numericParam>H2</numericParam>
-                       <v>219.3</v>
+                       <v>222.5</v>
                        <sweepParam>
                            <name>QFA.H2</name>
                            <listed>false</listed>
@@ -770,8 +754,8 @@ dcl largeDrive = NECSource({drv, gnd}, $wireLarge, 50);
                                <fontScale>1</fontScale>
                                <w>781</w>
                                <h>511</h>
-                               <relx>-575</relx>
-                               <rely>644</rely>
+                               <relx>-591</relx>
+                               <rely>674</rely>
                                <ProgrammingDialog>
                                    <ThreeSplitPane>
                                        <errDiv>0.3</errDiv>
@@ -783,7 +767,7 @@ dcl largeDrive = NECSource({drv, gnd}, $wireLarge, 50);
                    </p>
                    <p>
                        <numericParam>D2</numericParam>
-                       <v>96.5</v>
+                       <v>97.9</v>
                        <sweepParam>
                            <name>QFA.D2</name>
                            <listed>false</listed>
@@ -798,8 +782,8 @@ dcl largeDrive = NECSource({drv, gnd}, $wireLarge, 50);
                                <fontScale>1</fontScale>
                                <w>781</w>
                                <h>511</h>
-                               <relx>-575</relx>
-                               <rely>644</rely>
+                               <relx>-591</relx>
+                               <rely>674</rely>
                                <ProgrammingDialog>
                                    <ThreeSplitPane>
                                        <errDiv>0.3</errDiv>
@@ -826,8 +810,8 @@ dcl largeDrive = NECSource({drv, gnd}, $wireLarge, 50);
                                <fontScale>1</fontScale>
                                <w>781</w>
                                <h>511</h>
-                               <relx>-717</relx>
-                               <rely>620</rely>
+                               <relx>-733</relx>
+                               <rely>650</rely>
                                <ProgrammingDialog>
                                    <ThreeSplitPane>
                                        <errDiv>0.3</errDiv>
@@ -839,13 +823,13 @@ dcl largeDrive = NECSource({drv, gnd}, $wireLarge, 50);
                    </p>
                    <p>
                        <numericParam>shorten</numericParam>
-                       <v>12</v>
+                       <v>14</v>
                        <sweepParam>
                            <name>QFA.shorten</name>
-                           <listed>false</listed>
-                           <p><n>points</n><v>100</v></p>
-                           <p><n>from</n><v>0</v></p>
-                           <p><n>to</n><v>0</v></p>
+                           <listed>true</listed>
+                           <p><n>points</n><v>10</v></p>
+                           <p><n>from</n><v>8</v></p>
+                           <p><n>to</n><v>18</v></p>
                            <p><n>log</n><v>lin</v></p>
                            <p><n>doSweep</n><v>n</v></p>
                            <p>
@@ -854,8 +838,8 @@ dcl largeDrive = NECSource({drv, gnd}, $wireLarge, 50);
                                <fontScale>1</fontScale>
                                <w>663</w>
                                <h>443</h>
-                               <relx>-454</relx>
-                               <rely>794</rely>
+                               <relx>-470</relx>
+                               <rely>824</rely>
                                <ProgrammingDialog>
                                    <ThreeSplitPane>
                                        <errDiv>0.3</errDiv>
@@ -882,8 +866,8 @@ dcl largeDrive = NECSource({drv, gnd}, $wireLarge, 50);
                                <fontScale>1</fontScale>
                                <w>1060</w>
                                <h>567</h>
-                               <relx>108</relx>
-                               <rely>807</rely>
+                               <relx>92</relx>
+                               <rely>837</rely>
                                <ProgrammingDialog>
                                    <ThreeSplitPane>
                                        <errDiv>0.3</errDiv>
@@ -910,8 +894,8 @@ dcl largeDrive = NECSource({drv, gnd}, $wireLarge, 50);
                                <fontScale>1</fontScale>
                                <w>1060</w>
                                <h>567</h>
-                               <relx>108</relx>
-                               <rely>807</rely>
+                               <relx>92</relx>
+                               <rely>837</rely>
                                <ProgrammingDialog>
                                    <ThreeSplitPane>
                                        <errDiv>0.3</errDiv>
@@ -944,8 +928,8 @@ R0 0 w1 w2;
 </v>
                        <w>1473</w>
                        <h>767</h>
-                       <relx>274</relx>
-                       <rely>389</rely>
+                       <relx>258</relx>
+                       <rely>419</rely>
                        <Schematic>
                            <WORKSETMENU>
                                <allow><n>SPRM</n><v>false</v></allow>
@@ -973,7 +957,7 @@ R0 0 w1 w2;
 
 
 
-          </text>
+           </text>
                            </STextBlock>
                            <SComponent>
                                <type>P1</type>
@@ -1049,8 +1033,8 @@ R0 0 w1 w2;
                                <fontScale>1</fontScale>
                                <w>1060</w>
                                <h>567</h>
-                               <relx>196</relx>
-                               <rely>1132</rely>
+                               <relx>180</relx>
+                               <rely>1162</rely>
                                <ProgrammingDialog>
                                    <ThreeSplitPane>
                                        <errDiv>0.3</errDiv>
@@ -1077,8 +1061,8 @@ R0 0 w1 w2;
                                <fontScale>1</fontScale>
                                <w>1060</w>
                                <h>567</h>
-                               <relx>146</relx>
-                               <rely>488</rely>
+                               <relx>130</relx>
+                               <rely>518</rely>
                                <ProgrammingDialog>
                                    <ThreeSplitPane>
                                        <errDiv>0.3</errDiv>
@@ -1117,8 +1101,8 @@ R0 0 w1 w2;
                                <fontScale>1</fontScale>
                                <w>635</w>
                                <h>364</h>
-                               <relx>-586</relx>
-                               <rely>534</rely>
+                               <relx>-602</relx>
+                               <rely>564</rely>
                                <ProgrammingDialog>
                                    <ThreeSplitPane>
                                        <errDiv>0.3</errDiv>
@@ -1145,8 +1129,8 @@ R0 0 w1 w2;
                                <fontScale>1</fontScale>
                                <w>635</w>
                                <h>364</h>
-                               <relx>-586</relx>
-                               <rely>534</rely>
+                               <relx>-602</relx>
+                               <rely>564</rely>
                                <ProgrammingDialog>
                                    <ThreeSplitPane>
                                        <errDiv>0.3</errDiv>
@@ -1162,8 +1146,8 @@ R0 0 w1 w2;
                        <fontScale>1</fontScale>
                        <w>635</w>
                        <h>364</h>
-                       <relx>93</relx>
-                       <rely>695</rely>
+                       <relx>77</relx>
+                       <rely>725</rely>
                        <ProgrammingDialog>
                            <ThreeSplitPane>
                                <errDiv>0.3</errDiv>
@@ -1177,8 +1161,8 @@ R0 0 w1 w2;
                        <fontScale>1</fontScale>
                        <w>635</w>
                        <h>364</h>
-                       <relx>-182</relx>
-                       <rely>586</rely>
+                       <relx>-198</relx>
+                       <rely>616</rely>
                        <ProgrammingDialog>
                            <ThreeSplitPane>
                                <errDiv>0.3</errDiv>
@@ -1189,17 +1173,8 @@ R0 0 w1 w2;
                </element>
                <scale><w>0.9903846153846154</w><h>1</h></scale>
            </CIRCUIT>
-           <SCATTERGUN><n>G.MHz</n></SCATTERGUN>
-           <CHARTIMPORTS>
-               <import>
-                   <name>/Users/jan/Desktop/SJ000011.s1p</name>
-               </import>
-               <color>-16738048</color>
-               <import>
-                   <name>/Users/jan/Desktop/SJ000010.s1p</name>
-               </import>
-               <color>-659093129</color>
-           </CHARTIMPORTS>
+           <SCATTERGUN><n>G.MHz</n><n>QFA.shorten</n></SCATTERGUN>
+           <CHARTIMPORTS/>
            <STANDARDS>
                <resistors>&lt;none&gt;</resistors>
                <capacitors>&lt;none&gt;</capacitors>
@@ -1317,13 +1292,13 @@ R0 0 w1 w2;
                    <otherPivot>0</otherPivot>
                    <otherPerDivision>1</otherPerDivision>
                </xferAxisIndB>
-               <mouseFractionX>0.6862745098039216</mouseFractionX>
-               <mouseFractionY>0.9787556904400607</mouseFractionY>
+               <mouseFractionX>0.5266106442577031</mouseFractionX>
+               <mouseFractionY>0.8224582701062215</mouseFractionY>
                <newPlotSParams>Sprm</newPlotSParams>
                <plotLinear>lin</plotLinear>
                <bands>fold</bands>
-               <zoom>1</zoom>
-               <nonWaveOffset>0</nonWaveOffset>
+               <zoom>1.7733477487549978</zoom>
+               <nonWaveOffset>-75.97946052029891</nonWaveOffset>
                <waveZoom>1</waveZoom>
                <waveOffsetInX>0</waveOffsetInX>
            </SQUARECHART>
@@ -1563,8 +1538,8 @@ dcl reset() {return false;}
                            <fontScale>1</fontScale>
                            <w>760</w>
                            <h>441</h>
-                           <relx>-16</relx>
-                           <rely>872</rely>
+                           <relx>-32</relx>
+                           <rely>902</rely>
                            <ProgrammingDialog>
                                <ThreeSplitPane>
                                    <errDiv>0.3</errDiv>
@@ -1589,8 +1564,8 @@ dcl reset() {return false;}
                                    <fontScale>1</fontScale>
                                    <w>760</w>
                                    <h>441</h>
-                                   <relx>-16</relx>
-                                   <rely>872</rely>
+                                   <relx>-32</relx>
+                                   <rely>902</rely>
                                    <ProgrammingDialog>
                                        <ThreeSplitPane>
                                            <errDiv>0.3</errDiv>
@@ -1694,17 +1669,16 @@ dcl reset() {return false;}
                <NEC2DISPLAY>
                    <w>2221</w>
                    <h>1228</h>
-                   <relx>55</relx>
-                   <rely>-269</rely>
+                   <relx>159</relx>
+                   <rely>-263</rely>
                    <VANTAGE>
-                       <canvasScale>0.7034476949995697</canvasScale>
+                       <canvasScale>0.7105532272722951</canvasScale>
                        <userScale>1</userScale>
-                       <canvasOffset>77.59098902375001 -125.86109500540294 0.0</canvasOffset>
+                       <canvasOffset>70.59695860984664 -128.41019697515563 0.0</canvasOffset>
                        <fieldOffset>0.0 0.0 0.0</fieldOffset>
                    </VANTAGE>
-                   <scales> 2702.9438001784124 0.03366910866910867 150.67688482712455 Infinity Infinity Infinity</scales>
+                   <scales> 2702.9438001784124 0.034009200675867345 150.67688482712455 Infinity Infinity Infinity</scales>
                    <dotsMode>0</dotsMode>
-                   <VISIBLE>FARFIELD</VISIBLE>
                    <VISIBLE>Azimuth</VISIBLE>
                    <VISIBLE>Elevation</VISIBLE>
                    <VISIBLE>CURRENTS</VISIBLE>
@@ -1713,7 +1687,7 @@ dcl reset() {return false;}
                        <p><n>view</n><v>track x</v></p>
                        <p>
                            <n>viewAz</n>
-                           <v>180</v>
+                           <v>76</v>
                            <format>
                                <p><n>range</n><v/></p>
                                <p><n>numDigits</n><v>system</v></p>
@@ -1725,7 +1699,7 @@ dcl reset() {return false;}
                        </p>
                        <p>
                            <n>viewEle</n>
-                           <v>0</v>
+                           <v>103</v>
                            <format>
                                <p><n>range</n><v/></p>
                                <p><n>numDigits</n><v>system</v></p>
