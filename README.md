@@ -9,7 +9,8 @@ in blog [Electromagnetic Adventures](https://sa0pej.wordpress.com).
 
 Contributions are welcome, this is not an easy project.
 
-At the moment the predictions are not in  line with measured result.
+At the moment the predictions are 0.4% away from actual
+measured resonance frequency. More testing needed. 
 
 Antenna will work - at some frequency :-)
 
