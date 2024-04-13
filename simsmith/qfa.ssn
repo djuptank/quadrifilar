@@ -1,6 +1,182 @@
 <?xml version="1.0" encoding="utf-8"?>
    <SimNEC1p0>
        <SmithChartCircuit>
+           <PREFERENCES>
+               <XMLVersionControl>SimNEC:2.2a2</XMLVersionControl>
+               <NEC2Portal>
+                   <logLevel>0</logLevel>
+                   <parameters>
+                       <p>
+                           <n>necCommand</n>
+                           <v>/Users/jan/.SimNEC/2/2/Examples/nec2c.ae6ty/bin/nec2c-mac-m1</v>
+                       </p>
+                       <p><n>necVersion</n><v>5b4az.ae6ty.1.16</v></p>
+                       <p><n>logLevel</n><v>0</v></p>
+                       <p><n>necCrewSize</n><v>16</v></p>
+                       <p>
+                           <n>necMP #segs #Proc blockSize</n>
+                           <v>256 16 32</v>
+                       </p>
+                   </parameters>
+                   <w>640</w>
+                   <h>160</h>
+                   <x>25</x>
+                   <y>50</y>
+               </NEC2Portal>
+               <width>1000</width>
+               <height>500</height>
+               <relx>0</relx>
+               <rely>0</rely>
+               <lastLoadStoreName>/Users/jan/Desktop/quadrifilar/simsmith/qfa.ssn</lastLoadStoreName>
+               <lastImageFile>/Users/jan/image1</lastImageFile>
+               <lastImpedanceFile>&lt;none&gt;</lastImpedanceFile>
+               <lastS1PFile>touchstone</lastS1PFile>
+               <lastS2PFile>touchstone</lastS2PFile>
+               <lastTraceFile>lastTraceFile</lastTraceFile>
+               <runningMenuItem>run</runningMenuItem>
+               <Switches/>
+               <parameters>
+                   <p><n>units</n><v>ft</v></p>
+                   <p><n>NormalSweepSize</n><v>10K</v></p>
+                   <p><n>ExtendedSweepSize</n><v>100K</v></p>
+                   <p><n>staleDataMode</n><v>sampling</v></p>
+                   <p><n>Max/Min value ratio</n><v>1.2</v></p>
+                   <p><n>Initial Capacitor Q</n><v>2K</v></p>
+                   <p><n>Initial Inductor Q</n><v>200</v></p>
+                   <p><n>Transformer Inductor Q</n><v>1M</v></p>
+                   <p><n>RUSE Pulldown R</n><v>1G</v></p>
+                   <p><n>defaultTLineModel</n><v>simplified</v></p>
+                   <p><n>Initial TLine Loss Freq</n><v>10</v></p>
+                   <p><n>Initial TLine Loss/100 Units</n><v>0.5</v></p>
+                   <p><n>Initial VF</n><v>0.66668</v></p>
+                   <p><n>Initial Zo</n><v>0</v></p>
+                   <p><n>tLineDB</n><v>&lt;none&gt;</v></p>
+                   <p><n>drag Tune Depth</n><v>2</v></p>
+                   <p><n>Touchstone Format</n><v>S</v></p>
+                   <p><n>Touchstone Reference Impedance</n><v>0</v></p>
+                   <p><n>background</n><v>grey</v></p>
+                   <p><n>interpolationMode</n><v>polar</v></p>
+                   <p><n>savedImageFormat</n><v>pdf</v></p>
+                   <p><n>pinSizeAndLocation</n><v>maintain</v></p>
+                   <p><n>pinnedSize</n><v>1280 720</v></p>
+                   <p><n>pinnedLocation</n><v>80 40</v></p>
+                   <p><n>xlateNAndRuseParams</n><v>unasked</v></p>
+                   <p><n>ChartScale</n><v>Zo</v></p>
+                   <p><n>powerUnit</n><v>W</v></p>
+                   <p><n>ZLegendBrightness</n><v>50</v></p>
+                   <p><n>ZLineBrightness</n><v>50</v></p>
+                   <p><n>YLegendBrightness</n><v>50</v></p>
+                   <p><n>YLineBrightness</n><v>50</v></p>
+                   <p><n>ComponentLineBrightness</n><v>255</v></p>
+                   <p><n>numParamDigits</n><v>4</v></p>
+                   <p><n>displayMode</n><v>rect</v></p>
+                   <p>
+                       <n>default TLine deg/rad/wave/secs</n>
+                       <v>~deg</v>
+                   </p>
+                   <p>
+                       <n>wheelGain p S h v R</n>
+                       <v>0.01 -0.01 -0.01 -0.01 -0.01</v>
+                   </p>
+                   <p><n>none s c s&amp;c</n><v>1 0.1 0.01 0.001</v></p>
+                   <p><n>wheelLowPassFilter</n><v>10</v></p>
+                   <p><n>mouseClickTimer</n><v>100</v></p>
+                   <p><n>mouseSnapDistance</n><v>10</v></p>
+                   <p><n>chartMinimumScale</n><v>0.9</v></p>
+                   <p><n>markerSizeFactor</n><v>1</v></p>
+                   <p><n>circleSizeFactor</n><v>1</v></p>
+                   <p><n>windowReveal</n><v>partial</v></p>
+                   <p><n>fontChoice</n><v>Dialog</v></p>
+                   <p><n>dialogLinesOnScreen</n><v>0</v></p>
+                   <p><n>lineWidthMultiplier</n><v>0</v></p>
+                   <p><n>UniverseLogLevel</n><v>0</v></p>
+                   <p><n>nominalTabs</n><v>4</v></p>
+                   <p><n>isolateV</n><v>cloneGen;
+cloneLoad</v></p>
+                   <p><n>defaultV</n><v>useZo</v></p>
+                   <p><n>featuresKeys</n><v/></p>
+                   <p><n>traceParams</n><v/></p>
+               </parameters>
+               <SCREENSIZE>
+                   <x>79</x>
+                   <y>77</y>
+                   <width>1733</width>
+                   <height>1062</height>
+                   <controllerFractionX>0.25</controllerFractionX>
+                   <controllerFractionY>0.5</controllerFractionY>
+                   <showController>false</showController>
+               </SCREENSIZE>
+               <FILECHOOSER>
+                   <xLoc>672</xLoc>
+                   <yLoc>273</yLoc>
+                   <width>1211</width>
+                   <height>783</height>
+                   <workingPath>/Users/jan/Desktop/quadrifilar/simsmith</workingPath>
+                   <NavButtons>nnnnn</NavButtons>
+                   <recent>/Users/jan/.SimNEC/2/2/Examples</recent>
+                   <recent>/Users/jan/Desktop/quadrifilar/simsmith/qfa.ssn</recent>
+                   <recent>/Users/jan/Desktop/quadrifilar/simsmith</recent>
+                   <recent>/Users/jan/Desktop/quadrifilar</recent>
+                   <recent>/Users/jan/Desktop</recent>
+               </FILECHOOSER>
+               <WARNINGFRAME>
+                   <relx>211</relx>
+                   <rely>942</rely>
+                   <w>300</w>
+                   <h>150</h>
+               </WARNINGFRAME>
+               <SPLASH>
+                   <Leeson/>
+                   <SteppedDiameter/>
+                   <SteppedDiameterAdjust/>
+                   <EnforceCenterDriveSDC/>
+                   <RadiusToDiameterSDC/>
+                   <SteppedDiameterCorrectionArgs/>
+                   <SDCFrequencyCheck/>
+                   <ThroughPath/>
+                   <ThroughPathCrash/>
+                   <SteppedDiameterVertical/>
+                   <ReverseLobe/>
+                   <MinSegCount/>
+                   <NECPortalj2/>
+                   <NMUpdateTraceLoop/>
+                   <NMUpdateTraceLoop/>
+                   <NECGrounds/>
+                   <Finalize/>
+                   <CurrentAtEndOfWireRefinement/>
+                   <PerWireMhos/>
+                   <K6OIKInsulation/>
+                   <SquareChartPerDivision5/>
+                   <InsulationOption/>
+                   <WireCatcherAndStamping2/>
+                   <SymbolExplorerForRUSE/>
+                   <HangForNewCurrents/>
+                   <SegmentationUsingYagi5AsCheck/>
+                   <getInsulationDefault/>
+                   <notesAndImportsToWhite/>
+                   <NEC2DisplayColorizeImports/>
+                   <FixRUSENName/>
+                   <FixRUSENName/>
+                   <CloselySpacedSegmentationRewrite/>
+                   <ZipAndUnzip/>
+                   <InsulationSigma/>
+                   <SegmentationBecauseOfLoops/>
+                   <SegmentationBecauseOfLoops/>
+                   <JamSegments/>
+                   <JamSegmentsDriven/>
+                   <AddLoad/>
+                   <NECSourceImpedance/>
+                   <passingNECBLOCK/>
+                   <file13/>
+                   <FixWireRenamingAlgorithm/>
+                   <NECDECKWire_NECBLOCK/>
+                   <NECDisplayFrameTooSmall/>
+                   <dBFormat/>
+                   <TransformerStaleData/>
+                   <HexFormat/>
+                   <BadNegateSynatx/>
+               </SPLASH>
+           </PREFERENCES>
            <XMLVersionControl>SimNEC:2.2a2</XMLVersionControl>
            <PLOTENVIRONMENT/>
            <FILEARCHIVE>
@@ -11,6 +187,14 @@
                <element>
                    <name>/Users/jan/Desktop/SJ000014.s1p</name>
                    <compressed>H4sIAAAAAAAA/1WXPY9eRQyF+0j5DxdRB/lr7JmSBkFDEaT0AVIgIZAQDfx6zvW5K/zuNqs8mmvPsX08+eq7337/cv3y15fPf3/59fr5n+vHz3/8+enHbz98d32y9+++vr7/9/rp+vjD9fFa8v7d5XtJ/1wf5JulVcevS74RlyPWPAf3VZv8yDm7eQ0eKWU316i1svkefJnIvrmJm5Ofyb2yz9taEufmD364ZvR5F0ew5voS37Y2j7W98zs28/dU8r3fzvu8/965bh6mqYwfg4vY6fxiJbRqPvTDpWOd5jujvPnQL5bqkpsvjcjVfOgXZjvIPWvx/NAPYqj1/SGuO88P/XwlJG5envu+35P9w/Uc6/zWkW3kQz+rbTvJz/FqPvQzLwh/85RTDx/66VlbW7/UW7jmQz9F/YPn9S5V86GfquY5z/ePWfOhH5rL5OFuspoP/cSjQpm/IZXmb/rdXSuyqprvO1LzM7ghaeqX6KA+rzL4Kk3WJ9B43lwHLxzjecNf/X21wTFTh/riU07u/3MFXsH+QSO2PhqTlzv7q1yV59fgimr09zGIeZh/Th52hP2LWjP/mnzZ6voE5ifI9+QVxvkIt4rmQz81VD0fnj0fYUM/RVNuxg/L6vra0E9jlTE+5pb52dBP0xCPPEJ4fuoH+9qcT4N8jD/1O5CDXHFxfn/oZ7gA/ekeW86PDf3MzmF/eaHC5EM/iyX0B0cBtfW3oR+aAu3QHLI78x/6QdLl9Mc6yvr70A+SOOfHfEv2910nP0muR0t7Pnzoh1hujz8LLKC5z/PYAB0fl69o/Txe8sMVn0mRh0/9FtpPexLBlfxFv525m+9CKzef/Qcz1WgngG67+9tn/8H2zpvTqJHP/kPaK9upkHe2vm8GyPndd//efEeejh9zfgV22vGhmrH+MfxPYAvYjzfHAGbHj+l/WE9Cju3B+sb0v8qSal4qq+sTw//MFeuYXKrIh/9BVPQ1v29FfWP4H4ZimfIv+APzf9kfanF4P336K8b+QDErgpEio/tryeDIifWzdbBpms/9qzC9/r7psSCf+xc7j/roRt92/DX3bwWeE6w/9gb53L8H+rF/Dgy877eGfolb7cNKLTxVmg/97upg/m+OrLl/1tAPzePcn4JKPHzoh+Y9EXR6eAXvN/TLLYf+qerG/ZdDP7Tc4Xzdm/B0/XLoV3LbRfMNoyQf+hUM/CxOEjLl933ybUWe+O38cuiHpJX+hT2jq/071+RoL/qbiy7Gz8nx6qK/YYFvfr9ezhf3I551b/H35AJjo//CXpj/eeVW9HdYUedXMu+HAX32G8L3fNSLfrAvefansf9r6Hfrf7j/UUD2Vw39cqPd+L7Cv3J/1NAvMfTC9wXi0r9q9t899XwfZG3Wv176bz37436dcr5r9h/Gnv2D95cJ85/9h7FZyfcTXiqMP/tPsE37+9kGdfM99IP9Ya6aY/9z/+45v2hAvp8z89Fvz/nF84D1Q1W13/+x5/w6/LX7I9Ff9Kc95xfPP74PS05yP738/0MwYK0fOrUW/PU/BML1Is8MAAA</compressed>
+               </element>
+               <element>
+                   <name>/Users/jan/Desktop/SJ000007.s1p</name>
+                   <compressed>H4sIAAAAAAAA/12WO69dNRCF+0j5DxtRJ7LnPSVNBE2KIKUPkAIpAgnRwK9n7RkfaTanuUd3Hduf17z83Yffv329fv3r65e/v/52/fLP9fHLH39+/vjDuw/XZ3r75vvrx3+vn69PP12fLl1v31y8zud6t96vVPZ1Xeu9acby0mnoIczSuodE6TJ0l2VHZxMu3YZutiRbX4ut9Bi6brZdumCDOn9PPmEnan1t26VPPiYiLZ1t7Sx98tHO1et54wqlT76VZq2T4selTz58NFpfLOUfvfjw37XXDi99c3idTzT1dG59efb+JEOn8MWtL28+sqGzC9X5mnCi18fQxSRbDyMuPp58KqoVH4QvREqffCY7y3+1xG9Ln3yg6/gpDNrFx5PPM7X8VyXnuj9PvjDbvV5kc+0vky/ZsvxXVhhX+uBDLljWNyWDMaXL1C2OPxv3p9IH38aZ1nzLkSClx9QDiXF/E9yjdR18m3BcxUdCvetDJx9hWcVXHAb0+skHN6X8FxTIKn908nGYt470t6ovnXyCCm0+5EHrNvlENMpfoUQoSp98yI9d90ecl7Y++SQie/26K7h0e+pW/nLKqV978CUKpPSg9Movn3yKCrbSLY1ap4e+u/5Ynbju508+P/sjkbPXP/icqfxhON356Q8+zuj9aUXXVzz82979jVF+VvvH5AOtVXwpTdv/+H98i48ChJV/Mfkotpd/5Gg1lb8x+QjtrvwnvQ+49Zx8aFpc+Ufi1vWRj/oI2FE66846Px/1gW5c9yeCFRX/nPWbFFLxIaCe8x/1C67mX/jBrb/K99Q/rb4f0stzlz77C27V/u7YCFbps7+I7q6fjT6/o/RH/9vW8dt3+bc++bbS0VVh5q0/5sfavv1kkkWd/5gf6OovXRCK0uf8QNn0/IHe/UUe88O2nvVoG5U/8pgfaPqUzY9av/0Xmnwor93+ue/2lx7zF/O59UCoip8e8zeF/PgvNR+FJp8jm+n4b9X/hSZf3Al2/Neo+/HkS7TD4z/Gc+3Pg28vHH8q2TBgSh986K+uR0fj7fWDD/WTPf/g46r5IDz4kDLhR1/d30QGH7LCe35hPWvFXyafm9nR78FV+uTDTO75hT9e/U1k8BHmi5z74yp1Pxl8yFn0y9bR3mp/HXyoytXzB/6uPl8HH0m+4uu5dvmjgw9Dj05+YVBF5b9OPkdSNF/ipMoPnXyhe++uX+76Fpt8yYtP/SsGfOmDD489PTrx8d8GH98NuvsX3gle+WODj9HTU7p/oVLLPxt8eIykdH/FA6Tv74OPUZQ9P8kMk670yYf5on0+2j7X/X3yISs7vwi7d3745MPzqd8XePZavW/FJ58vjIjSt0bXb0w+/Ljvh2cZnrqlT75AXrYuhBQpffKFw/eefyjsXj/57qHd8/e2rfyJyZd4dDTfXd91v5x86dnxwVigrPzLyZeYOmf+e88vycEn9wM1X+8H7vU2dYtd/qEt4IlYekz9Nf/uh0q9j1/lcfSk7j9IS2z29s1/LrR4Cc8MAAA</compressed>
+               </element>
+               <element>
+                   <name>/Users/jan/Desktop/SJ000009.s1p</name>
+                   <compressed>H4sIAAAAAAAA/1WWP49lNQzF+5HmO1xEvav4f1zSrKDZYpG2X2AKJAQSooFPz4l9R8/vTvd+k8Q+sY/z3aff/3i7fv377ds/b79dv/x7ff72519fP//w4dP1lV9fvr9+/O/6+fry0/XlsvX6csm2Vd91rY+xMrZcH9ZHXsEkxf3BPfaWKO7BocVjcCWPPFzYNKj4fnBLy1zFAyft4jm4ivM+XIXcav8bF9eNCGq97uVZ8ScNzixmhxuLau2f/OBiTtHcifr8lAdnZHev32nUXAdfKlHxOSHxyi+HfiS8e3/HrmbFh37LRNmbO0sWf9cPvy7GvnHzRb1+PzgtnMDF2be3Pjk4NNE7PhJx8Dv65iyxhDu/0CXFafAMT299VqQW5weHfuHNGX+ruDy4roi0vh/HuuI6uKlF5acq2Ky4DZ5mXvEhLVIu7g9uwu5aXF3q/nDk4BbbtDOBgs2HfhbnXoqro4CKD/0sHRVYSqZo1Hoa+vm5gOoPwr1yFKfJg7r+1w6+OT/x5OYiHHU+yeQZSVUphPLt9Tq5WHBXUobU/dHQzxfLrvW0vPsPHTnzO3kX163Z+U39gpfv4ju99aOpnyHvqE44X/OpHydHd4oZc+XHQz9bHE7daVC47peHfhoWUlzQCqvi56EfqoY9i/Nqf1J+qr+NqIrLXl1fPPST0FgVP24XWhcf+qEmtfVFce6ufx764ahEfRyOX6Xy56Ef2lfhH7UeZ3X8Qz+UhHuvx7nc+c/+TQTQ+Qtxln4y9CPHDh0fGTYuPvQj8YzWNyWk4pehH2HTrcXR59R86LfSUMDFEZ+UPjL0Q1X7rvMhPgqnuE3O2hxV492f4k/rj/8dbktaH5n+lyiLrj9Ghff66X8YL9ROmjCKun/Jp/xhPMVDd/mnvhtgcSwK6/7Zsio/nfrhzrLXow6k8tOpXx67LS7G9/5DP6bjC8X5eFXxoR+f8RDd34JhWHzoxzDI3fEtTKK6fx36MUyv/WkRjur4Z/1tcuWeJCiQXj/0k0Xn/tt/JKr+dOgnfGypOO6Fqz5s6AfXZe71Bvuq823oh7vM1f5mZ5QWn/MDpkVUHFa36n5t9i8aqOf/clZq/jQ/AmXR+9v7+XN+bNiidfx4v/T66X9wb5XOH6Oi10//g9h868e3fvY0PzbdlYqxJp3f0A8zZevu+92YfIf70M/R1qJdX+qtj8/5gfeBZNcvNqj4fM6PwHy6/R0bNZ/zA12/7v7Bu676y4d+UM9Su/8cvVR86Bcon/Yv2qfVig/90BM4ol9CgVoqHpMn5k1xGJR1/kM/3L7J7vmw5eY5ueJZWDxOXRwea/KVZO1v+Kp+g5440z0fMFdK3+AZH/5b239PpRaXp/x29nq4i1f/xtTvGHDzza4Vfzzpt/DeLJ54Nzef+mGq9f3DVaTfBzH0gynjXovjXdT+GUM/WKq0vnrKt/msPzx/uPTBtv0+fW//mxP3/FK8BLp/9qw/XyibeonDPqz5rD88APr9YLB/Kv33rD9D30m/5E9fFJ/vl/N8Lv1OV2r5957vF1xbx485hEnz+vI/oVD1Bc8MAAA</compressed>
                </element>
            </FILEARCHIVE>
            <SPREADSHEET>
@@ -49,8 +233,8 @@
                                <fontScale>1</fontScale>
                                <w>635</w>
                                <h>364</h>
-                               <relx>-581</relx>
-                               <rely>728</rely>
+                               <relx>-392</relx>
+                               <rely>769</rely>
                                <ProgrammingDialog>
                                    <ThreeSplitPane>
                                        <errDiv>0.3</errDiv>
@@ -77,8 +261,8 @@
                                <fontScale>1</fontScale>
                                <w>635</w>
                                <h>364</h>
-                               <relx>-581</relx>
-                               <rely>728</rely>
+                               <relx>-392</relx>
+                               <rely>769</rely>
                                <ProgrammingDialog>
                                    <ThreeSplitPane>
                                        <errDiv>0.3</errDiv>
@@ -114,10 +298,7 @@
                        <rotationCount>0</rotationCount>
                        <flipped>false</flipped>
                    </fromFile>
-                   <showInPGain>true</showInPGain>
                    <showInPath>true</showInPath>
-                   <showInSWR>true</showInSWR>
-                   <showInSmith>true</showInSmith>
                    <escapeHatch/>
                    <p>
                        <n>equ</n>
@@ -128,8 +309,8 @@ R0 0 w1 w2;
 </v>
                        <w>1321</w>
                        <h>1235</h>
-                       <relx>560</relx>
-                       <rely>-93</rely>
+                       <relx>749</relx>
+                       <rely>-52</rely>
                        <Schematic>
                            <WORKSETMENU>
                                <allow><n>SPRM</n><v>false</v></allow>
@@ -145,8 +326,8 @@ R0 0 w1 w2;
                            <STextBlock>
                                <root/>
                                <fontScale>0.644608916217797</fontScale>
-                               <x>65</x>
-                               <y>225</y>
+                               <x>-1256</x>
+                               <y>-50</y>
                                <w>1206</w>
                                <h>953</h>
                                <text>//QFA 
@@ -238,7 +419,7 @@ $wire = NECWire({-feedpoint, 0, height}/_{0, 0, angleLarge}, {-feedpoint, 0, hei
 $wireLarge = NECWire({feedpoint/Sqrt(2), 0, height}/_{0, 0, angleLarge-45}, {-feedpoint/Sqrt(2), 0, height}/_{0, 0, angleLarge-45});  
 dcl largeDrive = NECSource({drv, gnd}, $wireLarge, 50);  
 
-          </text>
+           </text>
                            </STextBlock>
                            <SComponent>
                                <type>P1</type>
@@ -307,8 +488,8 @@ dcl largeDrive = NECSource({drv, gnd}, $wireLarge, 50);
                                <fontScale>1</fontScale>
                                <w>781</w>
                                <h>511</h>
-                               <relx>-686</relx>
-                               <rely>858</rely>
+                               <relx>-497</relx>
+                               <rely>899</rely>
                                <ProgrammingDialog>
                                    <ThreeSplitPane>
                                        <errDiv>0.3</errDiv>
@@ -335,8 +516,8 @@ dcl largeDrive = NECSource({drv, gnd}, $wireLarge, 50);
                                <fontScale>1</fontScale>
                                <w>781</w>
                                <h>511</h>
-                               <relx>-570</relx>
-                               <rely>838</rely>
+                               <relx>-381</relx>
+                               <rely>879</rely>
                                <ProgrammingDialog>
                                    <ThreeSplitPane>
                                        <errDiv>0.3</errDiv>
@@ -363,8 +544,8 @@ dcl largeDrive = NECSource({drv, gnd}, $wireLarge, 50);
                                <fontScale>1</fontScale>
                                <w>781</w>
                                <h>511</h>
-                               <relx>-570</relx>
-                               <rely>838</rely>
+                               <relx>-381</relx>
+                               <rely>879</rely>
                                <ProgrammingDialog>
                                    <ThreeSplitPane>
                                        <errDiv>0.3</errDiv>
@@ -391,8 +572,8 @@ dcl largeDrive = NECSource({drv, gnd}, $wireLarge, 50);
                                <fontScale>1</fontScale>
                                <w>781</w>
                                <h>511</h>
-                               <relx>-570</relx>
-                               <rely>838</rely>
+                               <relx>-381</relx>
+                               <rely>879</rely>
                                <ProgrammingDialog>
                                    <ThreeSplitPane>
                                        <errDiv>0.3</errDiv>
@@ -404,7 +585,7 @@ dcl largeDrive = NECSource({drv, gnd}, $wireLarge, 50);
                    </p>
                    <p>
                        <numericParam>shorten</numericParam>
-                       <v>20</v>
+                       <v>30.4487039351832</v>
                        <sweepParam>
                            <name>QFA.shorten</name>
                            <listed>true</listed>
@@ -419,8 +600,8 @@ dcl largeDrive = NECSource({drv, gnd}, $wireLarge, 50);
                                <fontScale>1</fontScale>
                                <w>663</w>
                                <h>443</h>
-                               <relx>-449</relx>
-                               <rely>988</rely>
+                               <relx>-260</relx>
+                               <rely>1029</rely>
                                <ProgrammingDialog>
                                    <ThreeSplitPane>
                                        <errDiv>0.3</errDiv>
@@ -460,8 +641,8 @@ dcl largeDrive = NECSource({drv, gnd}, $wireLarge, 50);
                                <fontScale>1</fontScale>
                                <w>1060</w>
                                <h>567</h>
-                               <relx>113</relx>
-                               <rely>1001</rely>
+                               <relx>302</relx>
+                               <rely>1042</rely>
                                <ProgrammingDialog>
                                    <ThreeSplitPane>
                                        <errDiv>0.3</errDiv>
@@ -488,8 +669,8 @@ dcl largeDrive = NECSource({drv, gnd}, $wireLarge, 50);
                                <fontScale>1</fontScale>
                                <w>1060</w>
                                <h>567</h>
-                               <relx>113</relx>
-                               <rely>1001</rely>
+                               <relx>302</relx>
+                               <rely>1042</rely>
                                <ProgrammingDialog>
                                    <ThreeSplitPane>
                                        <errDiv>0.3</errDiv>
@@ -516,8 +697,8 @@ dcl largeDrive = NECSource({drv, gnd}, $wireLarge, 50);
                                <fontScale>1</fontScale>
                                <w>710</w>
                                <h>510</h>
-                               <relx>-235</relx>
-                               <rely>450</rely>
+                               <relx>-46</relx>
+                               <rely>491</rely>
                                <ProgrammingDialog>
                                    <ThreeSplitPane>
                                        <errDiv>0.3</errDiv>
@@ -529,14 +710,107 @@ dcl largeDrive = NECSource({drv, gnd}, $wireLarge, 50);
                    </p>
                </element>
                <element>
+                   <type>SERIES_TLINE</type>
+                   <sweeperLabel>JumperCable</sweeperLabel>
+                   <fromFile>
+                       <powerFormat>0</powerFormat>
+                       <voltageFormat>0</voltageFormat>
+                       <rotationCount>0</rotationCount>
+                       <angleParamName>system</angleParamName>
+                       <lengthUnits>ft</lengthUnits>
+                   </fromFile>
+                   <showInPath>true</showInPath>
+                   <showInSmith>true</showInSmith>
+                   <escapeHatch/>
+                   <p><n>~deg</n><v>274.226009577525</v></p>
+                   <p><n>@MHz</n><v>435</v></p>
+                   <p>
+                       <n>ft</n>
+                       <v>1.1482939633</v>
+                       <sweepParam>
+                           <name>JumperCable.ft</name>
+                           <listed>false</listed>
+                           <p><n>points</n><v>100</v></p>
+                           <p><n>from</n><v>0.2579773245849333</v></p>
+                           <p><n>to</n><v>0.3095727895019199</v></p>
+                           <p><n>log</n><v>lin</v></p>
+                           <p><n>doSweep</n><v>n</v></p>
+                           <p>
+                               <n>expr</n>
+                               <v>Vary</v>
+                               <fontScale>1</fontScale>
+                               <w>866</w>
+                               <h>531</h>
+                               <relx>0</relx>
+                               <rely>531</rely>
+                               <ProgrammingDialog>
+                                   <ThreeSplitPane>
+                                       <errDiv>0.3</errDiv>
+                                       <outDiv>0.7</outDiv>
+                                   </ThreeSplitPane>
+                               </ProgrammingDialog>
+                           </p>
+                       </sweepParam>
+                   </p>
+                   <p><n>Mdl</n><v>simplified</v></p>
+                   <p><n>VFnom</n><v>0.6667</v></p>
+                   <p>
+                       <n>Zo</n>
+                       <v>50</v>
+                       <sweepParam>
+                           <name>JumperCable.Zo</name>
+                           <listed>false</listed>
+                           <p><n>points</n><v>100</v></p>
+                           <p><n>from</n><v>45.64354645876384</v></p>
+                           <p><n>to</n><v>54.77225575051661</v></p>
+                           <p><n>log</n><v>lin</v></p>
+                           <p><n>doSweep</n><v>n</v></p>
+                           <p>
+                               <n>expr</n>
+                               <v>Vary</v>
+                               <fontScale>1</fontScale>
+                               <w>866</w>
+                               <h>531</h>
+                               <relx>0</relx>
+                               <rely>531</rely>
+                               <ProgrammingDialog>
+                                   <ThreeSplitPane>
+                                       <errDiv>0.3</errDiv>
+                                       <outDiv>0.7</outDiv>
+                                   </ThreeSplitPane>
+                               </ProgrammingDialog>
+                           </p>
+                       </sweepParam>
+                   </p>
+                   <p><n>/100f</n><v>0.5</v></p>
+                   <p><n>@frq</n><v>10</v></p>
+                   <p><n>k0</n><v>0</v></p>
+                   <p><n>k1</n><v>0</v></p>
+                   <p><n>k2</n><v>0</v></p>
+                   <p><n>numSlcs</n><v>50</v></p>
+                   <p><n>relR</n><v>8.563</v></p>
+                   <p><n>relMU</n><v>100</v></p>
+                   <p><n>cladPrcnt</n><v>100</v></p>
+                   <p><n>ccsPcnt</n><v>21</v></p>
+                   <p><n>in_cond</n><v>55.56m</v></p>
+                   <p><n>dieEPS</n><v>1.511</v></p>
+                   <p><n>dieK</n><v>2m</v></p>
+                   <p><n>in_shld</n><v>0.155</v></p>
+                   <p><n>in_spacing</n><v>0.75</v></p>
+                   <p><n>shldOpkf</n><v>3.3</v></p>
+               </element>
+               <element>
                    <type>GENERATOR</type>
                    <sweeperLabel>G</sweeperLabel>
+                   <alwaysColor>-13421569</alwaysColor>
                    <fromFile>
                        <powerFormat>0</powerFormat>
                        <voltageFormat>0</voltageFormat>
                        <rotationCount>0</rotationCount>
                    </fromFile>
                    <showInPath>true</showInPath>
+                   <showInSWR>true</showInSWR>
+                   <showInSmith>true</showInSmith>
                    <escapeHatch/>
                    <p>
                        <n>MHz</n>
@@ -555,8 +829,8 @@ dcl largeDrive = NECSource({drv, gnd}, $wireLarge, 50);
                                <fontScale>1</fontScale>
                                <w>635</w>
                                <h>364</h>
-                               <relx>-581</relx>
-                               <rely>728</rely>
+                               <relx>-392</relx>
+                               <rely>769</rely>
                                <ProgrammingDialog>
                                    <ThreeSplitPane>
                                        <errDiv>0.3</errDiv>
@@ -583,8 +857,8 @@ dcl largeDrive = NECSource({drv, gnd}, $wireLarge, 50);
                                <fontScale>1</fontScale>
                                <w>635</w>
                                <h>364</h>
-                               <relx>-581</relx>
-                               <rely>728</rely>
+                               <relx>-392</relx>
+                               <rely>769</rely>
                                <ProgrammingDialog>
                                    <ThreeSplitPane>
                                        <errDiv>0.3</errDiv>
@@ -600,8 +874,8 @@ dcl largeDrive = NECSource({drv, gnd}, $wireLarge, 50);
                        <fontScale>1</fontScale>
                        <w>635</w>
                        <h>364</h>
-                       <relx>98</relx>
-                       <rely>889</rely>
+                       <relx>287</relx>
+                       <rely>930</rely>
                        <ProgrammingDialog>
                            <ThreeSplitPane>
                                <errDiv>0.3</errDiv>
@@ -615,8 +889,8 @@ dcl largeDrive = NECSource({drv, gnd}, $wireLarge, 50);
                        <fontScale>1</fontScale>
                        <w>635</w>
                        <h>364</h>
-                       <relx>-177</relx>
-                       <rely>780</rely>
+                       <relx>12</relx>
+                       <rely>821</rely>
                        <ProgrammingDialog>
                            <ThreeSplitPane>
                                <errDiv>0.3</errDiv>
@@ -632,9 +906,11 @@ dcl largeDrive = NECSource({drv, gnd}, $wireLarge, 50);
                <import>
                    <name>/Users/jan/Desktop/SJ000013.s1p</name>
                </import>
+               <color>-52378</color>
                <import>
                    <name>/Users/jan/Desktop/SJ000014.s1p</name>
                </import>
+               <crossedOut>true</crossedOut>
            </CHARTIMPORTS>
            <STANDARDS>
                <resistors>&lt;none&gt;</resistors>
@@ -642,14 +918,14 @@ dcl largeDrive = NECSource({drv, gnd}, $wireLarge, 50);
                <inductors>&lt;none&gt;</inductors>
            </STANDARDS>
            <ROUNDCHART>
-               <displayMode>Sweep</displayMode>
+               <displayMode>Both</displayMode>
                <gammaOffsetReal>6.123233995736765E-18</gammaOffsetReal>
                <gammaOffsetImag>-0.09999999999999998</gammaOffsetImag>
                <zoom>0.9</zoom>
                <swr>2</swr>
                <q>50</q>
-               <lmiR>39.30925514958518</lmiR>
-               <lmiX>18.673687963712094</lmiX>
+               <lmiR>50</lmiR>
+               <lmiX>0</lmiX>
            </ROUNDCHART>
            <SQUARECHART>
                <plotYAxis>
@@ -999,8 +1275,8 @@ dcl reset() {return false;}
                            <fontScale>1</fontScale>
                            <w>760</w>
                            <h>441</h>
-                           <relx>-11</relx>
-                           <rely>1066</rely>
+                           <relx>178</relx>
+                           <rely>1107</rely>
                            <ProgrammingDialog>
                                <ThreeSplitPane>
                                    <errDiv>0.3</errDiv>
@@ -1025,8 +1301,8 @@ dcl reset() {return false;}
                                    <fontScale>1</fontScale>
                                    <w>760</w>
                                    <h>441</h>
-                                   <relx>-11</relx>
-                                   <rely>1066</rely>
+                                   <relx>178</relx>
+                                   <rely>1107</rely>
                                    <ProgrammingDialog>
                                        <ThreeSplitPane>
                                            <errDiv>0.3</errDiv>
@@ -1147,33 +1423,31 @@ dcl reset() {return false;}
                </LIB>
                <LIB>
                    <n>/Users/jan/Desktop/quadrifilar/simsmith</n>
-                   <v>true</v>
+                   <v>false</v>
                </LIB>
            </SimNECLibraries>
            <NECRENDER>
                <NEC2DISPLAY>
-                   <w>1094</w>
-                   <h>927</h>
-                   <relx>877</relx>
-                   <rely>26</rely>
+                   <w>1196</w>
+                   <h>1003</h>
+                   <relx>624</relx>
+                   <rely>51</rely>
                    <VANTAGE>
-                       <canvasScale>1.1744563664198204</canvasScale>
+                       <canvasScale>1</canvasScale>
                        <userScale>1</userScale>
-                       <canvasOffset>-22.71582480765685 -40.83239658636676 0.0</canvasOffset>
+                       <canvasOffset>0.0 0.0 0.0</canvasOffset>
                        <fieldOffset>0.0 0.0 0.0</fieldOffset>
                    </VANTAGE>
-                   <scales> 330.8951584813654 0.1342945999434549 99.81412166119216 Infinity Infinity Infinity</scales>
+                   <scales> 205.1066414371481 0.16762122947689959 104.77766080112298 Infinity Infinity Infinity</scales>
                    <dotsMode>0</dotsMode>
-                   <VISIBLE>FARFIELD</VISIBLE>
                    <VISIBLE>Azimuth</VISIBLE>
                    <VISIBLE>Elevation</VISIBLE>
-                   <VISIBLE>CURRENTS</VISIBLE>
                    <VISIBLE>WIRES</VISIBLE>
                    <VIEWPARAMS>
                        <p><n>view</n><v>track x</v></p>
                        <p>
                            <n>viewAz</n>
-                           <v>-107</v>
+                           <v>2</v>
                            <format>
                                <p><n>range</n><v/></p>
                                <p><n>numDigits</n><v>system</v></p>
@@ -1185,7 +1459,7 @@ dcl reset() {return false;}
                        </p>
                        <p>
                            <n>viewEle</n>
-                           <v>13</v>
+                           <v>0</v>
                            <format>
                                <p><n>range</n><v/></p>
                                <p><n>numDigits</n><v>system</v></p>
@@ -1200,7 +1474,7 @@ dcl reset() {return false;}
                <XPARAMS>
                    <p>
                        <n>Eh</n>
-                       <v>0.007141751106786235</v>
+                       <v>0.008441044936698516</v>
                        <format>
                            <p><n>range</n><v/></p>
                            <p><n>numDigits</n><v>system</v></p>
@@ -1212,7 +1486,7 @@ dcl reset() {return false;}
                    </p>
                    <p>
                        <n>Ev</n>
-                       <v>0.003357401586596565</v>
+                       <v>0.0038239971108173913</v>
                        <format>
                            <p><n>range</n><v/></p>
                            <p><n>numDigits</n><v>system</v></p>
@@ -1222,13 +1496,13 @@ dcl reset() {return false;}
                            <p><n>displayFormat</n><v>polar</v></p>
                        </format>
                    </p>
-                   <p><n>Etot</n><v>0.007891562220813034</v></p>
-                   <p><n>dBW</n><v>3.175056285300965</v></p>
-                   <p><n>dBi</n><v>5.4692300319964975</v></p>
-                   <p><n>APG</n><v>1.4507</v></p>
+                   <p><n>Etot</n><v>0.009266832982573033</v></p>
+                   <p><n>dBW</n><v>4.570423299136833</v></p>
+                   <p><n>dBi</n><v>4.911582327149229</v></p>
+                   <p><n>APG</n><v>1.6955</v></p>
                    <p>
                        <n>az</n>
-                       <v>22</v>
+                       <v>2</v>
                        <format>
                            <p><n>range</n><v/></p>
                            <p><n>numDigits</n><v>system</v></p>
