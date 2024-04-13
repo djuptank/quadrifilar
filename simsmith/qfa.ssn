@@ -1,425 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
    <SimNEC1p0>
        <SmithChartCircuit>
-           <PREFERENCES>
-               <XMLVersionControl>SimNEC:2.1k5</XMLVersionControl>
-               <NEC2Portal>
-                   <logLevel>0</logLevel>
-                   <parameters>
-                       <p>
-                           <n>necCommand</n>
-                           <v>/Users/jan/.SimNEC/2/1/Examples/nec2c.ae6ty/bin/nec2c-mac-x86</v>
-                       </p>
-                       <p>
-                           <n>necVersion</n>
-                           <v>5b4az.ae6ty.1.9</v>
-                           <relx>-393</relx>
-                           <rely>302</rely>
-                       </p>
-                       <p><n>logLevel</n><v>0</v></p>
-                       <p><n>necCrewSize</n><v>16</v></p>
-                       <p>
-                           <n>necMP #segs #Proc blockSize</n>
-                           <v>256 16 32</v>
-                       </p>
-                   </parameters>
-                   <w>640</w>
-                   <h>160</h>
-                   <x>75</x>
-                   <y>289</y>
-               </NEC2Portal>
-               <width>1000</width>
-               <height>500</height>
-               <relx>-75</relx>
-               <rely>-64</rely>
-               <lastLoadStoreName>/Users/jan/Desktop/quadrifilar/simsmith/qfa.ssn</lastLoadStoreName>
-               <lastImageFile>/Users/jan/image1</lastImageFile>
-               <lastImpedanceFile>&lt;none&gt;</lastImpedanceFile>
-               <lastS1PFile>touchstone</lastS1PFile>
-               <lastS2PFile>touchstone</lastS2PFile>
-               <lastTraceFile>lastTraceFile</lastTraceFile>
-               <runningMenuItem>run</runningMenuItem>
-               <Switches/>
-               <parameters>
-                   <p><n>units</n><v>mm</v></p>
-                   <p><n>NormalSweepSize</n><v>10K</v></p>
-                   <p><n>ExtendedSweepSize</n><v>100K</v></p>
-                   <p><n>staleDataMode</n><v>sampling</v></p>
-                   <p><n>Max/Min value ratio</n><v>1.2</v></p>
-                   <p><n>Initial Capacitor Q</n><v>2K</v></p>
-                   <p><n>Initial Inductor Q</n><v>200</v></p>
-                   <p><n>Transformer Inductor Q</n><v>1M</v></p>
-                   <p><n>RUSE Pulldown R</n><v>1G</v></p>
-                   <p><n>defaultTLineModel</n><v>simplified</v></p>
-                   <p><n>Initial TLine Loss Freq</n><v>10</v></p>
-                   <p>
-                       <n>Initial TLine Loss/100 Units</n>
-                       <v>0.0016404199475065617</v>
-                   </p>
-                   <p><n>Initial VF</n><v>0.66668</v></p>
-                   <p><n>Initial Zo</n><v>0</v></p>
-                   <p><n>tLineDB</n><v>&lt;none&gt;</v></p>
-                   <p><n>drag Tune Depth</n><v>2</v></p>
-                   <p><n>Touchstone Format</n><v>S</v></p>
-                   <p><n>Touchstone Reference Impedance</n><v>0</v></p>
-                   <p><n>background</n><v>grey</v></p>
-                   <p><n>interpolationMode</n><v>polar</v></p>
-                   <p><n>savedImageFormat</n><v>pdf</v></p>
-                   <p><n>pinSizeAndLocation</n><v>maintain</v></p>
-                   <p><n>pinnedSize</n><v>1280 720</v></p>
-                   <p><n>pinnedLocation</n><v>80 40</v></p>
-                   <p><n>xlateNAndRuseParams</n><v>unasked</v></p>
-                   <p><n>ChartScale</n><v>Zo</v></p>
-                   <p><n>powerUnit</n><v>W</v></p>
-                   <p><n>ZLegendBrightness</n><v>50</v></p>
-                   <p><n>ZLineBrightness</n><v>50</v></p>
-                   <p><n>YLegendBrightness</n><v>50</v></p>
-                   <p><n>YLineBrightness</n><v>50</v></p>
-                   <p><n>ComponentLineBrightness</n><v>255</v></p>
-                   <p><n>numParamDigits</n><v>4</v></p>
-                   <p><n>displayMode</n><v>rect</v></p>
-                   <p>
-                       <n>default TLine deg/rad/wave/secs</n>
-                       <v>~deg</v>
-                   </p>
-                   <p>
-                       <n>wheelGain p S h v R</n>
-                       <v>0.01 -0.01 -0.01 -0.01 -0.01</v>
-                   </p>
-                   <p><n>none s c s&amp;c</n><v>1 0.1 0.01 0.001</v></p>
-                   <p><n>wheelLowPassFilter</n><v>10</v></p>
-                   <p><n>mouseClickTimer</n><v>100</v></p>
-                   <p><n>mouseSnapDistance</n><v>10</v></p>
-                   <p><n>chartMinimumScale</n><v>0.9</v></p>
-                   <p><n>markerSizeFactor</n><v>1</v></p>
-                   <p><n>circleSizeFactor</n><v>1</v></p>
-                   <p><n>windowReveal</n><v>partial</v></p>
-                   <p><n>fontChoice</n><v>Dialog</v></p>
-                   <p><n>dialogLinesOnScreen</n><v>0</v></p>
-                   <p><n>lineWidthMultiplier</n><v>0</v></p>
-                   <p><n>UniverseLogLevel</n><v>0</v></p>
-                   <p><n>nominalTabs</n><v>4</v></p>
-                   <p><n>isolateV</n><v>cloneGen;
-cloneLoad</v></p>
-                   <p><n>defaultV</n><v>useZo</v></p>
-                   <p><n>featuresKeys</n><v/></p>
-                   <p><n>traceParams</n><v/></p>
-               </parameters>
-               <SCREENSIZE>
-                   <x>123</x>
-                   <y>288</y>
-                   <width>1659</width>
-                   <height>880</height>
-                   <controllerFractionX>0.25</controllerFractionX>
-                   <controllerFractionY>0.5</controllerFractionY>
-                   <showController>false</showController>
-               </SCREENSIZE>
-               <FILECHOOSER>
-                   <xLoc>748</xLoc>
-                   <yLoc>214</yLoc>
-                   <width>968</width>
-                   <height>1167</height>
-                   <workingPath>/Users/jan/Desktop/quadrifilar/simsmith</workingPath>
-                   <NavButtons>nynyn</NavButtons>
-                   <recent>/Users/jan/.SimNEC/2/1/Examples</recent>
-                   <recent>/Users/jan/Desktop/quadrifilar/simsmith/qfa.ssn</recent>
-                   <recent>/Users/jan/Desktop/quadrifilar/simsmith/current-balun.ssn</recent>
-                   <recent>/Users/jan/.SimNEC/2/1/Examples/AC6LA_SimNEC_Examples Ver 8/4-Square TL RUSE.ssn</recent>
-                   <recent>/Users/jan/.SimNEC/2/1/Examples/AC6LA_SimNEC_Examples Ver 8/KE4PT Loop (EZNEC).ssn</recent>
-                   <recent>/Users/jan/.SimNEC/2/1/Examples/AC6LA_SimNEC_Examples Ver 8</recent>
-                   <recent>/Users/jan/.SimNEC/2/1/Examples/vnas/nano</recent>
-                   <recent>/Users/jan/.SimNEC/2/1/Examples/vnas</recent>
-               </FILECHOOSER>
-               <WARNINGFRAME>
-                   <relx>196</relx>
-                   <rely>267</rely>
-                   <w>374</w>
-                   <h>692</h>
-               </WARNINGFRAME>
-               <SPLASH>
-                   <FileArchive/>
-                   <SpeedUp/>
-                   <StaleDataSampling/>
-                   <OptionalButtonArg/>
-                   <CachedSegmentation/>
-                   <dBiFix/>
-                   <maxDBiAndbackDBi/>
-                   <WireGuageInMeters/>
-                   <GetFieldAt/>
-                   <TwoDField/>
-                   <maxAndBack/>
-                   <forEachAndFor/>
-                   <SquareChart/>
-                   <newNECDisplay1/>
-                   <fieldInterp1/>
-                   <newNECLocale/>
-                   <snaps/>
-                   <axesSize/>
-                   <gainCircles1/>
-                   <sweepCache/>
-                   <WireLoads/>
-                   <FieldPointDictionary1/>
-                   <FieldPointDictionary2/>
-                   <NECDisplay2/>
-                   <AddedBeep/>
-                   <SaveChangedFileDialog/>
-                   <WEAKNESS2/>
-                   <revival/>
-                   <viewReversal/>
-                   <_NECBLOCKvisible/>
-                   <NEC2Daemon/>
-                   <throughReportCalc/>
-                   <fixedMoreButtons/>
-                   <NECInternalErrorReportingDaemon/>
-                   <BeamCalc/>
-                   <Elevation0a/>
-                   <RightClickOnGainPoint1/>
-                   <NECDeck/>
-                   <SideLobeAt360/>
-                   <verifyNEC2CdotEXE/>
-                   <BodyGraphicAntenna/>
-                   <VCCSSense/>
-                   <NECDeck2/>
-                   <EXandNTcards/>
-                   <CurentModeChain1/>
-                   <comments/>
-                   <Currentsourcephase/>
-                   <CurrentAtGround/>
-                   <GWVariables/>
-                   <GWRadiusToDiameter/>
-                   <GS/>
-                   <repairNECWire/>
-                   <dBiGain/>
-                   <onlyOneGSCard/>
-                   <RUSENECSrcCurrentDirection/>
-                   <GSAppliedToRadius/>
-                   <NECDeckPhantom/>
-                   <ImpedanceLoadClearErrors/>
-                   <FileClassifyDirectorySize/>
-                   <restoreSegmentCenterError/>
-                   <NEC2IgnoreSegmentCenterErrors/>
-                   <StreamPump/>
-                   <FileArchiveRace/>
-                   <WireEndsSegments/>
-                   <BetterPump/>
-                   <ImpedanceFileWorkingDir/>
-                   <IncircuitWithMultiParam/>
-                   <IncircuitWithOriginalValue/>
-                   <WhenIsFieldComputed/>
-                   <SpreadSheetStrings/>
-                   <SpreadSheetZeros/>
-                   <SpreadSheetZeros/>
-                   <SpreadSheetLabels/>
-                   <SpreadSheetLabelsSingleCell/>
-                   <LinearDiscreteRange1/>
-                   <FieldAccessTimers/>
-                   <FieldAccessTimers/>
-                   <SpreadSheetInit/>
-                   <SpreadSheetInit/>
-                   <DedicatedDaemon/>
-                   <HangInSymbolExplorer/>
-                   <ScrollInSymbolExplorer/>
-                   <FieldStore/>
-                   <ClearSegmentCache/>
-                   <NECDisplayAndCaptures/>
-                   <OrderSourcesBeforeIsolation/>
-                   <outputSize/>
-                   <backToBufferedReader/>
-                   <ProgrammingDialogSplitPane/>
-                   <UpdateChartFromNECDisplay/>
-                   <LowPassReRender/>
-                   <FieldAccessTimerRework/>
-                   <AddNECDisplayNote/>
-                   <ReworkFAT/>
-                   <GlobalNotes/>
-                   <FixThreeSplitPane/>
-                   <NECDisplayForDan/>
-                   <textDialogDivider/>
-                   <saveRestoreDividers/>
-                   <savingChangedFiles1/>
-                   <calc/>
-                   <TrackX/>
-                   <ViewTracking/>
-                   <FileChooserPreviousDirectory/>
-                   <Traps/>
-                   <pdfsanddocx/>
-                   <WholeImage/>
-                   <bugFixpdfsanddocx/>
-                   <noDots/>
-                   <GroundSpecs/>
-                   <Sources/>
-                   <Conductivities/>
-                   <SelectOneOfDictionary/>
-                   <AC6LAGuide/>
-                   <ErrorPane/>
-                   <DialogFont/>
-                   <_NECBLOCKoptions/>
-                   <NECDisplaySimpleLabelFill/>
-                   <necppnec2c/>
-                   <enforceSpacing/>
-                   <paintFramesNECDisplay/>
-                   <NECDisplay/>
-                   <NECDisplay/>
-                   <nec2cSmallerImage/>
-                   <conductivities/>
-                   <nec2c1p8/>
-                   <nec2c1p9/>
-                   <NECDisplayGlitches/>
-                   <CloselySpacedSupport/>
-                   <CloselySpacedSupport/>
-                   <FormatDialogGarbage/>
-                   <RefuseWriteOfSsxAndSs/>
-                   <RG400/>
-                   <tmpWireNames/>
-                   <BodyGraphicCompression/>
-                   <Timings/>
-                   <Nearly/>
-                   <MinSegmentLength/>
-                   <SetLocale/>
-                   <MultiSourceAPG/>
-                   <BetterMultiSourceAPG/>
-                   <RenderOnNameChange/>
-                   <SplitAndClearly/>
-                   <parallelWiresMinSeg/>
-                   <SaveAndImportNECDisplay/>
-                   <APGFreeSpace/>
-                   <APG/>
-                   <nanoVNAConnectCompile/>
-                   <BagOut/>
-                   <LineNumbersInTokens/>
-                   <SegmentTooShort1/>
-                   <_NECBLOCKDocumentation/>
-                   <OriginalWires/>
-                   <CurrentAt/>
-                   <nanoVNACompileTry2/>
-                   <EndOfWireGroundNotChecked/>
-                   <SegmentTooShortWarnings/>
-                   <totalPowerIntoRUSE2/>
-                   <wiresAndOriginalWires/>
-                   <mhosPerMeterReset/>
-                   <dBWcalculation/>
-                   <AcuteAngleSegments/>
-                   <GammaSWRFind/>
-                   <NECDisplayPerfectReport/>
-                   <BetterRadials1/>
-                   <BigDesigns/>
-                   <MinimumDistance/>
-                   <MoreSegmentation1/>
-                   <nanoVNACrashOnSmithChartSelect/>
-                   <NearElectricField/>
-                   <NearElectricFieldRemoveExtrapolation/>
-                   <GroundSpecWritable/>
-                   <GroundSpecSettable/>
-                   <SplashIndenting/>
-                   <consolidatoin/>
-                   <groundSpecBugs/>
-                   <nearFieldXYZScale/>
-                   <nearFieldTotal/>
-                   <RangeReport/>
-                   <nearFieldSmallExtrap/>
-                   <NearFieldextrapUpward/>
-                   <QueueDeadlockMaybe/>
-                   <NullOnGetFieldAt/>
-                   <NearFieldPolar2/>
-                   <NearFieldFudge/>
-                   <NearFieldFudge/>
-                   <MinSegmentLengthClosely/>
-                   <NearFieldFixes/>
-                   <ReportsInVolts/>
-                   <FieldsInVolts/>
-                   <GetFieldImpliesNearField/>
-                   <NearFieldPointReport/>
-                   <SelectablePoints/>
-                   <Redementary/>
-                   <findAndGrid/>
-                   <NearFieldGetFieldAt/>
-                   <max/>
-                   <NearWireFrame/>
-                   <AzEleLines/>
-                   <WaitToRepaint/>
-                   <somnecCache/>
-                   <somnecCacheRedundant/>
-                   <FailAtTheta0a/>
-                   <CleanUpSomnecCache/>
-                   <CleanUpSomnecCacheRes/>
-                   <zBuffer/>
-                   <ParameterArrows/>
-                   <NearFieldFourTriangles/>
-                   <NearFieldFourTrianglesA/>
-                   <NearFieldAxesRounding/>
-                   <NearFieldCoordinates/>
-                   <thruReportInvocation/>
-                   <currentFind/>
-                   <currentFind/>
-                   <NearFieldPower/>
-                   <EtotOfNearField/>
-                   <FixNearFieldInterpolation/>
-                   <ExplicitlyCheckSingle1/>
-                   <NECRadisuScaleMM/>
-                   <EtotInFieldReport/>
-                   <FarFieldX/>
-                   <ShadingFarField/>
-                   <ShadingNearField/>
-                   <MultiSourceNearField/>
-                   <ArrowsInNECDisplay/>
-                   <ArrowsInNECDisplayReversed/>
-                   <TemperatureColor/>
-                   <Segentation/>
-                   <UHFBodyGraphic/>
-                   <ShowDialogReturnValue/>
-                   <ThreeDValueResidual/>
-                   <Leeson/>
-                   <SteppedDiameter/>
-                   <SteppedDiameterAdjust/>
-                   <EnforceCenterDriveSDC/>
-                   <RadiusToDiameterSDC/>
-                   <SteppedDiameterCorrectionArgs/>
-                   <SDCFrequencyCheck/>
-                   <ThroughPath/>
-                   <ThroughPathCrash/>
-                   <SteppedDiameterVertical/>
-                   <ReverseLobe/>
-                   <MinSegCount/>
-                   <NECPortalj2/>
-                   <NMUpdateTraceLoop/>
-                   <NMUpdateTraceLoop/>
-                   <NECGrounds/>
-                   <Finalize/>
-                   <CurrentAtEndOfWireRefinement/>
-                   <PerWireMhos/>
-                   <K6OIKInsulation/>
-                   <SquareChartPerDivision5/>
-                   <InsulationOption/>
-                   <WireCatcherAndStamping2/>
-                   <SymbolExplorerForRUSE/>
-                   <HangForNewCurrents/>
-                   <SegmentationUsingYagi5AsCheck/>
-                   <getInsulationDefault/>
-                   <notesAndImportsToWhite/>
-                   <NEC2DisplayColorizeImports/>
-                   <FixRUSENName/>
-                   <FixRUSENName/>
-                   <CloselySpacedSegmentationRewrite/>
-                   <ZipAndUnzip/>
-                   <InsulationSigma/>
-                   <SegmentationBecauseOfLoops/>
-                   <SegmentationBecauseOfLoops/>
-                   <JamSegments/>
-                   <JamSegmentsDriven/>
-                   <AddLoad/>
-                   <NECSourceImpedance/>
-               </SPLASH>
-           </PREFERENCES>
-           <XMLVersionControl>SimNEC:2.1k5</XMLVersionControl>
+           <XMLVersionControl>SimNEC:2.2a2</XMLVersionControl>
            <PLOTENVIRONMENT/>
            <FILEARCHIVE>
                <element>
-                   <name>/Users/jan/Desktop/SJ000010.s1p</name>
-                   <compressed>H4sIAAAAAAAA/1WXPY9eRQyF+5X2P1xEncjfnilpImhSBCl9gBRICCREA7+ec+15s37T7T57Z8bH9rHz3Yff//h6/fr31y//fP3t+uXf6+OXP//6/PGHdx+uz/L68v3143/Xz9enn65Pl9Pry6XLqf5d7+i9JhvJddH79AhpHoMbxdLisXdy8RyclikVz8jD1xuXJcxRfLm5F9+D28YDim9hs5sf3Fx4Wb9vL+Pm/MZ5RVI2376by+COYIovYvYsroNLiD24RnN747Qt3M75O1fxoR/5sjj3O1N/P/Qj2Xz02+y2iz/0w2+JXISOPiF9/hpcU7T1wwWkxffgyTihOeW69T+vbw5q3t8HaURxHtzInYtbsktxGTyNtd+vgkwU1zcuFJwdv5ByFrfBVWLt4vh17OI+ePCmOj9Qdtnvi8G3oMSKhzH390M/RfZ2xR+GSJsP/dSVdsUf4sZefOin6el9PsKK4jz0Q7J3c08kus7noZ9x4sfiZktKHx76mdrje0hpFR8P/Qzp7/fbCjYtPvSzCCfvv2Q75w/9LFH0u19iu+rPOCbfW/NEiriLD/1sqXf9qqJ8+vw1uZicTESqFd+T0+KqH8i7pN4vNO9n54pfGKVc75OpX8jWU2mS2d9P/QwFUO+7Vav+N5n6KWyp6odgC1nxydSPN1JQ3FG4lT8Z+qGZNtf5xEu6f2Top/A05O/uZIYX9fmz/lwC77s5qk+bz/oTZfjrzVPj8KEfVHXv77fLuvvfdOgnYfDbcirc3/WnQ7+7v4SPk/mu+tKhnyAs1uKKi0t/Hfpx7LW8eSLxxYd+8ES1vl+DvM8f+kFztb5fkenKnw790IvLrN8H/ZtP/0Nb+YkvtetPn/zP4efFcZRXfnT6H++I49Twx6qPhwG2v8YjPxuN1nzMD8IF/T5a6/SHjflBGCCqzTcmVPExP2AaKMc+n2yVvjbnB/5a/UwS3X3/nB/w/HM/KrH90eb8WLSz84PoV+lvY/7SnT46+qATio/5C8tkWad+9nnfmL/wGvzYHA5Q+jsNHhr8+B6ZKf40f+92aI4OLn186CeQ5dv7tOvPh36oXzn1QeJdXz70E0fW4+QPBlZ86IeWjY7vrrTWx+f+QoEKaqUxocrffe4vaJZs7oIMFB/63bV88qt69PWhH5YpDI6ulHsXunkM/exeOrgrlbc3H/qhWSXtVHrWfgRLHBzH935CYWe+x9AP/g+Lb/+Dsfb5Qz+sV7Rq/rEogik+9MNwkfY/vheR5kM/x9LS98MeqfYPjMHBYfv7+Dud/ouhn0PgqPvR/miM4nvyhYPb6Vx7/uXQD7UAWdopcXzVZ/LkGKtynDY7fymTy8rmtqznY+rT/fbN6TOa2+SCAq1JgvBW5SenfgI5uCcRBkXlJ5/1c+r57Eup+dSPHvsp5v/q+ZhDP9sJu6394TaIjn/oZ3D33g9csQmUvmvWX/Lu/LvvrP0anzzX1/kei2zvV2vWH7LvvZ+hT3o+rVl/ynH2J7TP4bP+sNP0+QGpun+e/v+BqWdnv0tseK8v/wNkT/wLzwwAAA</compressed>
+                   <name>/Users/jan/Desktop/SJ000013.s1p</name>
+                   <compressed>H4sIAAAAAAAA/1WXu45eVQyF+0h5h4OoE/myfStpImhSBCl9gBRICCREA0/POvaJxjPT/KPv976sbS97vvvw+x9fr1///vrln6+/Xb/8e3388udfnz/+8O7D9Vnevvn++vG/6+fr00/Xp8vo7ZtL06h/rnf0Xiwp5brofbAlD/fFJeRwc6mT2jxeOJeWeHOt1InPxZ0jJv6U2MTX4kpkw+2Un5s/uDmVS9Hw9BPNeXGPSB1eQb1+yeJ6LHM4vlnNdXE6+B1OZrP+efh1xzM/5zsmmc1tcWd+4pUi5vy+OP44ow9nlTWPF87QhKw5icjE5+IWxuf+5IGluHktnkeq49085F7/Of1w6QdsrgwpmvPihm1bHywuSc1l8Qj1jjeH/txcX7gSn6rm6snDl34qYpM/Riox51v6qaZKv99xV/XmSz+1e4Xm0Le0+dIPh+NoffFsVrP/0k+D65z5JpUOr81V531UPDt/DtPmZLO+lGtKc977Qz4dpdi99WN5dX6K1ldOekXzrd+Ro9FcVek03/pBHbXnJcmr+dZPCF9pjueV2X/rdz86DyfcsPnWD2L57A95Yvbf+pE/9QOeMvevV/FB9XD21k+2fhxCT7yVDN/6CRd3PFd6Dt/6KWkMz8JLN9/66W1AzSPcJn7rd2BAE+8s2ueXrZ+hwKeSoHt0fsir/IO99fkZ6/DEv8o/hipT6Thh57ds/ZCfk99wijitv9SreJ36JiTY1Idu/cwP/KedSmryW7d+RlneHHUz9aGv9INsp3nAiFs/3fpBbI52Yi63vp9u/UhQ+M0tsUPzpR9KGgebToDynP2XfnLMpNcXvQuz+dJPGN/uePGClTbf/hfIir4/bi/jL7r9DzUJf3jX9Vvtn+ebAT7+69LxegqZ3XzpR3fTm3j42+T3WfoRssP7/GibEhO/+4fCwVsf+A9aWPOz+N02Ov621fHfs/ovswd94zX3P6v/opZZ5eEy+X9W/0X527wv9nft/Dmr/wqy1YbDvnPiV/+VZFhQ84AVtz8ZvXDkEnyvP5nx3M9W/1X0p5r4W+CJX/33ng60+hOh7w1f+qFYhW1OgkbS+WFLP/zhlM+k4qf9z5Z+uCt7zaSC9jp86WcUsOMnP+N0ftrSD+WfXKO0BQ9f+iF7SSf/FS816y/90BzYJp7uDndzX/pZIa2eTFCv1s+Xfs4Hbedb/Y5+vvRzGOTcn8i1+z+eefGTbPb4B03/8qWfW2X6ZHrhhZsv/dwrY/wH3XH6ry/9PBB+ZlJBg577Lf0877nlmVTUJ37pB0uS8T9O98k/r80jQx8n0MmvoM1hkE//PM/7BL9aH/PW40TG/T6x9UP3pzP9u2zuF1s/DGXTH/W27a6f2Pql2MxHeqfV7L/1Q/rPfIrqoZkPYuuH8XX6N1yHx59i64f85me+wVt1/sfWT5G1OfORpA3f+sFWs/vbSfPRJ7d+hBfu9VG1Ofvn0g/NnTOe+e3xl1z6YagMn/nOysa/c+lnKOa5nwX8ufM3l352Dwj6zJcl/T77/w+7B+DeH1nf+fE/n7xQP88MAAA</compressed>
                </element>
                <element>
-                   <name>/Users/jan/Desktop/SJ000011.s1p</name>
-                   <compressed>H4sIAAAAAAAA/0WaPa+2yVGEc0v+DwcRrzXfHyGJBYkDIzk3sAGSBRIigV9PTV11L2c3OO/pZ3pmuru6q3uev/vjv//t159//a9f//rfv/7bz7/8z8+f/vof//mXP/3DL3/8+Uv7/e/+/ucf//fnn3/+/E8/f/6Z5fe/++lnFv/8/FL+UM6u8/78lD/0uWrvyLt/LB+tlmn5anMM5Ms/76+l1H4K8lFHQ379Y/mY7S7kpU70L6tvlp/T72b/1grnQ713re324k/2fte8yK3+WL5uO8hbHQf5tv76/trK7sPna/ecxfm39Q//dfRxu3/bdV/Ot61/89dxOUkbddVp+bF+bl1aztfK6iVy6++cSgbISY9UILd+rDJaWyU3bbHvtXk+r7RysNRaFftc62+xerkVS49Ss94/8dqu3FQO38v3u8X6D/JZx8bTY9yN3Por++++6xcpuyG3/sH5h6775LWdUn2/W60fr7Z1WV/XPity64/9xtjjyVuZ9S7k1h+vnNEcie3Fle17m/UvvLLOsX5tpBBF7vCx/VptVfHx5Hcu4vs267f9qvzbLO8KpY1+wpP4kwPOtbwrMApy68crV0Hn8/Ux9+F+3frxyuz72r4vvom/O6wfr1RFfUXeZWzk1o9XuhB20H/u4fzD+sHvLntz/n5nP5Ybv1itFlndn9SGa2If43fitdH1v+Vl1Yp+45db1z0352unl8SH8YvVhK89rEnZYRN/hOeceE1pw5qavFYit/7DKv3CSZV2Luczfhu77qmPc1I5Cvsbv5OoOatVblKLAhC59W+8rkX3s1Tub/y2EvmtWFpRsbCf8TuJuqMDkMmqchnxaYAR9W3vvoiEcU/BPg6gyq2X8kMJfvdFvw00sZ+yygj+FQqRWz/2q7uQaevU7y+/jWL8EhVVyQqkSai4QG79oG7OFynOT7rgQG79A9TqWuQvAcX4VhqxfqxyXlRargA+Bbn1l9SHhn2USZfjV3Lrp34UpbsWpLbLeuO3Uj+kffesL4vzGb8Dq+8Xddmf/D+K8YtWeb0mE7R6C/uT/sHv6Dvnf5kmcusnKysmkFfF9+Z89sBJ/VB6Z6ep9Mn+xm+lfjTZv+K/lyCRWz+7jhfWZIpZ50Fu/XhF5yCTCn5KsZYbvzX5T5p8k9KUnjmf8Tu4tfyz7Ekl/+r6JLnLF145Km+OlJdeG/sbv7VlvVIYnr5CMnLrn9lf/xEpSmUdufUfzi8y0cjvciv6jd+K/YaqAfIrk2A/43dgv670BhIVXZf7G787Xtv1yxSnxH7GbwU1R/wDpBypr8itv+M1Bdgivx1BALn1g6rWJvlJBXEHH8ZvueEnygrkXx0M+xq/oEa+epXE+VvxgX7oA17TAbO/Kt72+asDtOCV9m6LXHm7ILd+qu5UeIzI4VeSWz9eu6o6nG/1b73xW/Ca6vBMfVnnk1t/wWtHaMv9NvmjGr+b/FdU9D/73Oxv/BbyX//4gQzWiL9q/Pbkv60UiH8Utuxv/O5UZX2QT+oi5iejQq8mu75slPiY5Idq/PZ4RW6dxNc+xFc1fnOqeSaZXHlWnrHc+C1YVfSI8wm/M+uN307VPqKVZDrRlsb+xu+mqmpP4rfMqWJnufFbqKrnzhF8Kuywj/HbsbrYUw8TWKdiX+OXqqf9D/VBkTYa641fUCfzD/J7ucq12Bf6if2kq4dJvwhDbv2xn8rXTH7r4Kcav2ElcvBKftxr4h/jt2O/VxbJBCpQk/2NX7KG8kdPfVFeTfwYv/QfqgqCBZmknYp9jd94varQJ5Mp7jm/8UvUijXUEn4vSob8mj7DGlS0DkxaaeeCP+M3WQn8PbncnviFns9kxTlgwspDw/HRivUnq6o+Z/3VH5FbP/iVTW7WK2V05NYfVq6iFLnypvdv1fo39XGE6SqglHmRWz9eX0rfVArFJ/5rvgD9x2MdJ53MaZE36yf/Caw9mbzQf7yO5LUXF/47Tj3pf+q33vpTFccmfrSrCqDltC9ElTjh8U3rQzr3N37TFYnUh/9s8Zust36qqvJoTiL3dM43rH+kqh+YtE434R/N+G2pH+fxY+PjHQu59RM1Cirio4ieuX8QyqwfqyrmUr+fX9nf+A3rUADMlkxfiK9m/NJ/yBU1+BdtiHxZP/ZTeWkjkZL80mjvYr+dTCD6kvzUjN+ZrlKsG/kSF+H+2/qxn0hD6rv8X9nf+I3VXlClktSS/Y3fsCL5BP4soqWaYfmx/mQdoaJ//DvxYfy2xF9dZPL6GkDOb/xO+J/ioKd/1Hr2N37jFd16wHR1vfjH+IWVlaaw6WGy4uTIrT/1V2yT84v+TOvvxi9VUznzwsTro4obufXXZO1GphQ8G/yjG7/0H+XRCpiuPN28fzd+T7pqHat9/Ir80I3flqpR0j8rDy3qXzd+qVqq/yOZaJ3dbd9u/GaV8nz6c0WH5w8vYbz2PVGxB5VOrLRin24DceunNUxCSIef0P6eb9ea+7Uxyf/d+KX/kKkq9VN1WpwEufXXRKXiCkuLPyI3fuk/dL8WT8mVC/sYv+k/pqI58pv+pxu/X/+xpRZPax32MX7Tf4wXwcjV/0du/dhP/0imNRVC7vEG9hOPJVNKfhM/xi9TBfUqyY/Sr48gt37sp2R6kx/UgXN+43d8/G8kkytSG/Fn/J7En4I69xcTZr3xW5M1yqpfJanxn/GbqU5rmW+V9wH8Z/yGtag+wZ9KqdXzpcEArsbrZ+STMlVlf+N3xH5v7pD8Ngr2MX537Hc2TPHlvx659bdktY/plldTkVv/DD6Sf975uu3jBk/lDPnK/EzxM1vk1v/FX0l/9ep/RW79I/F7Zvzfkl9NQJVLQWX5KulrBRdy68/8ZaTTepYiviAQZMWi7jbx0UXUbV8XyLaD+nML+pXIqf8UgG9qoawV/rfE5JFbf8v6kfh9IWf7MV7a2E/sjf5UvykXIbd+7Cd0ZX8xWfo7HBCvLPcfZHpxIsuN32QN0btUOiWyFrn1B7/r9lSS24iPYfyGVQ8lit/6Z/j5MH7pP1563mEiql+cz/hNVLVdvkonJsj+xi9Z/6ESfiYm2BI/xi/9h6JmZX/tA/8ZjCdTP9RU00muV7eQWz9ebT38sj7KzfmM32Sd8fIOchF0/GP8Fqz65jPo3zpLQ279eHX3Vr/5sUqt5cbvzlRJWr/9Z8G/xi9elUku/YXOP+n/h/Hbv/63hJ+pjiS+jd/1WX1n0i618Ldh/JaP/yV+lf7byXrrD38p4e+eD3v9NH7Xx/9GTiKeBD6n8VvC/xRV5N/Xci3k1j/C315/a0vod+NrGr90La29uAMfituD3PrLN3/4XipkGPY3fjv87zWIwb/6f8fPNH5X5s+Kq538Wslfs3n8nKmYwJJMrwSQ9dafrqivrz4fFSDLGW/n1UFpM/xNXJj7d+uHlff5veSoo/vWWz/zlzbO/0/6yA/T+M37h0gd/KSK9zH/mcP6w58VCJnfP+KL3Pozf9mX+XJVoaC/n8bvCmpO5k8CP+8/klv/Cj/tmaS217chf/rD+nXOzA9UdnM/4zf9x9OaSaroB/b1eJL+o5wS/qQy0ZmfTeOX/uNF5/zeD278b/zSfxQPMOhkM9+W3PrD6l/bjlypOOutP/N7lfVPPi/nN36xmqr3ZpIg/YP6Oo/1h1XWb9K+1H9zfuO3hTW/CZjl6kQT38bvTP9bVuZj8i/97bzWj9e3UJ352xsQIrd+VomARV7eC9+TL+N34lVhfqQTL5f+dhXr59bjzO8kSsBZb/3M75e6AuLrOcD7L+OX94/25ntUInWC5JdVrf+b359UyjUn8+Fl/La8ajyGgCda+rtl/M5MBXWqE/5Qsr/xm1efMuseqd+L+cIyfvNq9MayrN+vwbOc5yPspz4k+depHrn1Yz+RhtRHFRLwt4zfL2pK9n+NGPltGb95/5iCdd4fhTDOZ/zm/aPX3+bjVwQEufXHq/ubnzwijNz4zdRM3T2VSnYu1Pdl/ObV7+2VlzxZGv86gGq6rvccYPl7SjJ+lvGb/uO8YLC8qwJxP+M3/YeKKf17Fzrg18v4Tf/x2kpeOsfXHy3jN1VBnDr7zzcpQW79v9Xf6BdSeP9Yxm/dqa+N39yVYB/jd+bVphx2UiOd+cMyfk/mz6/b537v3QW59ZP/Tr9UKnWFk/5vGb+ZetU3dfdvr2XGPsbv96qi+OW31z9iX+O3Zn6vbnHEvwd+s43fTO3u3pnUK5TBzzZ+ef/o6i94f24i4uT/bfzWvP+qQ/74TSU/beN35FV/DZiKyHvDf9v4/b41cBvzKYXxWRu59WO1/V4zqd9nc79t/PL+0WX9fJPgtdzsb/zCGkVfxv06/YZ/t/HL+4eKz1zpZM7Evzw/8v6hkrM/pv4etpFbP+/ne3Qy1Rt/LO5n/GLV1ytmPjLUUnM+43fEfqJPeWkVleZ+xi/vHx5k1mTiRf7bxi/vH73K799La+Zj2/jNVPAdikywXtOH3PrJCtqU++mTB36xjV9Y5RsaU+n6G/AYX9v4Hd+3Hir5+b0I877C8+wO/xO9Z1KuQsv7znaAlrBKlRUm7Upb5N9t/DJ1VVQUMlnXsclP2/hNVl7OD7/YU71yPuOXqXJRAs7+4ieRG7/pPxTr2Pd9vYD6vo3f9B/qzul0pH8wX9/Gb/oPbTYziV/pb7fx+02dRKrzPrMm87Nt/O6wLk96n3y+xge59TM1229ciX2FFOPzGL+/saqTlwYFCPz5GL9MhQT+9Pfv+y/En1PuLakfN/NDNYwr+o3fnvq7ylfJF9/PkNz6saofwyxXK9DQb/x+p7rvmzLmByLSyI3f/turE5MM9RenRP705/1jPrRgyTfJQG79WF1VP/OvvRK/PO/n/eMlo1QScb2N3PrxivLjN/8Q0WF/4zfvH+9bA+nfxX9d/47xm/ePpW6ipP4n/x/jN1Et1pP+rSy+/yG59QcV7xsqIEH20fr/A79Rk+DPJQAA</compressed>
+                   <name>/Users/jan/Desktop/SJ000014.s1p</name>
+                   <compressed>H4sIAAAAAAAA/1WXPY9eRQyF+0j5DxdRB/lr7JmSBkFDEaT0AVIgIZAQDfx6zvW5K/zuNqs8mmvPsX08+eq7337/cv3y15fPf3/59fr5n+vHz3/8+enHbz98d32y9+++vr7/9/rp+vjD9fFa8v7d5XtJ/1wf5JulVcevS74RlyPWPAf3VZv8yDm7eQ0eKWU316i1svkefJnIvrmJm5Ofyb2yz9taEufmD364ZvR5F0ew5voS37Y2j7W98zs28/dU8r3fzvu8/965bh6mqYwfg4vY6fxiJbRqPvTDpWOd5jujvPnQL5bqkpsvjcjVfOgXZjvIPWvx/NAPYqj1/SGuO88P/XwlJG5envu+35P9w/Uc6/zWkW3kQz+rbTvJz/FqPvQzLwh/85RTDx/66VlbW7/UW7jmQz9F/YPn9S5V86GfquY5z/ePWfOhH5rL5OFuspoP/cSjQpm/IZXmb/rdXSuyqprvO1LzM7ghaeqX6KA+rzL4Kk3WJ9B43lwHLxzjecNf/X21wTFTh/riU07u/3MFXsH+QSO2PhqTlzv7q1yV59fgimr09zGIeZh/Th52hP2LWjP/mnzZ6voE5ifI9+QVxvkIt4rmQz81VD0fnj0fYUM/RVNuxg/L6vra0E9jlTE+5pb52dBP0xCPPEJ4fuoH+9qcT4N8jD/1O5CDXHFxfn/oZ7gA/ekeW86PDf3MzmF/eaHC5EM/iyX0B0cBtfW3oR+aAu3QHLI78x/6QdLl9Mc6yvr70A+SOOfHfEv2910nP0muR0t7Pnzoh1hujz8LLKC5z/PYAB0fl69o/Txe8sMVn0mRh0/9FtpPexLBlfxFv525m+9CKzef/Qcz1WgngG67+9tn/8H2zpvTqJHP/kPaK9upkHe2vm8GyPndd//efEeejh9zfgV22vGhmrH+MfxPYAvYjzfHAGbHj+l/WE9Cju3B+sb0v8qSal4qq+sTw//MFeuYXKrIh/9BVPQ1v29FfWP4H4ZimfIv+APzf9kfanF4P336K8b+QDErgpEio/tryeDIifWzdbBpms/9qzC9/r7psSCf+xc7j/roRt92/DX3bwWeE6w/9gb53L8H+rF/Dgy877eGfolb7cNKLTxVmg/97upg/m+OrLl/1tAPzePcn4JKPHzoh+Y9EXR6eAXvN/TLLYf+qerG/ZdDP7Tc4Xzdm/B0/XLoV3LbRfMNoyQf+hUM/CxOEjLl933ybUWe+O38cuiHpJX+hT2jq/071+RoL/qbiy7Gz8nx6qK/YYFvfr9ezhf3I551b/H35AJjo//CXpj/eeVW9HdYUedXMu+HAX32G8L3fNSLfrAvefansf9r6Hfrf7j/UUD2Vw39cqPd+L7Cv3J/1NAvMfTC9wXi0r9q9t899XwfZG3Wv176bz37436dcr5r9h/Gnv2D95cJ85/9h7FZyfcTXiqMP/tPsE37+9kGdfM99IP9Ya6aY/9z/+45v2hAvp8z89Fvz/nF84D1Q1W13/+x5/w6/LX7I9Ff9Kc95xfPP74PS05yP738/0MwYK0fOrUW/PU/BML1Is8MAAA</compressed>
                </element>
            </FILEARCHIVE>
            <SPREADSHEET>
@@ -458,8 +49,8 @@ cloneLoad</v></p>
                                <fontScale>1</fontScale>
                                <w>635</w>
                                <h>364</h>
-                               <relx>-602</relx>
-                               <rely>564</rely>
+                               <relx>-581</relx>
+                               <rely>728</rely>
                                <ProgrammingDialog>
                                    <ThreeSplitPane>
                                        <errDiv>0.3</errDiv>
@@ -486,8 +77,8 @@ cloneLoad</v></p>
                                <fontScale>1</fontScale>
                                <w>635</w>
                                <h>364</h>
-                               <relx>-602</relx>
-                               <rely>564</rely>
+                               <relx>-581</relx>
+                               <rely>728</rely>
                                <ProgrammingDialog>
                                    <ThreeSplitPane>
                                        <errDiv>0.3</errDiv>
@@ -519,7 +110,7 @@ cloneLoad</v></p>
                    <sweeperLabel>QFA</sweeperLabel>
                    <fromFile>
                        <powerFormat>1</powerFormat>
-                       <voltageFormat>0</voltageFormat>
+                       <voltageFormat>1</voltageFormat>
                        <rotationCount>0</rotationCount>
                        <flipped>false</flipped>
                    </fromFile>
@@ -535,10 +126,10 @@ P1 w1 gnd;
 P2 w2 gnd;
 R0 0 w1 w2;
 </v>
-                       <w>1622</w>
-                       <h>1415</h>
-                       <relx>515</relx>
-                       <rely>140</rely>
+                       <w>1321</w>
+                       <h>1235</h>
+                       <relx>560</relx>
+                       <rely>-93</rely>
                        <Schematic>
                            <WORKSETMENU>
                                <allow><n>SPRM</n><v>false</v></allow>
@@ -554,8 +145,8 @@ R0 0 w1 w2;
                            <STextBlock>
                                <root/>
                                <fontScale>0.644608916217797</fontScale>
-                               <x>-1256</x>
-                               <y>-50</y>
+                               <x>65</x>
+                               <y>225</y>
                                <w>1206</w>
                                <h>953</h>
                                <text>//QFA 
@@ -568,10 +159,16 @@ H1;     //= 213;
 D1;     //= 94;
 H2;     //= 203;
 D2;     //=89;
-scale;          // rescale entire geometry
+dcl scale=1;          // rescale entire geometry
 shorten;        // reduce height on both Large (H1) and Small (H2)
+dcl angleLarge = 90;
+SelectOneOf (NECGrounds) env;
+NECGround(env,.005,13);
+
 Dielectric;
 Thickness;
+height;
+dcl feedpoint = 15;
 
 dcl d2 = scale * D2/2;		        // Radius of the helix
 dcl d1 = scale * D1/2;
@@ -591,52 +188,64 @@ for (int i = 0; i &lt; totalAngle / stepAngle; ++i) {
     dcl nxtAngleLarge = nxtAngle + 90;      // angle to end of wire segment, large
 
     // First make small helix
-	dcl froma = {heightDifference + h2 * angle / totalAngle, d2, 0}/_angle;		// start of wire helix a
-	dcl toa     = {heightDifference + h2*nxtAngle / totalAngle, d2, 0}/_nxtAngle;	// end of wire
-	$wQfa  = NECWire(froma, toa);
-    $wQfa.insulation  ={Thickness, Dielectric};
+	dcl froma = {d2, 0,  height -h2 * angle / totalAngle}/_{0, 0,angle};		// start of wire helix a
+	dcl toa      = {d2, 0,  height - h2*nxtAngle / totalAngle}/_{0, 0, nxtAngle};	// end of wire
+	$wQfa  = NECWire(froma, toa)
+     				.insulation  ={Thickness, Dielectric};
 
-	dcl fromb = {heightDifference + h2 * angle / totalAngle, -d2, 0}/_angle;		// start of wire helix b
-	dcl tob     = {heightDifference + h2*nxtAngle / totalAngle, -d2, 0}/_nxtAngle;	// end of wire
-	$wQfa  = NECWire(fromb, tob);
-    $wQfa.insulation={Thickness, Dielectric};
+	dcl fromb = { -d2, 0, height - h2 * angle / totalAngle}/_{0, 0, angle};		// start of wire helix b
+	dcl tob     = { -d2, 0,  height - h2*nxtAngle / totalAngle}/_{0, 0, nxtAngle};	// end of wire
+	$wQfa  = NECWire(fromb, tob)
+      				.insulation={Thickness, Dielectric};
 
     // Second make large helix
-    dcl fromLargea = {h1 * angle / totalAngle, d1, 0}/_angleLarge;		// start of wire helix a
-    dcl toLargea     = {h1 * nxtAngle / totalAngle, d1, 0}/_nxtAngleLarge;	// end of wire
-    $wQfa  = NECWire(fromLargea, toLargea);
-    $wQfa.insulation={Thickness, Dielectric};
+    dcl fromLargea = {d1, 0,  height -h1 * angle / totalAngle}/_{0, 0, angleLarge};		// start of wire helix a
+    dcl toLargea     = {d1, 0,  height -h1 * nxtAngle / totalAngle}/_{0, 0, nxtAngleLarge};	// end of wire
+    $wQfa  = NECWire(fromLargea, toLargea)
+                 		.insulation={Thickness, Dielectric};
 
-    dcl fromLargeHelixB = {h1 * angle / totalAngle, -d1, 0}/_angleLarge;		// start of wire helix a
-    dcl toLargeHelixB     = {h1 * nxtAngle / totalAngle, -d1, 0}/_nxtAngleLarge;	// end of wire
-    $wQfa  = NECWire(fromLargeHelixB, toLargeHelixB);
-    $wQfa.insulation={Thickness, Dielectric};
+    dcl fromLargeHelixB = {-d1, 0, height -h1 * angle / totalAngle}/_{0, 0, angleLarge};		// start of wire helix a
+    dcl toLargeHelixB     = {-d1, 0, height -h1 * nxtAngle / totalAngle}/_{0, 0, nxtAngleLarge};	// end of wire
+    $wQfa  = NECWire(fromLargeHelixB, toLargeHelixB)
+   				.insulation={Thickness, Dielectric};
 }
 
 // Large Base
-dcl angleLarge = 90;
+$wQfa  = NECWire({d1, 0, height-h1}/_{0, 0, angleLarge}, {-d1, 0, height-h1}/_{0, 0, angleLarge})
+			.insulation={Thickness, Dielectric};
 
-$wQfa  = NECWire({h1, d1, 0}/_angleLarge, {h1, -d1, 0}/_angleLarge);
-$wireLarge = NECWire({0, d1, 0}/_angleLarge, {0, -d1, 0}/_angleLarge); // drive Large Helix
-$wQfa.insulation={Thickness, Dielectric};
-$wireLarge.insulation={Thickness, Dielectric};
+// drive Large Helix
+$wireLarge = NECWire({d1, 0, height}/_{0, 0, angleLarge}, {feedpoint, 0, height}/_{0, 0, angleLarge});
+$wireLarge = NECWire({-feedpoint, 0, height}/_{0, 0, angleLarge}, {-d1, 0, height}/_{0, 0, angleLarge});
+			$wireLarge.insulation={Thickness, Dielectric};
 
 // Small Base
-$wQfa  = NECWire({heightDifference + h2, d2, 0}, {heightDifference + h2, -d2, 0});
-$wire = NECWire({heightDifference, d2, 0}, {heightDifference, -d2, 0}); // drive small Helix
-$wQfa.insulation={Thickness, Dielectric};
-$wire.insulation={Thickness, Dielectric};
+$wQfa  = NECWire({d2, 0, height - h2}, {-d2, 0, height - h2});
+			$wQfa.insulation={Thickness, Dielectric};
 
-dcl smallDrive = NECSource({drv, gnd}, $wire, 50);  
+// drive small Helix
+$wire = NECWire({d2, 0, height}, {feedpoint, 0, height});
+$wire = NECWire({-feedpoint, 0, height}, {-d2, 0, height});
+		$wire.insulation={Thickness, Dielectric};
+
+// Connect small and Large Helix
+$wire = NECWire({feedpoint, 0, height}/_{0, 0, angleLarge}, {feedpoint, 0, height});
+		$wire.insulation={Thickness, Dielectric};
+$wire = NECWire({-feedpoint, 0, height}/_{0, 0, angleLarge}, {-feedpoint, 0, height});
+		$wire.insulation={Thickness, Dielectric};
+
+// Feed signal
+$wireLarge = NECWire({feedpoint/Sqrt(2), 0, height}/_{0, 0, angleLarge-45}, {-feedpoint/Sqrt(2), 0, height}/_{0, 0, angleLarge-45});  
 dcl largeDrive = NECSource({drv, gnd}, $wireLarge, 50);  
-        </text>
+
+          </text>
                            </STextBlock>
                            <SComponent>
                                <type>P1</type>
                                <loc>P1</loc>
-                               <scale>0.052157110090630565</scale>
-                               <x>40</x>
-                               <y>50</y>
+                               <scale>0.03595967187355839</scale>
+                               <x>116</x>
+                               <y>62</y>
                                <pin>_net3</pin>
                                <pin>_net6</pin>
                                <value>none</value>
@@ -644,27 +253,27 @@ dcl largeDrive = NECSource({drv, gnd}, $wireLarge, 50);
                            <SComponent>
                                <type>LABEL</type>
                                <loc>_Label1</loc>
-                               <scale>0.052157110090630565</scale>
-                               <x>46</x>
-                               <y>93</y>
+                               <scale>0.03595967187355839</scale>
+                               <x>120</x>
+                               <y>92</y>
                                <pin>_net6</pin>
                                <value>gnd</value>
                            </SComponent>
                            <SComponent>
                                <type>LABEL</type>
                                <loc>_Label0</loc>
-                               <scale>0.052157110090630565</scale>
-                               <x>132</x>
-                               <y>85</y>
+                               <scale>0.03595967187355839</scale>
+                               <x>179</x>
+                               <y>86</y>
                                <pin>_net14</pin>
                                <value>gnd</value>
                            </SComponent>
                            <SComponent>
                                <type>P2</type>
                                <loc>P2</loc>
-                               <scale>0.052157110090630565</scale>
-                               <x>237</x>
-                               <y>82</y>
+                               <scale>0.03595967187355839</scale>
+                               <x>252</x>
+                               <y>85</y>
                                <pin>_net13</pin>
                                <pin>_net14</pin>
                                <value>none</value>
@@ -673,9 +282,9 @@ dcl largeDrive = NECSource({drv, gnd}, $wireLarge, 50);
                                <type>LABEL</type>
                                <loc>_Label2</loc>
                                <rot>0.09375</rot>
-                               <scale>0.052157110090630565</scale>
-                               <x>110</x>
-                               <y>10</y>
+                               <scale>0.03595967187355839</scale>
+                               <x>164</x>
+                               <y>34</y>
                                <pin>_net13</pin>
                                <value>drv</value>
                            </SComponent>
@@ -698,8 +307,8 @@ dcl largeDrive = NECSource({drv, gnd}, $wireLarge, 50);
                                <fontScale>1</fontScale>
                                <w>781</w>
                                <h>511</h>
-                               <relx>-707</relx>
-                               <rely>694</rely>
+                               <relx>-686</relx>
+                               <rely>858</rely>
                                <ProgrammingDialog>
                                    <ThreeSplitPane>
                                        <errDiv>0.3</errDiv>
@@ -726,8 +335,8 @@ dcl largeDrive = NECSource({drv, gnd}, $wireLarge, 50);
                                <fontScale>1</fontScale>
                                <w>781</w>
                                <h>511</h>
-                               <relx>-591</relx>
-                               <rely>674</rely>
+                               <relx>-570</relx>
+                               <rely>838</rely>
                                <ProgrammingDialog>
                                    <ThreeSplitPane>
                                        <errDiv>0.3</errDiv>
@@ -754,8 +363,8 @@ dcl largeDrive = NECSource({drv, gnd}, $wireLarge, 50);
                                <fontScale>1</fontScale>
                                <w>781</w>
                                <h>511</h>
-                               <relx>-591</relx>
-                               <rely>674</rely>
+                               <relx>-570</relx>
+                               <rely>838</rely>
                                <ProgrammingDialog>
                                    <ThreeSplitPane>
                                        <errDiv>0.3</errDiv>
@@ -782,36 +391,8 @@ dcl largeDrive = NECSource({drv, gnd}, $wireLarge, 50);
                                <fontScale>1</fontScale>
                                <w>781</w>
                                <h>511</h>
-                               <relx>-591</relx>
-                               <rely>674</rely>
-                               <ProgrammingDialog>
-                                   <ThreeSplitPane>
-                                       <errDiv>0.3</errDiv>
-                                       <outDiv>0.7</outDiv>
-                                   </ThreeSplitPane>
-                               </ProgrammingDialog>
-                           </p>
-                       </sweepParam>
-                   </p>
-                   <p>
-                       <numericParam>scale</numericParam>
-                       <v>1</v>
-                       <sweepParam>
-                           <name>QFA.scale</name>
-                           <listed>false</listed>
-                           <p><n>points</n><v>100</v></p>
-                           <p><n>from</n><v>0</v></p>
-                           <p><n>to</n><v>0</v></p>
-                           <p><n>log</n><v>lin</v></p>
-                           <p><n>doSweep</n><v>n</v></p>
-                           <p>
-                               <n>expr</n>
-                               <v>Vary</v>
-                               <fontScale>1</fontScale>
-                               <w>781</w>
-                               <h>511</h>
-                               <relx>-733</relx>
-                               <rely>650</rely>
+                               <relx>-570</relx>
+                               <rely>838</rely>
                                <ProgrammingDialog>
                                    <ThreeSplitPane>
                                        <errDiv>0.3</errDiv>
@@ -823,7 +404,7 @@ dcl largeDrive = NECSource({drv, gnd}, $wireLarge, 50);
                    </p>
                    <p>
                        <numericParam>shorten</numericParam>
-                       <v>14</v>
+                       <v>20</v>
                        <sweepParam>
                            <name>QFA.shorten</name>
                            <listed>true</listed>
@@ -838,8 +419,8 @@ dcl largeDrive = NECSource({drv, gnd}, $wireLarge, 50);
                                <fontScale>1</fontScale>
                                <w>663</w>
                                <h>443</h>
-                               <relx>-470</relx>
-                               <rely>824</rely>
+                               <relx>-449</relx>
+                               <rely>988</rely>
                                <ProgrammingDialog>
                                    <ThreeSplitPane>
                                        <errDiv>0.3</errDiv>
@@ -850,8 +431,21 @@ dcl largeDrive = NECSource({drv, gnd}, $wireLarge, 50);
                        </sweepParam>
                    </p>
                    <p>
+                       <n>dMux</n>
+                       <v>
+                           <SelectHeader>
+                               <name>env</name>
+                               <value>MiniNEC</value>
+                           </SelectHeader>
+                       </v>
+                       <sweepParam>
+                           <active>false</active>
+                           <listed>false</listed>
+                       </sweepParam>
+                   </p>
+                   <p>
                        <numericParam>Dielectric</numericParam>
-                       <v>1.00</v>
+                       <v>2.8</v>
                        <sweepParam>
                            <name>QFA.Dielectric</name>
                            <listed>false</listed>
@@ -866,8 +460,8 @@ dcl largeDrive = NECSource({drv, gnd}, $wireLarge, 50);
                                <fontScale>1</fontScale>
                                <w>1060</w>
                                <h>567</h>
-                               <relx>92</relx>
-                               <rely>837</rely>
+                               <relx>113</relx>
+                               <rely>1001</rely>
                                <ProgrammingDialog>
                                    <ThreeSplitPane>
                                        <errDiv>0.3</errDiv>
@@ -894,147 +488,8 @@ dcl largeDrive = NECSource({drv, gnd}, $wireLarge, 50);
                                <fontScale>1</fontScale>
                                <w>1060</w>
                                <h>567</h>
-                               <relx>92</relx>
-                               <rely>837</rely>
-                               <ProgrammingDialog>
-                                   <ThreeSplitPane>
-                                       <errDiv>0.3</errDiv>
-                                       <outDiv>0.7</outDiv>
-                                   </ThreeSplitPane>
-                               </ProgrammingDialog>
-                           </p>
-                       </sweepParam>
-                   </p>
-               </element>
-               <element>
-                   <type>USE_BLOCK</type>
-                   <sweeperLabel>Balun</sweeperLabel>
-                   <fromFile>
-                       <powerFormat>0</powerFormat>
-                       <voltageFormat>0</voltageFormat>
-                       <rotationCount>0</rotationCount>
-                       <flipped>false</flipped>
-                   </fromFile>
-                   <showInPGain>true</showInPGain>
-                   <showInPath>true</showInPath>
-                   <showInSWR>true</showInSWR>
-                   <escapeHatch/>
-                   <p>
-                       <n>equ</n>
-                       <v>//name
-P1 w1 gnd;
-P2 w2 gnd;
-R0 0 w1 w2;
-</v>
-                       <w>1473</w>
-                       <h>767</h>
-                       <relx>258</relx>
-                       <rely>419</rely>
-                       <Schematic>
-                           <WORKSETMENU>
-                               <allow><n>SPRM</n><v>false</v></allow>
-                               <allow><n>VCVS</n><v>false</v></allow>
-                               <allow><n>VCCS</n><v>false</v></allow>
-                               <allow><n>CCCS</n><v>false</v></allow>
-                               <allow><n>PORTS3</n><v>false</v></allow>
-                               <allow><n>PORTS4</n><v>false</v></allow>
-                               <allow><n>SPST</n><v>false</v></allow>
-                               <allow><n>SPDT</n><v>false</v></allow>
-                               <allow><n>NEC2</n><v>true</v></allow>
-                           </WORKSETMENU>
-                           <STextBlock>
-                               <root/>
-                               <fontScale>1</fontScale>
-                               <x>-941</x>
-                               <y>-50</y>
-                               <w>891</w>
-                               <h>208</h>
-                               <text>//Current Balun
-   
-     
-
-
-
-
-
-           </text>
-                           </STextBlock>
-                           <SComponent>
-                               <type>P1</type>
-                               <loc>P1</loc>
-                               <scale>0.07266948767222628</scale>
-                               <x>86</x>
-                               <y>158</y>
-                               <pin>_net30</pin>
-                               <pin>_net32</pin>
-                               <value>none</value>
-                           </SComponent>
-                           <SComponent>
-                               <type>P2</type>
-                               <loc>P2</loc>
-                               <scale>0.07266948767222628</scale>
-                               <x>563</x>
-                               <y>120</y>
-                               <pin>_net3</pin>
-                               <pin>_net12</pin>
-                               <value>none</value>
-                           </SComponent>
-                           <SComponent>
-                               <type>TLine</type>
-                               <loc>T1</loc>
-                               <rot>5</rot>
-                               <scale>0.07266948767222628</scale>
-                               <x>297</x>
-                               <y>155</y>
-                               <pin>_net3</pin>
-                               <pin>_net12</pin>
-                               <pin>_net30</pin>
-                               <pin>_net14</pin>
-                               <value>len2 meter {&quot;RG-213&quot;}</value>
-                           </SComponent>
-                           <SComponent>
-                               <type>TLine</type>
-                               <loc>T2</loc>
-                               <rot>5</rot>
-                               <scale>0.07266948767222628</scale>
-                               <x>316</x>
-                               <y>289</y>
-                               <pin>_net3</pin>
-                               <pin>_net12</pin>
-                               <pin>_net32</pin>
-                               <pin>_net14</pin>
-                               <value>len meter {&quot;RG-213&quot;}</value>
-                           </SComponent>
-                           <SComponent>
-                               <type>LABEL</type>
-                               <loc>_Label0</loc>
-                               <scale>0.07266948767222628</scale>
-                               <x>444</x>
-                               <y>402</y>
-                               <pin>_net12</pin>
-                               <value>gnd</value>
-                           </SComponent>
-                       </Schematic>
-                   </p>
-                   <p>
-                       <numericParam>len2</numericParam>
-                       <v>0.34</v>
-                       <sweepParam>
-                           <name>Balun.len2</name>
-                           <listed>false</listed>
-                           <p><n>points</n><v>100</v></p>
-                           <p><n>from</n><v>0</v></p>
-                           <p><n>to</n><v>0</v></p>
-                           <p><n>log</n><v>lin</v></p>
-                           <p><n>doSweep</n><v>n</v></p>
-                           <p>
-                               <n>expr</n>
-                               <v>Vary</v>
-                               <fontScale>1</fontScale>
-                               <w>1060</w>
-                               <h>567</h>
-                               <relx>180</relx>
-                               <rely>1162</rely>
+                               <relx>113</relx>
+                               <rely>1001</rely>
                                <ProgrammingDialog>
                                    <ThreeSplitPane>
                                        <errDiv>0.3</errDiv>
@@ -1045,10 +500,10 @@ R0 0 w1 w2;
                        </sweepParam>
                    </p>
                    <p>
-                       <numericParam>len</numericParam>
-                       <v>0.112</v>
+                       <numericParam>height</numericParam>
+                       <v>1500</v>
                        <sweepParam>
-                           <name>Balun.len</name>
+                           <name>QFA.height</name>
                            <listed>false</listed>
                            <p><n>points</n><v>100</v></p>
                            <p><n>from</n><v>0</v></p>
@@ -1059,10 +514,10 @@ R0 0 w1 w2;
                                <n>expr</n>
                                <v>Vary</v>
                                <fontScale>1</fontScale>
-                               <w>1060</w>
-                               <h>567</h>
-                               <relx>130</relx>
-                               <rely>518</rely>
+                               <w>710</w>
+                               <h>510</h>
+                               <relx>-235</relx>
+                               <rely>450</rely>
                                <ProgrammingDialog>
                                    <ThreeSplitPane>
                                        <errDiv>0.3</errDiv>
@@ -1082,7 +537,6 @@ R0 0 w1 w2;
                        <rotationCount>0</rotationCount>
                    </fromFile>
                    <showInPath>true</showInPath>
-                   <showInSWR>true</showInSWR>
                    <escapeHatch/>
                    <p>
                        <n>MHz</n>
@@ -1091,8 +545,8 @@ R0 0 w1 w2;
                            <name>G.MHz</name>
                            <listed>true</listed>
                            <p><n>points</n><v>100</v></p>
-                           <p><n>from</n><v>300</v></p>
-                           <p><n>to</n><v>500</v></p>
+                           <p><n>from</n><v>380</v></p>
+                           <p><n>to</n><v>480</v></p>
                            <p><n>log</n><v>lin</v></p>
                            <p><n>doSweep</n><v>y</v></p>
                            <p>
@@ -1101,8 +555,8 @@ R0 0 w1 w2;
                                <fontScale>1</fontScale>
                                <w>635</w>
                                <h>364</h>
-                               <relx>-602</relx>
-                               <rely>564</rely>
+                               <relx>-581</relx>
+                               <rely>728</rely>
                                <ProgrammingDialog>
                                    <ThreeSplitPane>
                                        <errDiv>0.3</errDiv>
@@ -1129,8 +583,8 @@ R0 0 w1 w2;
                                <fontScale>1</fontScale>
                                <w>635</w>
                                <h>364</h>
-                               <relx>-602</relx>
-                               <rely>564</rely>
+                               <relx>-581</relx>
+                               <rely>728</rely>
                                <ProgrammingDialog>
                                    <ThreeSplitPane>
                                        <errDiv>0.3</errDiv>
@@ -1146,8 +600,8 @@ R0 0 w1 w2;
                        <fontScale>1</fontScale>
                        <w>635</w>
                        <h>364</h>
-                       <relx>77</relx>
-                       <rely>725</rely>
+                       <relx>98</relx>
+                       <rely>889</rely>
                        <ProgrammingDialog>
                            <ThreeSplitPane>
                                <errDiv>0.3</errDiv>
@@ -1161,8 +615,8 @@ R0 0 w1 w2;
                        <fontScale>1</fontScale>
                        <w>635</w>
                        <h>364</h>
-                       <relx>-198</relx>
-                       <rely>616</rely>
+                       <relx>-177</relx>
+                       <rely>780</rely>
                        <ProgrammingDialog>
                            <ThreeSplitPane>
                                <errDiv>0.3</errDiv>
@@ -1174,7 +628,14 @@ R0 0 w1 w2;
                <scale><w>0.9903846153846154</w><h>1</h></scale>
            </CIRCUIT>
            <SCATTERGUN><n>G.MHz</n><n>QFA.shorten</n></SCATTERGUN>
-           <CHARTIMPORTS/>
+           <CHARTIMPORTS>
+               <import>
+                   <name>/Users/jan/Desktop/SJ000013.s1p</name>
+               </import>
+               <import>
+                   <name>/Users/jan/Desktop/SJ000014.s1p</name>
+               </import>
+           </CHARTIMPORTS>
            <STANDARDS>
                <resistors>&lt;none&gt;</resistors>
                <capacitors>&lt;none&gt;</capacitors>
@@ -1182,13 +643,13 @@ R0 0 w1 w2;
            </STANDARDS>
            <ROUNDCHART>
                <displayMode>Sweep</displayMode>
-               <gammaOffsetReal>-0.048021457854752383</gammaOffsetReal>
-               <gammaOffsetImag>-0.10506913275806201</gammaOffsetImag>
-               <zoom>0.965597532427319</zoom>
+               <gammaOffsetReal>6.123233995736765E-18</gammaOffsetReal>
+               <gammaOffsetImag>-0.09999999999999998</gammaOffsetImag>
+               <zoom>0.9</zoom>
                <swr>2</swr>
                <q>50</q>
-               <lmiR>30.34376477769319</lmiR>
-               <lmiX>-0.13160321830907978</lmiX>
+               <lmiR>39.30925514958518</lmiR>
+               <lmiX>18.673687963712094</lmiX>
            </ROUNDCHART>
            <SQUARECHART>
                <plotYAxis>
@@ -1292,17 +753,17 @@ R0 0 w1 w2;
                    <otherPivot>0</otherPivot>
                    <otherPerDivision>1</otherPerDivision>
                </xferAxisIndB>
-               <mouseFractionX>0.5266106442577031</mouseFractionX>
-               <mouseFractionY>0.8224582701062215</mouseFractionY>
+               <mouseFractionX>0.3732876712328767</mouseFractionX>
+               <mouseFractionY>0.7722772277227723</mouseFractionY>
                <newPlotSParams>Sprm</newPlotSParams>
                <plotLinear>lin</plotLinear>
                <bands>fold</bands>
-               <zoom>1.7733477487549978</zoom>
-               <nonWaveOffset>-75.97946052029891</nonWaveOffset>
+               <zoom>1</zoom>
+               <nonWaveOffset>0</nonWaveOffset>
                <waveZoom>1</waveZoom>
                <waveOffsetInX>0</waveOffsetInX>
            </SQUARECHART>
-           <CHARTCONTROL><showRound>false</showRound></CHARTCONTROL>
+           <CHARTCONTROL><showRound>true</showRound></CHARTCONTROL>
            <NOTESBOX>
                <relX>10</relX>
                <relY>10</relY>
@@ -1500,7 +961,7 @@ R0 0 w1 w2;
                <y>76</y>
            </DG8SAQ>
            <nanoVNA>
-               <calFileName>/Users/jan/.SimNEC/2/1/nanoVNA.nvCal</calFileName>
+               <calFileName>/Users/jan/.SimNEC/2/2/nanoVNA.nvCal</calFileName>
                <parameters>
                    <p><n>serialPort</n><v>URT1</v></p>
                    <p><n>from</n><v>1</v></p>
@@ -1538,8 +999,8 @@ dcl reset() {return false;}
                            <fontScale>1</fontScale>
                            <w>760</w>
                            <h>441</h>
-                           <relx>-32</relx>
-                           <rely>902</rely>
+                           <relx>-11</relx>
+                           <rely>1066</rely>
                            <ProgrammingDialog>
                                <ThreeSplitPane>
                                    <errDiv>0.3</errDiv>
@@ -1564,8 +1025,8 @@ dcl reset() {return false;}
                                    <fontScale>1</fontScale>
                                    <w>760</w>
                                    <h>441</h>
-                                   <relx>-32</relx>
-                                   <rely>902</rely>
+                                   <relx>-11</relx>
+                                   <rely>1066</rely>
                                    <ProgrammingDialog>
                                        <ThreeSplitPane>
                                            <errDiv>0.3</errDiv>
@@ -1661,24 +1122,49 @@ dcl reset() {return false;}
                    <v>false</v>
                </LIB>
                <LIB>
+                   <n>/Users/jan/.SimNEC/2/2/Examples/libraries/AutoMatching</n>
+                   <v>false</v>
+               </LIB>
+               <LIB>
+                   <n>/Users/jan/.SimNEC/2/2/Examples/libraries/LoadGenerators</n>
+                   <v>false</v>
+               </LIB>
+               <LIB>
+                   <n>/Users/jan/.SimNEC/2/2/Examples/libraries/SPRM_utilities</n>
+                   <v>false</v>
+               </LIB>
+               <LIB>
+                   <n>/Users/jan/.SimNEC/2/2/Examples/libraries/Useful</n>
+                   <v>false</v>
+               </LIB>
+               <LIB>
+                   <n>/Users/jan/.SimNEC/2/2/Examples/libraries/components</n>
+                   <v>false</v>
+               </LIB>
+               <LIB>
+                   <n>/Users/jan/.SimNEC/2/2/Examples/libraries/differential</n>
+                   <v>false</v>
+               </LIB>
+               <LIB>
                    <n>/Users/jan/Desktop/quadrifilar/simsmith</n>
                    <v>true</v>
                </LIB>
            </SimNECLibraries>
            <NECRENDER>
                <NEC2DISPLAY>
-                   <w>2221</w>
-                   <h>1228</h>
-                   <relx>159</relx>
-                   <rely>-263</rely>
+                   <w>1094</w>
+                   <h>927</h>
+                   <relx>877</relx>
+                   <rely>26</rely>
                    <VANTAGE>
-                       <canvasScale>0.7105532272722951</canvasScale>
+                       <canvasScale>1.1744563664198204</canvasScale>
                        <userScale>1</userScale>
-                       <canvasOffset>70.59695860984664 -128.41019697515563 0.0</canvasOffset>
+                       <canvasOffset>-22.71582480765685 -40.83239658636676 0.0</canvasOffset>
                        <fieldOffset>0.0 0.0 0.0</fieldOffset>
                    </VANTAGE>
-                   <scales> 2702.9438001784124 0.034009200675867345 150.67688482712455 Infinity Infinity Infinity</scales>
+                   <scales> 330.8951584813654 0.1342945999434549 99.81412166119216 Infinity Infinity Infinity</scales>
                    <dotsMode>0</dotsMode>
+                   <VISIBLE>FARFIELD</VISIBLE>
                    <VISIBLE>Azimuth</VISIBLE>
                    <VISIBLE>Elevation</VISIBLE>
                    <VISIBLE>CURRENTS</VISIBLE>
@@ -1687,7 +1173,7 @@ dcl reset() {return false;}
                        <p><n>view</n><v>track x</v></p>
                        <p>
                            <n>viewAz</n>
-                           <v>76</v>
+                           <v>-107</v>
                            <format>
                                <p><n>range</n><v/></p>
                                <p><n>numDigits</n><v>system</v></p>
@@ -1699,7 +1185,7 @@ dcl reset() {return false;}
                        </p>
                        <p>
                            <n>viewEle</n>
-                           <v>103</v>
+                           <v>13</v>
                            <format>
                                <p><n>range</n><v/></p>
                                <p><n>numDigits</n><v>system</v></p>
@@ -1714,7 +1200,7 @@ dcl reset() {return false;}
                <XPARAMS>
                    <p>
                        <n>Eh</n>
-                       <v>0.004669065556659096</v>
+                       <v>0.007141751106786235</v>
                        <format>
                            <p><n>range</n><v/></p>
                            <p><n>numDigits</n><v>system</v></p>
@@ -1726,7 +1212,7 @@ dcl reset() {return false;}
                    </p>
                    <p>
                        <n>Ev</n>
-                       <v>0.003779367126736812</v>
+                       <v>0.003357401586596565</v>
                        <format>
                            <p><n>range</n><v/></p>
                            <p><n>numDigits</n><v>system</v></p>
@@ -1736,13 +1222,13 @@ dcl reset() {return false;}
                            <p><n>displayFormat</n><v>polar</v></p>
                        </format>
                    </p>
-                   <p><n>Etot</n><v>0.006006978362790994</v></p>
-                   <p><n>dBW</n><v>0.804917936631182</v></p>
-                   <p><n>dBi</n><v>2.952350640242111</v></p>
-                   <p><n>APG</n><v>1.0116250522103536</v></p>
+                   <p><n>Etot</n><v>0.007891562220813034</v></p>
+                   <p><n>dBW</n><v>3.175056285300965</v></p>
+                   <p><n>dBi</n><v>5.4692300319964975</v></p>
+                   <p><n>APG</n><v>1.4507</v></p>
                    <p>
                        <n>az</n>
-                       <v>180</v>
+                       <v>22</v>
                        <format>
                            <p><n>range</n><v/></p>
                            <p><n>numDigits</n><v>system</v></p>
@@ -1754,7 +1240,7 @@ dcl reset() {return false;}
                    </p>
                    <p>
                        <n>ele</n>
-                       <v>0</v>
+                       <v>6</v>
                        <format>
                            <p><n>range</n><v/></p>
                            <p><n>numDigits</n><v>system</v></p>
