@@ -98,17 +98,17 @@ cloneLoad</v></p>
                    <p><n>traceParams</n><v/></p>
                </parameters>
                <SCREENSIZE>
-                   <x>79</x>
-                   <y>77</y>
-                   <width>1733</width>
-                   <height>1062</height>
+                   <x>51</x>
+                   <y>71</y>
+                   <width>1295</width>
+                   <height>1059</height>
                    <controllerFractionX>0.25</controllerFractionX>
                    <controllerFractionY>0.5</controllerFractionY>
                    <showController>false</showController>
                </SCREENSIZE>
                <FILECHOOSER>
-                   <xLoc>672</xLoc>
-                   <yLoc>273</yLoc>
+                   <xLoc>644</xLoc>
+                   <yLoc>264</yLoc>
                    <width>1211</width>
                    <height>783</height>
                    <workingPath>/Users/jan/Desktop/quadrifilar/simsmith</workingPath>
@@ -120,8 +120,8 @@ cloneLoad</v></p>
                    <recent>/Users/jan/Desktop</recent>
                </FILECHOOSER>
                <WARNINGFRAME>
-                   <relx>211</relx>
-                   <rely>942</rely>
+                   <relx>177</relx>
+                   <rely>958</rely>
                    <w>300</w>
                    <h>150</h>
                </WARNINGFRAME>
@@ -188,14 +188,6 @@ cloneLoad</v></p>
                    <name>/Users/jan/Desktop/SJ000014.s1p</name>
                    <compressed>H4sIAAAAAAAA/1WXPY9eRQyF+0j5DxdRB/lr7JmSBkFDEaT0AVIgIZAQDfx6zvW5K/zuNqs8mmvPsX08+eq7337/cv3y15fPf3/59fr5n+vHz3/8+enHbz98d32y9+++vr7/9/rp+vjD9fFa8v7d5XtJ/1wf5JulVcevS74RlyPWPAf3VZv8yDm7eQ0eKWU316i1svkefJnIvrmJm5Ofyb2yz9taEufmD364ZvR5F0ew5voS37Y2j7W98zs28/dU8r3fzvu8/965bh6mqYwfg4vY6fxiJbRqPvTDpWOd5jujvPnQL5bqkpsvjcjVfOgXZjvIPWvx/NAPYqj1/SGuO88P/XwlJG5envu+35P9w/Uc6/zWkW3kQz+rbTvJz/FqPvQzLwh/85RTDx/66VlbW7/UW7jmQz9F/YPn9S5V86GfquY5z/ePWfOhH5rL5OFuspoP/cSjQpm/IZXmb/rdXSuyqprvO1LzM7ghaeqX6KA+rzL4Kk3WJ9B43lwHLxzjecNf/X21wTFTh/riU07u/3MFXsH+QSO2PhqTlzv7q1yV59fgimr09zGIeZh/Th52hP2LWjP/mnzZ6voE5ifI9+QVxvkIt4rmQz81VD0fnj0fYUM/RVNuxg/L6vra0E9jlTE+5pb52dBP0xCPPEJ4fuoH+9qcT4N8jD/1O5CDXHFxfn/oZ7gA/ekeW86PDf3MzmF/eaHC5EM/iyX0B0cBtfW3oR+aAu3QHLI78x/6QdLl9Mc6yvr70A+SOOfHfEv2910nP0muR0t7Pnzoh1hujz8LLKC5z/PYAB0fl69o/Txe8sMVn0mRh0/9FtpPexLBlfxFv525m+9CKzef/Qcz1WgngG67+9tn/8H2zpvTqJHP/kPaK9upkHe2vm8GyPndd//efEeejh9zfgV22vGhmrH+MfxPYAvYjzfHAGbHj+l/WE9Cju3B+sb0v8qSal4qq+sTw//MFeuYXKrIh/9BVPQ1v29FfWP4H4ZimfIv+APzf9kfanF4P336K8b+QDErgpEio/tryeDIifWzdbBpms/9qzC9/r7psSCf+xc7j/roRt92/DX3bwWeE6w/9gb53L8H+rF/Dgy877eGfolb7cNKLTxVmg/97upg/m+OrLl/1tAPzePcn4JKPHzoh+Y9EXR6eAXvN/TLLYf+qerG/ZdDP7Tc4Xzdm/B0/XLoV3LbRfMNoyQf+hUM/CxOEjLl933ybUWe+O38cuiHpJX+hT2jq/071+RoL/qbiy7Gz8nx6qK/YYFvfr9ezhf3I551b/H35AJjo//CXpj/eeVW9HdYUedXMu+HAX32G8L3fNSLfrAvefansf9r6Hfrf7j/UUD2Vw39cqPd+L7Cv3J/1NAvMfTC9wXi0r9q9t899XwfZG3Wv176bz37436dcr5r9h/Gnv2D95cJ85/9h7FZyfcTXiqMP/tPsE37+9kGdfM99IP9Ya6aY/9z/+45v2hAvp8z89Fvz/nF84D1Q1W13/+x5/w6/LX7I9Ff9Kc95xfPP74PS05yP738/0MwYK0fOrUW/PU/BML1Is8MAAA</compressed>
                </element>
-               <element>
-                   <name>/Users/jan/Desktop/SJ000007.s1p</name>
-                   <compressed>H4sIAAAAAAAA/12WO69dNRCF+0j5DxtRJ7LnPSVNBE2KIKUPkAIpAgnRwK9n7RkfaTanuUd3Hduf17z83Yffv329fv3r65e/v/52/fLP9fHLH39+/vjDuw/XZ3r75vvrx3+vn69PP12fLl1v31y8zud6t96vVPZ1Xeu9acby0mnoIczSuodE6TJ0l2VHZxMu3YZutiRbX4ut9Bi6brZdumCDOn9PPmEnan1t26VPPiYiLZ1t7Sx98tHO1et54wqlT76VZq2T4selTz58NFpfLOUfvfjw37XXDi99c3idTzT1dG59efb+JEOn8MWtL28+sqGzC9X5mnCi18fQxSRbDyMuPp58KqoVH4QvREqffCY7y3+1xG9Ln3yg6/gpDNrFx5PPM7X8VyXnuj9PvjDbvV5kc+0vky/ZsvxXVhhX+uBDLljWNyWDMaXL1C2OPxv3p9IH38aZ1nzLkSClx9QDiXF/E9yjdR18m3BcxUdCvetDJx9hWcVXHAb0+skHN6X8FxTIKn908nGYt470t6ovnXyCCm0+5EHrNvlENMpfoUQoSp98yI9d90ecl7Y++SQie/26K7h0e+pW/nLKqV978CUKpPSg9Movn3yKCrbSLY1ap4e+u/5Ynbju508+P/sjkbPXP/icqfxhON356Q8+zuj9aUXXVzz82979jVF+VvvH5AOtVXwpTdv/+H98i48ChJV/Mfkotpd/5Gg1lb8x+QjtrvwnvQ+49Zx8aFpc+Ufi1vWRj/oI2FE66846Px/1gW5c9yeCFRX/nPWbFFLxIaCe8x/1C67mX/jBrb/K99Q/rb4f0stzlz77C27V/u7YCFbps7+I7q6fjT6/o/RH/9vW8dt3+bc++bbS0VVh5q0/5sfavv1kkkWd/5gf6OovXRCK0uf8QNn0/IHe/UUe88O2nvVoG5U/8pgfaPqUzY9av/0Xmnwor93+ue/2lx7zF/O59UCoip8e8zeF/PgvNR+FJp8jm+n4b9X/hSZf3Al2/Neo+/HkS7TD4z/Gc+3Pg28vHH8q2TBgSh986K+uR0fj7fWDD/WTPf/g46r5IDz4kDLhR1/d30QGH7LCe35hPWvFXyafm9nR78FV+uTDTO75hT9e/U1k8BHmi5z74yp1Pxl8yFn0y9bR3mp/HXyoytXzB/6uPl8HH0m+4uu5dvmjgw9Dj05+YVBF5b9OPkdSNF/ipMoPnXyhe++uX+76Fpt8yYtP/SsGfOmDD489PTrx8d8GH98NuvsX3gle+WODj9HTU7p/oVLLPxt8eIykdH/FA6Tv74OPUZQ9P8kMk670yYf5on0+2j7X/X3yISs7vwi7d3745MPzqd8XePZavW/FJ58vjIjSt0bXb0w+/Ljvh2cZnrqlT75AXrYuhBQpffKFw/eefyjsXj/57qHd8/e2rfyJyZd4dDTfXd91v5x86dnxwVigrPzLyZeYOmf+e88vycEn9wM1X+8H7vU2dYtd/qEt4IlYekz9Nf/uh0q9j1/lcfSk7j9IS2z29s1/LrR4Cc8MAAA</compressed>
-               </element>
-               <element>
-                   <name>/Users/jan/Desktop/SJ000009.s1p</name>
-                   <compressed>H4sIAAAAAAAA/1WWP49lNQzF+5HmO1xEvav4f1zSrKDZYpG2X2AKJAQSooFPz4l9R8/vTvd+k8Q+sY/z3aff/3i7fv377ds/b79dv/x7ff72519fP//w4dP1lV9fvr9+/O/6+fry0/XlsvX6csm2Vd91rY+xMrZcH9ZHXsEkxf3BPfaWKO7BocVjcCWPPFzYNKj4fnBLy1zFAyft4jm4ivM+XIXcav8bF9eNCGq97uVZ8ScNzixmhxuLau2f/OBiTtHcifr8lAdnZHev32nUXAdfKlHxOSHxyi+HfiS8e3/HrmbFh37LRNmbO0sWf9cPvy7GvnHzRb1+PzgtnMDF2be3Pjk4NNE7PhJx8Dv65iyxhDu/0CXFafAMT299VqQW5weHfuHNGX+ruDy4roi0vh/HuuI6uKlF5acq2Ky4DZ5mXvEhLVIu7g9uwu5aXF3q/nDk4BbbtDOBgs2HfhbnXoqro4CKD/0sHRVYSqZo1Hoa+vm5gOoPwr1yFKfJg7r+1w6+OT/x5OYiHHU+yeQZSVUphPLt9Tq5WHBXUobU/dHQzxfLrvW0vPsPHTnzO3kX163Z+U39gpfv4ju99aOpnyHvqE44X/OpHydHd4oZc+XHQz9bHE7daVC47peHfhoWUlzQCqvi56EfqoY9i/Nqf1J+qr+NqIrLXl1fPPST0FgVP24XWhcf+qEmtfVFce6ufx764ahEfRyOX6Xy56Ef2lfhH7UeZ3X8Qz+UhHuvx7nc+c/+TQTQ+Qtxln4y9CPHDh0fGTYuPvQj8YzWNyWk4pehH2HTrcXR59R86LfSUMDFEZ+UPjL0Q1X7rvMhPgqnuE3O2hxV492f4k/rj/8dbktaH5n+lyiLrj9Ghff66X8YL9ROmjCKun/Jp/xhPMVDd/mnvhtgcSwK6/7Zsio/nfrhzrLXow6k8tOpXx67LS7G9/5DP6bjC8X5eFXxoR+f8RDd34JhWHzoxzDI3fEtTKK6fx36MUyv/WkRjur4Z/1tcuWeJCiQXj/0k0Xn/tt/JKr+dOgnfGypOO6Fqz5s6AfXZe71Bvuq823oh7vM1f5mZ5QWn/MDpkVUHFa36n5t9i8aqOf/clZq/jQ/AmXR+9v7+XN+bNiidfx4v/T66X9wb5XOH6Oi10//g9h868e3fvY0PzbdlYqxJp3f0A8zZevu+92YfIf70M/R1qJdX+qtj8/5gfeBZNcvNqj4fM6PwHy6/R0bNZ/zA12/7v7Bu676y4d+UM9Su/8cvVR86Bcon/Yv2qfVig/90BM4ol9CgVoqHpMn5k1xGJR1/kM/3L7J7vmw5eY5ueJZWDxOXRwea/KVZO1v+Kp+g5440z0fMFdK3+AZH/5b239PpRaXp/x29nq4i1f/xtTvGHDzza4Vfzzpt/DeLJ54Nzef+mGq9f3DVaTfBzH0gynjXovjXdT+GUM/WKq0vnrKt/msPzx/uPTBtv0+fW//mxP3/FK8BLp/9qw/XyibeonDPqz5rD88APr9YLB/Kv33rD9D30m/5E9fFJ/vl/N8Lv1OV2r5957vF1xbx485hEnz+vI/oVD1Bc8MAAA</compressed>
-               </element>
            </FILEARCHIVE>
            <SPREADSHEET>
                <parameters/>
@@ -233,8 +225,8 @@ cloneLoad</v></p>
                                <fontScale>1</fontScale>
                                <w>635</w>
                                <h>364</h>
-                               <relx>-392</relx>
-                               <rely>769</rely>
+                               <relx>-364</relx>
+                               <rely>775</rely>
                                <ProgrammingDialog>
                                    <ThreeSplitPane>
                                        <errDiv>0.3</errDiv>
@@ -261,8 +253,8 @@ cloneLoad</v></p>
                                <fontScale>1</fontScale>
                                <w>635</w>
                                <h>364</h>
-                               <relx>-392</relx>
-                               <rely>769</rely>
+                               <relx>-364</relx>
+                               <rely>775</rely>
                                <ProgrammingDialog>
                                    <ThreeSplitPane>
                                        <errDiv>0.3</errDiv>
@@ -307,10 +299,10 @@ P1 w1 gnd;
 P2 w2 gnd;
 R0 0 w1 w2;
 </v>
-                       <w>1275</w>
-                       <h>1052</h>
-                       <relx>563</relx>
-                       <rely>18</rely>
+                       <w>1366</w>
+                       <h>1181</h>
+                       <relx>745</relx>
+                       <rely>-39</rely>
                        <Schematic>
                            <WORKSETMENU>
                                <allow><n>SPRM</n><v>false</v></allow>
@@ -326,10 +318,10 @@ R0 0 w1 w2;
                            <STextBlock>
                                <root/>
                                <fontScale>0.644608916217797</fontScale>
-                               <x>19</x>
-                               <y>42</y>
-                               <w>1206</w>
-                               <h>953</h>
+                               <x>96</x>
+                               <y>91</y>
+                               <w>1220</w>
+                               <h>1033</h>
                                <text>//QFA 
 
 NECUnits mm;
@@ -340,13 +332,31 @@ H1;     //= 213;
 D1;     //= 94;
 H2;     //= 203;
 D2;     //=89;
+
 dcl scale=1;          // rescale entire geometry
-shorten;        // reduce height on both Large (H1) and Small (H2)
-dcl angleLarge = 90;
-SelectOneOf (NECGrounds) env;
+shorten;                // reduce height on both Large (H1) and Small (H2)
+dcl angleLarge = 90; // Angle between large and small helix  
+
+SelectOneOf (NECGrounds) env;  // Select environment
 NECGround(env,.005,13);
-dcl feedArray = {&quot;Standard&quot;, &quot;Anti-Standard&quot;};
+
+dcl feedArray = {&quot;Standard&quot;, &quot;Anti-Standard&quot;}; // Select feed
 SelectOneOf (feedArray) feedType;
+
+dcl helixHandedness = {&quot;Left-Handed&quot;, &quot;Right-Handed&quot;}; // set helix rotation
+
+SelectOneOf (helixHandedness) helixHand;
+
+if (helixHand == &quot;Left-Handed&quot;){
+     $stepAngle = 6;	                     // positive angle for left
+     $rotation = 1;
+$totalAngle = 180;	                 // total angle 
+} else if (helixHand == &quot;Right-Handed&quot;) {
+     $stepAngle = 6;	                     // negative angle for right
+     $rotation = -1;
+$totalAngle = 180;	                 // total angle 
+}
+$rotSteps = totalAngle / stepAngle;
 Dielectric;
 Thickness;
 height;
@@ -357,40 +367,36 @@ dcl d1 = scale * D1/2;
 dcl h2= scale * H2 - shorten;		// Height Large Helix
 dcl h1 = scale * H1 - shorten - 4;
 
-dcl totalAngle = 180;	                 // total angle 
-dcl stepAngle = 6;	                     // angle for each segment
-$wire;		                             // define to wire to drive.
-dcl heightDifference = (h1 - h2);
-dcl offCenter = 10;
+  for (int i = 0; i &lt; $rotSteps; ++i) {
+	$angle = $stepAngle  *  i  ;	// angle to start of wire segment, small
+	$nxtAngle = $angle + $stepAngle;		// angle to end of wire segment, small
+       $angleLarge = $angle + 90;            // angle to start of wire segment, large
+       $nxtAngleLarge = $nxtAngle + 90;      // angle to end of wire segment, large
 
-for (int i = 0; i &lt; totalAngle / stepAngle; ++i) {
-	dcl angle = stepAngle * i;				// angle to start of wire segment, small
-	dcl nxtAngle = angle + stepAngle;		// angle to end of wire segment, small
-    dcl angleLarge = angle + 90;            // angle to start of wire segment, large
-    dcl nxtAngleLarge = nxtAngle + 90;      // angle to end of wire segment, large
-
-    // First make small helix
-	dcl froma = {d2, 0,  height -h2 * angle / totalAngle}/_{0, 0,angle};		// start of wire helix a
-	dcl toa      = {d2, 0,  height - h2*nxtAngle / totalAngle}/_{0, 0, nxtAngle};	// end of wire
+      // First make small helix
+	dcl froma = {d2, 0,  height - h2 *  (i/$rotSteps)}/_{0, 0,$angle*$rotation};		// start of wire helix a
+	dcl toa      = {d2, 0,  height - h2 * ((i+1)/$rotSteps)}/_{0, 0, $nxtAngle*$rotation};	// end of wire
 	$wQfa  = NECWire(froma, toa)
      				.insulation  ={Thickness, Dielectric};
 
-	dcl fromb = { -d2, 0, height - h2 * angle / totalAngle}/_{0, 0, angle};		// start of wire helix b
-	dcl tob     = { -d2, 0,  height - h2*nxtAngle / totalAngle}/_{0, 0, nxtAngle};	// end of wire
+	dcl fromb = { -d2, 0, height - h2 *  (i/$rotSteps)}/_{0, 0, $angle*$rotation};		// start of wire helix b
+	dcl tob     = { -d2, 0,  height - h2 *  ((i+1)/$rotSteps)}/_{0, 0, $nxtAngle*$rotation};	// end of wire
 	$wQfa  = NECWire(fromb, tob)
       				.insulation={Thickness, Dielectric};
 
-    // Second make large helix
-    dcl fromLargea = {d1, 0,  height -h1 * angle / totalAngle}/_{0, 0, angleLarge};		// start of wire helix a
-    dcl toLargea     = {d1, 0,  height -h1 * nxtAngle / totalAngle}/_{0, 0, nxtAngleLarge};	// end of wire
-    $wQfa  = NECWire(fromLargea, toLargea)
+     // Second make large helix
+     dcl fromLargea = {d1, 0,  height -h1  *  (i/$rotSteps)}/_{0, 0, $angleLarge*$rotation};		// start of wire helix a
+     dcl toLargea     = {d1, 0,  height -h1  *  ((i+1)/$rotSteps)}/_{0, 0, $nxtAngleLarge*$rotation};	// end of wire
+     $wQfa  = NECWire(fromLargea, toLargea)
                  		.insulation={Thickness, Dielectric};
 
-    dcl fromLargeHelixB = {-d1, 0, height -h1 * angle / totalAngle}/_{0, 0, angleLarge};		// start of wire helix a
-    dcl toLargeHelixB     = {-d1, 0, height -h1 * nxtAngle / totalAngle}/_{0, 0, nxtAngleLarge};	// end of wire
-    $wQfa  = NECWire(fromLargeHelixB, toLargeHelixB)
-   				.insulation={Thickness, Dielectric};
-}
+     dcl fromLargeHelixB = {-d1, 0, height -h1   *  (i/$rotSteps)}/_{0, 0, $angleLarge*$rotation};		// start of wire helix a
+     dcl toLargeHelixB     = {-d1, 0, height -h1   *  ((i+1)/$rotSteps)}/_{0, 0, $nxtAngleLarge*$rotation};	// end of wire
+     $wQfa  = NECWire(fromLargeHelixB, toLargeHelixB)
+    				.insulation={Thickness, Dielectric};
+  }
+
+
 
 // Large Base
 $wQfa  = NECWire({d1, 0, height-h1}/_{0, 0, angleLarge}, {-d1, 0, height-h1}/_{0, 0, angleLarge})
@@ -432,7 +438,7 @@ if (feedType == &quot;Standard&quot;) {
 
 dcl largeDrive = NECSource({drv, gnd}, $wireLarge, 10);  
 
-           </text>
+             </text>
                            </STextBlock>
                            <SComponent>
                                <type>P1</type>
@@ -501,8 +507,8 @@ dcl largeDrive = NECSource({drv, gnd}, $wireLarge, 10);
                                <fontScale>1</fontScale>
                                <w>781</w>
                                <h>511</h>
-                               <relx>-497</relx>
-                               <rely>899</rely>
+                               <relx>-469</relx>
+                               <rely>905</rely>
                                <ProgrammingDialog>
                                    <ThreeSplitPane>
                                        <errDiv>0.3</errDiv>
@@ -529,8 +535,8 @@ dcl largeDrive = NECSource({drv, gnd}, $wireLarge, 10);
                                <fontScale>1</fontScale>
                                <w>781</w>
                                <h>511</h>
-                               <relx>-381</relx>
-                               <rely>879</rely>
+                               <relx>-353</relx>
+                               <rely>885</rely>
                                <ProgrammingDialog>
                                    <ThreeSplitPane>
                                        <errDiv>0.3</errDiv>
@@ -557,8 +563,8 @@ dcl largeDrive = NECSource({drv, gnd}, $wireLarge, 10);
                                <fontScale>1</fontScale>
                                <w>781</w>
                                <h>511</h>
-                               <relx>-381</relx>
-                               <rely>879</rely>
+                               <relx>-353</relx>
+                               <rely>885</rely>
                                <ProgrammingDialog>
                                    <ThreeSplitPane>
                                        <errDiv>0.3</errDiv>
@@ -585,8 +591,8 @@ dcl largeDrive = NECSource({drv, gnd}, $wireLarge, 10);
                                <fontScale>1</fontScale>
                                <w>781</w>
                                <h>511</h>
-                               <relx>-381</relx>
-                               <rely>879</rely>
+                               <relx>-353</relx>
+                               <rely>885</rely>
                                <ProgrammingDialog>
                                    <ThreeSplitPane>
                                        <errDiv>0.3</errDiv>
@@ -613,8 +619,8 @@ dcl largeDrive = NECSource({drv, gnd}, $wireLarge, 10);
                                <fontScale>1</fontScale>
                                <w>663</w>
                                <h>443</h>
-                               <relx>-260</relx>
-                               <rely>1029</rely>
+                               <relx>-232</relx>
+                               <rely>1035</rely>
                                <ProgrammingDialog>
                                    <ThreeSplitPane>
                                        <errDiv>0.3</errDiv>
@@ -629,7 +635,7 @@ dcl largeDrive = NECSource({drv, gnd}, $wireLarge, 10);
                        <v>
                            <SelectHeader>
                                <name>env</name>
-                               <value>free</value>
+                               <value>Sommerfeld</value>
                            </SelectHeader>
                        </v>
                        <sweepParam>
@@ -642,12 +648,81 @@ dcl largeDrive = NECSource({drv, gnd}, $wireLarge, 10);
                        <v>
                            <SelectHeader>
                                <name>feedType</name>
-                               <value>Standard</value>
+                               <value>Anti-Standard</value>
                            </SelectHeader>
                        </v>
                        <sweepParam>
                            <active>false</active>
                            <listed>false</listed>
+                       </sweepParam>
+                   </p>
+                   <p>
+                       <n>dMux</n>
+                       <v>
+                           <SelectHeader>
+                               <name>helixHand</name>
+                               <value>Right-Handed</value>
+                           </SelectHeader>
+                       </v>
+                       <sweepParam>
+                           <active>false</active>
+                           <listed>false</listed>
+                       </sweepParam>
+                   </p>
+                   <p>
+                       <numericParam>totalAngle</numericParam>
+                       <v>180</v>
+                       <sweepParam>
+                           <name>QFA.totalAngle</name>
+                           <listed>false</listed>
+                           <p><n>points</n><v>100</v></p>
+                           <p><n>from</n><v>0</v></p>
+                           <p><n>to</n><v>0</v></p>
+                           <p><n>log</n><v>lin</v></p>
+                           <p><n>doSweep</n><v>n</v></p>
+                           <p>
+                               <n>expr</n>
+                               <v>Vary</v>
+                               <fontScale>1</fontScale>
+                               <w>647</w>
+                               <h>529</h>
+                               <relx>28</relx>
+                               <rely>538</rely>
+                               <ProgrammingDialog>
+                                   <ThreeSplitPane>
+                                       <errDiv>0.3</errDiv>
+                                       <outDiv>0.7</outDiv>
+                                   </ThreeSplitPane>
+                               </ProgrammingDialog>
+                           </p>
+                       </sweepParam>
+                   </p>
+                   <p>
+                       <numericParam>stepAngle</numericParam>
+                       <v>6</v>
+                       <sweepParam>
+                           <name>QFA.stepAngle</name>
+                           <listed>false</listed>
+                           <p><n>points</n><v>100</v></p>
+                           <p><n>from</n><v>0</v></p>
+                           <p><n>to</n><v>0</v></p>
+                           <p><n>log</n><v>lin</v></p>
+                           <p><n>doSweep</n><v>n</v></p>
+                           <p>
+                               <n>expr</n>
+                               <v>Vary</v>
+                               <fontScale>1</fontScale>
+                               <w>866</w>
+                               <h>529</h>
+                               <relx>28</relx>
+                               <rely>538</rely>
+                               <ProgrammingDialog>
+                                   <ThreeSplitPane>
+                                       <errDiv>0.3</errDiv>
+                                       <outDiv>0.7</outDiv>
+                                   </ThreeSplitPane>
+                               </ProgrammingDialog>
+                           </p>
                        </sweepParam>
                    </p>
                    <p>
@@ -667,8 +742,8 @@ dcl largeDrive = NECSource({drv, gnd}, $wireLarge, 10);
                                <fontScale>1</fontScale>
                                <w>1060</w>
                                <h>567</h>
-                               <relx>302</relx>
-                               <rely>1042</rely>
+                               <relx>330</relx>
+                               <rely>1048</rely>
                                <ProgrammingDialog>
                                    <ThreeSplitPane>
                                        <errDiv>0.3</errDiv>
@@ -695,8 +770,8 @@ dcl largeDrive = NECSource({drv, gnd}, $wireLarge, 10);
                                <fontScale>1</fontScale>
                                <w>1060</w>
                                <h>567</h>
-                               <relx>302</relx>
-                               <rely>1042</rely>
+                               <relx>330</relx>
+                               <rely>1048</rely>
                                <ProgrammingDialog>
                                    <ThreeSplitPane>
                                        <errDiv>0.3</errDiv>
@@ -723,8 +798,8 @@ dcl largeDrive = NECSource({drv, gnd}, $wireLarge, 10);
                                <fontScale>1</fontScale>
                                <w>710</w>
                                <h>510</h>
-                               <relx>-46</relx>
-                               <rely>491</rely>
+                               <relx>-18</relx>
+                               <rely>497</rely>
                                <ProgrammingDialog>
                                    <ThreeSplitPane>
                                        <errDiv>0.3</errDiv>
@@ -766,8 +841,8 @@ dcl largeDrive = NECSource({drv, gnd}, $wireLarge, 10);
                                <fontScale>1</fontScale>
                                <w>866</w>
                                <h>531</h>
-                               <relx>0</relx>
-                               <rely>531</rely>
+                               <relx>28</relx>
+                               <rely>537</rely>
                                <ProgrammingDialog>
                                    <ThreeSplitPane>
                                        <errDiv>0.3</errDiv>
@@ -796,8 +871,8 @@ dcl largeDrive = NECSource({drv, gnd}, $wireLarge, 10);
                                <fontScale>1</fontScale>
                                <w>866</w>
                                <h>531</h>
-                               <relx>0</relx>
-                               <rely>531</rely>
+                               <relx>28</relx>
+                               <rely>537</rely>
                                <ProgrammingDialog>
                                    <ThreeSplitPane>
                                        <errDiv>0.3</errDiv>
@@ -854,8 +929,8 @@ dcl largeDrive = NECSource({drv, gnd}, $wireLarge, 10);
                                <fontScale>1</fontScale>
                                <w>635</w>
                                <h>364</h>
-                               <relx>-392</relx>
-                               <rely>769</rely>
+                               <relx>-364</relx>
+                               <rely>775</rely>
                                <ProgrammingDialog>
                                    <ThreeSplitPane>
                                        <errDiv>0.3</errDiv>
@@ -882,8 +957,8 @@ dcl largeDrive = NECSource({drv, gnd}, $wireLarge, 10);
                                <fontScale>1</fontScale>
                                <w>635</w>
                                <h>364</h>
-                               <relx>-392</relx>
-                               <rely>769</rely>
+                               <relx>-364</relx>
+                               <rely>775</rely>
                                <ProgrammingDialog>
                                    <ThreeSplitPane>
                                        <errDiv>0.3</errDiv>
@@ -899,8 +974,8 @@ dcl largeDrive = NECSource({drv, gnd}, $wireLarge, 10);
                        <fontScale>1</fontScale>
                        <w>635</w>
                        <h>364</h>
-                       <relx>287</relx>
-                       <rely>930</rely>
+                       <relx>315</relx>
+                       <rely>936</rely>
                        <ProgrammingDialog>
                            <ThreeSplitPane>
                                <errDiv>0.3</errDiv>
@@ -914,8 +989,8 @@ dcl largeDrive = NECSource({drv, gnd}, $wireLarge, 10);
                        <fontScale>1</fontScale>
                        <w>635</w>
                        <h>364</h>
-                       <relx>12</relx>
-                       <rely>821</rely>
+                       <relx>40</relx>
+                       <rely>827</rely>
                        <ProgrammingDialog>
                            <ThreeSplitPane>
                                <errDiv>0.3</errDiv>
@@ -931,7 +1006,6 @@ dcl largeDrive = NECSource({drv, gnd}, $wireLarge, 10);
                <import>
                    <name>/Users/jan/Desktop/SJ000013.s1p</name>
                </import>
-               <color>-52378</color>
                <import>
                    <name>/Users/jan/Desktop/SJ000014.s1p</name>
                </import>
@@ -1300,8 +1374,8 @@ dcl reset() {return false;}
                            <fontScale>1</fontScale>
                            <w>760</w>
                            <h>441</h>
-                           <relx>178</relx>
-                           <rely>1107</rely>
+                           <relx>206</relx>
+                           <rely>1113</rely>
                            <ProgrammingDialog>
                                <ThreeSplitPane>
                                    <errDiv>0.3</errDiv>
@@ -1326,8 +1400,8 @@ dcl reset() {return false;}
                                    <fontScale>1</fontScale>
                                    <w>760</w>
                                    <h>441</h>
-                                   <relx>178</relx>
-                                   <rely>1107</rely>
+                                   <relx>206</relx>
+                                   <rely>1113</rely>
                                    <ProgrammingDialog>
                                        <ThreeSplitPane>
                                            <errDiv>0.3</errDiv>
@@ -1454,18 +1528,19 @@ dcl reset() {return false;}
            <NECRENDER>
                <NEC2DISPLAY>
                    <w>880</w>
-                   <h>1003</h>
-                   <relx>430</relx>
-                   <rely>164</rely>
+                   <h>651</h>
+                   <relx>1053</relx>
+                   <rely>366</rely>
                    <VANTAGE>
                        <canvasScale>1</canvasScale>
                        <userScale>1</userScale>
                        <canvasOffset>0.0 0.0 0.0</canvasOffset>
                        <fieldOffset>0.0 0.0 0.0</fieldOffset>
                    </VANTAGE>
-                   <scales> 600.711548987411 0.07493875198155354 66.42396372229673 Infinity Infinity Infinity</scales>
-                   <dotsMode>2</dotsMode>
+                   <scales> 585.8113375654306 0.05826963553783096 60.086817454877774 Infinity Infinity Infinity</scales>
+                   <dotsMode>0</dotsMode>
                    <VISIBLE>FARFIELD</VISIBLE>
+                   <VISIBLE>WIRES</VISIBLE>
                    <VIEWPARAMS>
                        <p><n>view</n><v>track x</v></p>
                        <p>
@@ -1497,7 +1572,7 @@ dcl reset() {return false;}
                <XPARAMS>
                    <p>
                        <n>Eh</n>
-                       <v>0.006071764449201912</v>
+                       <v>0.005690827279981285</v>
                        <format>
                            <p><n>range</n><v/></p>
                            <p><n>numDigits</n><v>system</v></p>
@@ -1509,7 +1584,7 @@ dcl reset() {return false;}
                    </p>
                    <p>
                        <n>Ev</n>
-                       <v>0.006289669811037034</v>
+                       <v>0.007987825720611111</v>
                        <format>
                            <p><n>range</n><v/></p>
                            <p><n>numDigits</n><v>system</v></p>
@@ -1519,10 +1594,10 @@ dcl reset() {return false;}
                            <p><n>displayFormat</n><v>polar</v></p>
                        </format>
                    </p>
-                   <p><n>Etot</n><v>0.008742211954560633</v></p>
-                   <p><n>dBW</n><v>4.064223218961689</v></p>
-                   <p><n>dBi</n><v>4.402487528500812</v></p>
-                   <p><n>APG</n><v>0.92107</v></p>
+                   <p><n>Etot</n><v>0.009807694676805331</v></p>
+                   <p><n>dBW</n><v>5.063135331704318</v></p>
+                   <p><n>dBi</n><v>5.520143913140008</v></p>
+                   <p><n>APG</n><v>1.9791</v></p>
                    <p>
                        <n>az</n>
                        <v>0</v>
