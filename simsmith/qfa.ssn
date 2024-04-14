@@ -307,10 +307,10 @@ P1 w1 gnd;
 P2 w2 gnd;
 R0 0 w1 w2;
 </v>
-                       <w>1321</w>
-                       <h>1235</h>
-                       <relx>749</relx>
-                       <rely>-52</rely>
+                       <w>1275</w>
+                       <h>1052</h>
+                       <relx>563</relx>
+                       <rely>18</rely>
                        <Schematic>
                            <WORKSETMENU>
                                <allow><n>SPRM</n><v>false</v></allow>
@@ -326,8 +326,8 @@ R0 0 w1 w2;
                            <STextBlock>
                                <root/>
                                <fontScale>0.644608916217797</fontScale>
-                               <x>-1256</x>
-                               <y>-50</y>
+                               <x>19</x>
+                               <y>42</y>
                                <w>1206</w>
                                <h>953</h>
                                <text>//QFA 
@@ -345,7 +345,8 @@ shorten;        // reduce height on both Large (H1) and Small (H2)
 dcl angleLarge = 90;
 SelectOneOf (NECGrounds) env;
 NECGround(env,.005,13);
-
+dcl feedArray = {&quot;Standard&quot;, &quot;Anti-Standard&quot;};
+SelectOneOf (feedArray) feedType;
 Dielectric;
 Thickness;
 height;
@@ -407,26 +408,38 @@ $wQfa  = NECWire({d2, 0, height - h2}, {-d2, 0, height - h2});
 // drive small Helix
 $wire = NECWire({d2, 0, height}, {feedpoint, 0, height});
 $wire = NECWire({-feedpoint, 0, height}, {-d2, 0, height});
-		$wire.insulation={Thickness, Dielectric};
+		//$wire.insulation={Thickness, Dielectric};
 
-// Connect small and Large Helix
-$wire = NECWire({feedpoint, 0, height}/_{0, 0, angleLarge}, {feedpoint, 0, height});
-		$wire.insulation={Thickness, Dielectric};
-$wire = NECWire({-feedpoint, 0, height}/_{0, 0, angleLarge}, {-feedpoint, 0, height});
-		$wire.insulation={Thickness, Dielectric};
+// Add feed Dependng on selection Standard/Ainti-Standard
+
+if (feedType == &quot;Standard&quot;) {
+    $wire = NECWire({feedpoint, 0, height}/_{0, 0, angleLarge}, {feedpoint, 0, height});
+	     	  $wire.insulation={Thickness, Dielectric};
+    $wire = NECWire({-feedpoint, 0, height}/_{0, 0, angleLarge}, {-feedpoint, 0, height});
+		    $wire.insulation={Thickness, Dielectric};
+    $wireLarge = NECWire({feedpoint/Sqrt(2), 0, height}/_{0, 0, angleLarge-45}, {-feedpoint/Sqrt(2), 0, height}/_{0, 0, angleLarge-45});  
+
+} else if (feedType == &quot;Anti-Standard&quot;) {
+    $wire = NECWire({-feedpoint, 0, height}/_{0, 0, angleLarge}, {feedpoint, 0, height})
+	     	  .insulation={Thickness, Dielectric};
+    $wire = NECWire({feedpoint, 0, height}/_{0, 0, angleLarge}, {-feedpoint, 0, height})
+		    .insulation={Thickness, Dielectric};
+    $wireLarge = NECWire({feedpoint/Sqrt(2), 0, height}/_{0, 0, angleLarge+45}, {-feedpoint/Sqrt(2), 0, height}/_{0, 0, angleLarge+45}); 
+		    $wireLarge.insulation={Thickness, Dielectric};
+}
 
 // Feed signal
-$wireLarge = NECWire({feedpoint/Sqrt(2), 0, height}/_{0, 0, angleLarge-45}, {-feedpoint/Sqrt(2), 0, height}/_{0, 0, angleLarge-45});  
-dcl largeDrive = NECSource({drv, gnd}, $wireLarge, 50);  
+
+dcl largeDrive = NECSource({drv, gnd}, $wireLarge, 10);  
 
            </text>
                            </STextBlock>
                            <SComponent>
                                <type>P1</type>
                                <loc>P1</loc>
-                               <scale>0.03595967187355839</scale>
-                               <x>116</x>
-                               <y>62</y>
+                               <scale>0.036322900882382214</scale>
+                               <x>117</x>
+                               <y>56</y>
                                <pin>_net3</pin>
                                <pin>_net6</pin>
                                <value>none</value>
@@ -434,27 +447,27 @@ dcl largeDrive = NECSource({drv, gnd}, $wireLarge, 50);
                            <SComponent>
                                <type>LABEL</type>
                                <loc>_Label1</loc>
-                               <scale>0.03595967187355839</scale>
-                               <x>120</x>
-                               <y>92</y>
+                               <scale>0.036322900882382214</scale>
+                               <x>121</x>
+                               <y>86</y>
                                <pin>_net6</pin>
                                <value>gnd</value>
                            </SComponent>
                            <SComponent>
                                <type>LABEL</type>
                                <loc>_Label0</loc>
-                               <scale>0.03595967187355839</scale>
-                               <x>179</x>
-                               <y>86</y>
+                               <scale>0.036322900882382214</scale>
+                               <x>180</x>
+                               <y>80</y>
                                <pin>_net14</pin>
                                <value>gnd</value>
                            </SComponent>
                            <SComponent>
                                <type>P2</type>
                                <loc>P2</loc>
-                               <scale>0.03595967187355839</scale>
-                               <x>252</x>
-                               <y>85</y>
+                               <scale>0.036322900882382214</scale>
+                               <x>254</x>
+                               <y>79</y>
                                <pin>_net13</pin>
                                <pin>_net14</pin>
                                <value>none</value>
@@ -463,9 +476,9 @@ dcl largeDrive = NECSource({drv, gnd}, $wireLarge, 50);
                                <type>LABEL</type>
                                <loc>_Label2</loc>
                                <rot>0.09375</rot>
-                               <scale>0.03595967187355839</scale>
-                               <x>164</x>
-                               <y>34</y>
+                               <scale>0.036322900882382214</scale>
+                               <x>165</x>
+                               <y>28</y>
                                <pin>_net13</pin>
                                <value>drv</value>
                            </SComponent>
@@ -616,7 +629,20 @@ dcl largeDrive = NECSource({drv, gnd}, $wireLarge, 50);
                        <v>
                            <SelectHeader>
                                <name>env</name>
-                               <value>MiniNEC</value>
+                               <value>free</value>
+                           </SelectHeader>
+                       </v>
+                       <sweepParam>
+                           <active>false</active>
+                           <listed>false</listed>
+                       </sweepParam>
+                   </p>
+                   <p>
+                       <n>dMux</n>
+                       <v>
+                           <SelectHeader>
+                               <name>feedType</name>
+                               <value>Standard</value>
                            </SelectHeader>
                        </v>
                        <sweepParam>
@@ -720,13 +746,12 @@ dcl largeDrive = NECSource({drv, gnd}, $wireLarge, 50);
                        <lengthUnits>ft</lengthUnits>
                    </fromFile>
                    <showInPath>true</showInPath>
-                   <showInSmith>true</showInSmith>
                    <escapeHatch/>
-                   <p><n>~deg</n><v>274.226009577525</v></p>
+                   <p><n>~deg</n><v>305.9452787179847</v></p>
                    <p><n>@MHz</n><v>435</v></p>
                    <p>
                        <n>ft</n>
-                       <v>1.1482939633</v>
+                       <v>1.2811152275206752</v>
                        <sweepParam>
                            <name>JumperCable.ft</name>
                            <listed>false</listed>
@@ -919,13 +944,13 @@ dcl largeDrive = NECSource({drv, gnd}, $wireLarge, 50);
            </STANDARDS>
            <ROUNDCHART>
                <displayMode>Both</displayMode>
-               <gammaOffsetReal>6.123233995736765E-18</gammaOffsetReal>
-               <gammaOffsetImag>-0.09999999999999998</gammaOffsetImag>
-               <zoom>0.9</zoom>
+               <gammaOffsetReal>-0.0255214263848591</gammaOffsetReal>
+               <gammaOffsetImag>-0.15357829972064516</gammaOffsetImag>
+               <zoom>0.9463821415320154</zoom>
                <swr>2</swr>
                <q>50</q>
-               <lmiR>50</lmiR>
-               <lmiX>0</lmiX>
+               <lmiR>-4.7873261769114235</lmiR>
+               <lmiX>-11.079212083248297</lmiX>
            </ROUNDCHART>
            <SQUARECHART>
                <plotYAxis>
@@ -1428,26 +1453,24 @@ dcl reset() {return false;}
            </SimNECLibraries>
            <NECRENDER>
                <NEC2DISPLAY>
-                   <w>1196</w>
+                   <w>880</w>
                    <h>1003</h>
-                   <relx>624</relx>
-                   <rely>51</rely>
+                   <relx>430</relx>
+                   <rely>164</rely>
                    <VANTAGE>
                        <canvasScale>1</canvasScale>
                        <userScale>1</userScale>
                        <canvasOffset>0.0 0.0 0.0</canvasOffset>
                        <fieldOffset>0.0 0.0 0.0</fieldOffset>
                    </VANTAGE>
-                   <scales> 205.1066414371481 0.16762122947689959 104.77766080112298 Infinity Infinity Infinity</scales>
-                   <dotsMode>0</dotsMode>
-                   <VISIBLE>Azimuth</VISIBLE>
-                   <VISIBLE>Elevation</VISIBLE>
-                   <VISIBLE>WIRES</VISIBLE>
+                   <scales> 600.711548987411 0.07493875198155354 66.42396372229673 Infinity Infinity Infinity</scales>
+                   <dotsMode>2</dotsMode>
+                   <VISIBLE>FARFIELD</VISIBLE>
                    <VIEWPARAMS>
                        <p><n>view</n><v>track x</v></p>
                        <p>
                            <n>viewAz</n>
-                           <v>2</v>
+                           <v>0</v>
                            <format>
                                <p><n>range</n><v/></p>
                                <p><n>numDigits</n><v>system</v></p>
@@ -1474,7 +1497,7 @@ dcl reset() {return false;}
                <XPARAMS>
                    <p>
                        <n>Eh</n>
-                       <v>0.008441044936698516</v>
+                       <v>0.006071764449201912</v>
                        <format>
                            <p><n>range</n><v/></p>
                            <p><n>numDigits</n><v>system</v></p>
@@ -1486,7 +1509,7 @@ dcl reset() {return false;}
                    </p>
                    <p>
                        <n>Ev</n>
-                       <v>0.0038239971108173913</v>
+                       <v>0.006289669811037034</v>
                        <format>
                            <p><n>range</n><v/></p>
                            <p><n>numDigits</n><v>system</v></p>
@@ -1496,13 +1519,13 @@ dcl reset() {return false;}
                            <p><n>displayFormat</n><v>polar</v></p>
                        </format>
                    </p>
-                   <p><n>Etot</n><v>0.009266832982573033</v></p>
-                   <p><n>dBW</n><v>4.570423299136833</v></p>
-                   <p><n>dBi</n><v>4.911582327149229</v></p>
-                   <p><n>APG</n><v>1.6955</v></p>
+                   <p><n>Etot</n><v>0.008742211954560633</v></p>
+                   <p><n>dBW</n><v>4.064223218961689</v></p>
+                   <p><n>dBi</n><v>4.402487528500812</v></p>
+                   <p><n>APG</n><v>0.92107</v></p>
                    <p>
                        <n>az</n>
-                       <v>2</v>
+                       <v>0</v>
                        <format>
                            <p><n>range</n><v/></p>
                            <p><n>numDigits</n><v>system</v></p>
@@ -1514,7 +1537,7 @@ dcl reset() {return false;}
                    </p>
                    <p>
                        <n>ele</n>
-                       <v>6</v>
+                       <v>90</v>
                        <format>
                            <p><n>range</n><v/></p>
                            <p><n>numDigits</n><v>system</v></p>
