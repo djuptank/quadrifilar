@@ -26,7 +26,6 @@
                        <voltageFormat>0</voltageFormat>
                        <rotationCount>0</rotationCount>
                    </fromFile>
-                   <showInPGain>true</showInPGain>
                    <showInPath>true</showInPath>
                    <showInSmith>true</showInSmith>
                    <escapeHatch/>
@@ -47,8 +46,8 @@
                                <fontScale>1</fontScale>
                                <w>900</w>
                                <h>529</h>
-                               <relx>58</relx>
-                               <rely>575</rely>
+                               <relx>198</relx>
+                               <rely>547</rely>
                                <ProgrammingDialog>
                                    <ThreeSplitPane>
                                        <errDiv>0.3</errDiv>
@@ -75,8 +74,8 @@
                                <fontScale>1</fontScale>
                                <w>900</w>
                                <h>529</h>
-                               <relx>58</relx>
-                               <rely>575</rely>
+                               <relx>198</relx>
+                               <rely>547</rely>
                                <ProgrammingDialog>
                                    <ThreeSplitPane>
                                        <errDiv>0.3</errDiv>
@@ -118,13 +117,13 @@
                    <p><n>shunt</n><v>series</v></p>
                    <p>
                        <n>F</n>
-                       <v>7.035471869542185E-12</v>
+                       <v>7.0798526256633725E-12</v>
                        <sweepParam>
                            <name>LC1.F</name>
                            <listed>false</listed>
                            <p><n>points</n><v>100</v></p>
-                           <p><n>from</n><v>6.679476588775501E-12</v></p>
-                           <p><n>to</n><v>8.015371906530601E-12</v></p>
+                           <p><n>from</n><v>6.7260330061634406E-12</v></p>
+                           <p><n>to</n><v>8.071239607396128E-12</v></p>
                            <p><n>log</n><v>lin</v></p>
                            <p><n>doSweep</n><v>n</v></p>
                            <p>
@@ -133,8 +132,8 @@
                                <fontScale>1</fontScale>
                                <w>900</w>
                                <h>529</h>
-                               <relx>58</relx>
-                               <rely>575</rely>
+                               <relx>140</relx>
+                               <rely>501</rely>
                                <ProgrammingDialog>
                                    <ThreeSplitPane>
                                        <errDiv>0.3</errDiv>
@@ -146,13 +145,13 @@
                    </p>
                    <p>
                        <n>H</n>
-                       <v>6.353227792111782E-9</v>
+                       <v>1.1734026128585477E-8</v>
                        <sweepParam>
                            <name>LC1.H</name>
                            <listed>false</listed>
                            <p><n>points</n><v>100</v></p>
-                           <p><n>from</n><v>1.6696409294615814E-8</v></p>
-                           <p><n>to</n><v>2.0035691153538975E-8</v></p>
+                           <p><n>from</n><v>1.68150825154086E-8</v></p>
+                           <p><n>to</n><v>2.017809901849032E-8</v></p>
                            <p><n>log</n><v>lin</v></p>
                            <p><n>doSweep</n><v>n</v></p>
                            <p>
@@ -161,8 +160,8 @@
                                <fontScale>1</fontScale>
                                <w>900</w>
                                <h>529</h>
-                               <relx>58</relx>
-                               <rely>575</rely>
+                               <relx>140</relx>
+                               <rely>501</rely>
                                <ProgrammingDialog>
                                    <ThreeSplitPane>
                                        <errDiv>0.3</errDiv>
@@ -189,8 +188,8 @@
                                <fontScale>1</fontScale>
                                <w>900</w>
                                <h>529</h>
-                               <relx>58</relx>
-                               <rely>575</rely>
+                               <relx>140</relx>
+                               <rely>501</rely>
                                <ProgrammingDialog>
                                    <ThreeSplitPane>
                                        <errDiv>0.3</errDiv>
@@ -225,8 +224,8 @@
                                <fontScale>1</fontScale>
                                <w>900</w>
                                <h>529</h>
-                               <relx>58</relx>
-                               <rely>575</rely>
+                               <relx>140</relx>
+                               <rely>501</rely>
                                <ProgrammingDialog>
                                    <ThreeSplitPane>
                                        <errDiv>0.3</errDiv>
@@ -248,13 +247,13 @@
                    <p><n>Ql</n><v>200</v></p>
                    <p>
                        <n>MHz</n>
-                       <v>434.99995</v>
+                       <v>432</v>
                        <sweepParam>
                            <name>LC1.MHz</name>
                            <listed>false</listed>
                            <p><n>points</n><v>100</v></p>
-                           <p><n>from</n><v>397.09880854769904</v></p>
-                           <p><n>to</n><v>476.51857025723876</v></p>
+                           <p><n>from</n><v>394.3602414037196</v></p>
+                           <p><n>to</n><v>473.23228968446347</v></p>
                            <p><n>log</n><v>lin</v></p>
                            <p><n>doSweep</n><v>n</v></p>
                            <p>
@@ -263,8 +262,8 @@
                                <fontScale>1</fontScale>
                                <w>900</w>
                                <h>529</h>
-                               <relx>58</relx>
-                               <rely>575</rely>
+                               <relx>140</relx>
+                               <rely>501</rely>
                                <ProgrammingDialog>
                                    <ThreeSplitPane>
                                        <errDiv>0.3</errDiv>
@@ -294,8 +293,8 @@
                            <name>G.MHz</name>
                            <listed>true</listed>
                            <p><n>points</n><v>100</v></p>
-                           <p><n>from</n><v>410</v></p>
-                           <p><n>to</n><v>460</v></p>
+                           <p><n>from</n><v>300</v></p>
+                           <p><n>to</n><v>500</v></p>
                            <p><n>log</n><v>lin</v></p>
                            <p><n>doSweep</n><v>y</v></p>
                            <p>
@@ -304,8 +303,8 @@
                                <fontScale>1</fontScale>
                                <w>900</w>
                                <h>529</h>
-                               <relx>58</relx>
-                               <rely>575</rely>
+                               <relx>198</relx>
+                               <rely>547</rely>
                                <ProgrammingDialog>
                                    <ThreeSplitPane>
                                        <errDiv>0.3</errDiv>
@@ -332,8 +331,8 @@
                                <fontScale>1</fontScale>
                                <w>900</w>
                                <h>529</h>
-                               <relx>58</relx>
-                               <rely>575</rely>
+                               <relx>198</relx>
+                               <rely>547</rely>
                                <ProgrammingDialog>
                                    <ThreeSplitPane>
                                        <errDiv>0.3</errDiv>
@@ -349,8 +348,8 @@
                        <fontScale>1</fontScale>
                        <w>900</w>
                        <h>529</h>
-                       <relx>58</relx>
-                       <rely>575</rely>
+                       <relx>198</relx>
+                       <rely>547</rely>
                        <ProgrammingDialog>
                            <ThreeSplitPane>
                                <errDiv>0.3</errDiv>
@@ -364,8 +363,8 @@
                        <fontScale>1</fontScale>
                        <w>900</w>
                        <h>529</h>
-                       <relx>58</relx>
-                       <rely>575</rely>
+                       <relx>198</relx>
+                       <rely>547</rely>
                        <ProgrammingDialog>
                            <ThreeSplitPane>
                                <errDiv>0.3</errDiv>
@@ -495,13 +494,13 @@
                    <otherPivot>0</otherPivot>
                    <otherPerDivision>1</otherPerDivision>
                </xferAxisIndB>
-               <mouseFractionX>0.26689576174112256</mouseFractionX>
-               <mouseFractionY>0.4993804213135068</mouseFractionY>
+               <mouseFractionX>0.24064171122994651</mouseFractionX>
+               <mouseFractionY>0.5080545229244114</mouseFractionY>
                <newPlotSParams>Sprm</newPlotSParams>
                <plotLinear>lin</plotLinear>
                <bands>fold</bands>
-               <zoom>1.062157285670051</zoom>
-               <nonWaveOffset>-0.5443775457198399</nonWaveOffset>
+               <zoom>1.041020355685217</zoom>
+               <nonWaveOffset>-0.46317763474769436</nonWaveOffset>
                <waveZoom>1</waveZoom>
                <waveOffsetInX>0</waveOffsetInX>
            </SQUARECHART>
@@ -741,8 +740,8 @@ dcl reset() {return false;}
                            <fontScale>1</fontScale>
                            <w>760</w>
                            <h>441</h>
-                           <relx>167</relx>
-                           <rely>1125</rely>
+                           <relx>307</relx>
+                           <rely>1097</rely>
                            <ProgrammingDialog>
                                <ThreeSplitPane>
                                    <errDiv>0.3</errDiv>
@@ -767,8 +766,8 @@ dcl reset() {return false;}
                                    <fontScale>1</fontScale>
                                    <w>760</w>
                                    <h>441</h>
-                                   <relx>167</relx>
-                                   <rely>1125</rely>
+                                   <relx>307</relx>
+                                   <rely>1097</rely>
                                    <ProgrammingDialog>
                                        <ThreeSplitPane>
                                            <errDiv>0.3</errDiv>
@@ -842,7 +841,32 @@ dcl reset() {return false;}
            </nanoVNA>
            <MARKERS/>
            <MISCSTATE/>
-           <SimNECLibraries/>
+           <SimNECLibraries>
+               <LIB>
+                   <n>/Users/jan/.SimNEC/2/2/Examples/libraries/AutoMatching</n>
+                   <v>false</v>
+               </LIB>
+               <LIB>
+                   <n>/Users/jan/.SimNEC/2/2/Examples/libraries/LoadGenerators</n>
+                   <v>false</v>
+               </LIB>
+               <LIB>
+                   <n>/Users/jan/.SimNEC/2/2/Examples/libraries/SPRM_utilities</n>
+                   <v>false</v>
+               </LIB>
+               <LIB>
+                   <n>/Users/jan/.SimNEC/2/2/Examples/libraries/Useful</n>
+                   <v>false</v>
+               </LIB>
+               <LIB>
+                   <n>/Users/jan/.SimNEC/2/2/Examples/libraries/components</n>
+                   <v>false</v>
+               </LIB>
+               <LIB>
+                   <n>/Users/jan/.SimNEC/2/2/Examples/libraries/differential</n>
+                   <v>false</v>
+               </LIB>
+           </SimNECLibraries>
            <NECRENDER>
                <NEC2DISPLAY>
                    <w>880</w>
