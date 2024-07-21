@@ -27,13 +27,13 @@
                <height>500</height>
                <relx>0</relx>
                <rely>0</rely>
-               <lastLoadStoreName>/Users/jan/Desktop/quadrifilar/simsmith/qfa.ssn</lastLoadStoreName>
+               <lastLoadStoreName>/Users/jan/Desktop/quadrifilar/simsmith/qfa-calc.ssn</lastLoadStoreName>
                <lastImageFile>/Users/jan/image1</lastImageFile>
                <lastImpedanceFile>/Users/jan/Desktop/s1p/SJ000027.s1p</lastImpedanceFile>
                <lastS1PFile>touchstone</lastS1PFile>
                <lastS2PFile>touchstone</lastS2PFile>
                <lastTraceFile>lastTraceFile</lastTraceFile>
-               <runningMenuItem>stop</runningMenuItem>
+               <runningMenuItem>run</runningMenuItem>
                <Switches/>
                <parameters>
                    <p><n>units</n><v>mm</v></p>
@@ -101,8 +101,8 @@ cloneLoad</v></p>
                    <p><n>traceParams</n><v/></p>
                </parameters>
                <SCREENSIZE>
-                   <x>698</x>
-                   <y>130</y>
+                   <x>92</x>
+                   <y>61</y>
                    <width>1392</width>
                    <height>1059</height>
                    <controllerFractionX>0.25</controllerFractionX>
@@ -110,25 +110,25 @@ cloneLoad</v></p>
                    <showController>false</showController>
                </SCREENSIZE>
                <FILECHOOSER>
-                   <xLoc>969</xLoc>
-                   <yLoc>443</yLoc>
+                   <xLoc>363</xLoc>
+                   <yLoc>374</yLoc>
                    <width>1211</width>
                    <height>783</height>
                    <workingPath>/Users/jan/Desktop/quadrifilar/simsmith</workingPath>
                    <NavButtons>nnnnn</NavButtons>
                    <recent>/Users/jan/.SimNEC/2/2/Examples</recent>
-                   <recent>/Users/jan/Desktop/quadrifilar/simsmith/qfa.ssn</recent>
-                   <recent>/Users/jan/Desktop/quadrifilar/simsmith</recent>
-                   <recent>/Users/jan/SimNECCircuit.ssn</recent>
                    <recent>/Users/jan/Desktop/quadrifilar/simsmith/qfa-calc.ssn</recent>
+                   <recent>/Users/jan/SimNECCircuit.ssn</recent>
+                   <recent>/Users/jan/Desktop/quadrifilar/simsmith</recent>
                    <recent>/Users/jan/Desktop/quadrifilar</recent>
                    <recent>/Users/jan/Desktop</recent>
+                   <recent>/Users/jan/Desktop/quadrifilar/simsmith/qfa.ssn</recent>
                    <recent>/Users/jan/Desktop/quadrifilar/simsmith/match-qfa.ssn</recent>
                    <recent>/Users/jan/Desktop/s1p</recent>
                </FILECHOOSER>
                <WARNINGFRAME>
-                   <relx>180</relx>
-                   <rely>778</rely>
+                   <relx>561</relx>
+                   <rely>834</rely>
                    <w>300</w>
                    <h>150</h>
                </WARNINGFRAME>
@@ -228,8 +228,8 @@ cloneLoad</v></p>
                                <fontScale>1</fontScale>
                                <w>635</w>
                                <h>364</h>
-                               <relx>-715</relx>
-                               <rely>694</rely>
+                               <relx>43</relx>
+                               <rely>780</rely>
                                <ProgrammingDialog>
                                    <ThreeSplitPane>
                                        <errDiv>0.3</errDiv>
@@ -256,8 +256,8 @@ cloneLoad</v></p>
                                <fontScale>1</fontScale>
                                <w>635</w>
                                <h>364</h>
-                               <relx>-715</relx>
-                               <rely>694</rely>
+                               <relx>43</relx>
+                               <rely>780</rely>
                                <ProgrammingDialog>
                                    <ThreeSplitPane>
                                        <errDiv>0.3</errDiv>
@@ -302,10 +302,10 @@ P1 w1 gnd;
 P2 w2 gnd;
 R0 0 w1 w2;
 </v>
-                       <w>1366</w>
+                       <w>1019</w>
                        <h>1181</h>
-                       <relx>394</relx>
-                       <rely>-120</rely>
+                       <relx>616</relx>
+                       <rely>18</rely>
                        <Schematic>
                            <WORKSETMENU>
                                <allow><n>SPRM</n><v>false</v></allow>
@@ -321,23 +321,33 @@ R0 0 w1 w2;
                            <STextBlock>
                                <root/>
                                <fontScale>0.644608916217797</fontScale>
-                               <x>-1270</x>
-                               <y>-50</y>
-                               <w>1220</w>
-                               <h>1033</h>
+                               <x>31</x>
+                               <y>105</y>
+                               <w>938</w>
+                               <h>1019</h>
                                <text>//QFA 
 
 NECUnits mm;
 // build helix along x axis.
 // during wire generation.
 
-H1;     //= 213;
-D1;     //= 94;
-H2;     //= 203;
-D2;     //=89;
+f_MHz = 435;
+helixTurns ;
+helixRatio ;
+
+dcl totalAngle = 360 * helixTurns;
+
+dcl lambda_mm = 3E8 / ( f_MHz  * 1E3)  * 1.046;   // Calculate lambda in mm and add 4.6%
+dcl L1Calc = lambda_mm * 1.025;                            // Add 2.5% for Large loop
+dcl L2Calc =  lambda_mm * 0.975;                           // Remove 2.5% for small loop
+
+H1 = L1Calc / ( 2 * ( Sqrt( (helixTurns * helixRatio * 3.14)^2 + 1) + helixRatio) ) ;
+D1 = H1 * helixRatio;
+H2 = L2Calc / ( 2 * ( Sqrt( (helixTurns * helixRatio * 3.14)^2 + 1) + helixRatio) ) ;
+D2 = H2 * helixRatio;
 
 dcl scale=1;          // rescale entire geometry
-shorten;                // reduce height on both Large (H1) and Small (H2)
+dcl shorten =0 ;                // reduce height on both Large (H1) and Small (H2)
 dcl angleLarge = 90; // Angle between large and small helix  
 
 SelectOneOf (NECGrounds) env;  // Select environment
@@ -353,22 +363,22 @@ SelectOneOf (helixHandedness) helixHand;
 if (helixHand == &quot;Left-Handed&quot;){
      $stepAngle = 6;	                     // positive angle for left
      $rotation = 1;
-$totalAngle = 180;	                 // total angle 
+//$totalAngle = 180;	                 // total angle 
 } else if (helixHand == &quot;Right-Handed&quot;) {
      $stepAngle = 6;	                     // negative angle for right
      $rotation = -1;
-$totalAngle = 180;	                 // total angle 
+//$totalAngle = 180;	                 // total angle 
 }
 $rotSteps = totalAngle / stepAngle;
-Dielectric;
-Thickness;
-height;
+Dielectric = 2.8;
+Thickness = 1;
+height = 1.5k;
 dcl feedpoint = 15;
 
-dcl d2 = scale * D2/2;		        // Radius of the helix
-dcl d1 = scale * D1/2;
-dcl h2= scale * H2 - shorten;		// Height Large Helix
-dcl h1 = scale * H1 - shorten - 4;
+dcl d2 = D2/2;		        // Radius of the helix
+dcl d1 =  D1/2;
+dcl h2=  H2 ;		// Height Large Helix
+dcl h1 = H1  - 4;
 
   for (int i = 0; i &lt; $rotSteps; ++i) {
 	$angle = $stepAngle  *  i  ;	// angle to start of wire segment, small
@@ -441,14 +451,14 @@ if (feedType == &quot;Standard&quot;) {
 
 dcl largeDrive = NECSource({drv, gnd}, $wireLarge, 10);  
 
-               </text>
+                   </text>
                            </STextBlock>
                            <SComponent>
                                <type>P1</type>
                                <loc>P1</loc>
-                               <scale>0.036322900882382214</scale>
-                               <x>117</x>
-                               <y>56</y>
+                               <scale>0.03858063380889339</scale>
+                               <x>118</x>
+                               <y>-1</y>
                                <pin>_net3</pin>
                                <pin>_net6</pin>
                                <value>none</value>
@@ -456,27 +466,27 @@ dcl largeDrive = NECSource({drv, gnd}, $wireLarge, 10);
                            <SComponent>
                                <type>LABEL</type>
                                <loc>_Label1</loc>
-                               <scale>0.036322900882382214</scale>
-                               <x>121</x>
-                               <y>86</y>
+                               <scale>0.03858063380889339</scale>
+                               <x>122</x>
+                               <y>31</y>
                                <pin>_net6</pin>
                                <value>gnd</value>
                            </SComponent>
                            <SComponent>
                                <type>LABEL</type>
                                <loc>_Label0</loc>
-                               <scale>0.036322900882382214</scale>
-                               <x>180</x>
-                               <y>80</y>
+                               <scale>0.03858063380889339</scale>
+                               <x>185</x>
+                               <y>25</y>
                                <pin>_net14</pin>
                                <value>gnd</value>
                            </SComponent>
                            <SComponent>
                                <type>P2</type>
                                <loc>P2</loc>
-                               <scale>0.036322900882382214</scale>
-                               <x>254</x>
-                               <y>79</y>
+                               <scale>0.03858063380889339</scale>
+                               <x>264</x>
+                               <y>24</y>
                                <pin>_net13</pin>
                                <pin>_net14</pin>
                                <value>none</value>
@@ -485,17 +495,101 @@ dcl largeDrive = NECSource({drv, gnd}, $wireLarge, 10);
                                <type>LABEL</type>
                                <loc>_Label2</loc>
                                <rot>0.09375</rot>
-                               <scale>0.036322900882382214</scale>
-                               <x>165</x>
-                               <y>28</y>
+                               <scale>0.03858063380889339</scale>
+                               <x>169</x>
+                               <y>-30</y>
                                <pin>_net13</pin>
                                <value>drv</value>
                            </SComponent>
                        </Schematic>
                    </p>
                    <p>
+                       <numericParam>f_MHz</numericParam>
+                       <v>435</v>
+                       <sweepParam>
+                           <name>QFA.f_MHz</name>
+                           <listed>false</listed>
+                           <p><n>points</n><v>100</v></p>
+                           <p><n>from</n><v>0</v></p>
+                           <p><n>to</n><v>0</v></p>
+                           <p><n>log</n><v>lin</v></p>
+                           <p><n>doSweep</n><v>n</v></p>
+                           <p>
+                               <n>expr</n>
+                               <v>Vary</v>
+                               <fontScale>1</fontScale>
+                               <w>696</w>
+                               <h>529</h>
+                               <relx>-82</relx>
+                               <rely>541</rely>
+                               <ProgrammingDialog>
+                                   <ThreeSplitPane>
+                                       <errDiv>0.3</errDiv>
+                                       <outDiv>0.7</outDiv>
+                                   </ThreeSplitPane>
+                               </ProgrammingDialog>
+                           </p>
+                       </sweepParam>
+                   </p>
+                   <p>
+                       <numericParam>helixTurns</numericParam>
+                       <v>0.5</v>
+                       <sweepParam>
+                           <name>QFA.helixTurns</name>
+                           <listed>false</listed>
+                           <p><n>points</n><v>100</v></p>
+                           <p><n>from</n><v>0</v></p>
+                           <p><n>to</n><v>0</v></p>
+                           <p><n>log</n><v>lin</v></p>
+                           <p><n>doSweep</n><v>n</v></p>
+                           <p>
+                               <n>expr</n>
+                               <v>Vary</v>
+                               <fontScale>1</fontScale>
+                               <w>696</w>
+                               <h>529</h>
+                               <relx>252</relx>
+                               <rely>589</rely>
+                               <ProgrammingDialog>
+                                   <ThreeSplitPane>
+                                       <errDiv>0.3</errDiv>
+                                       <outDiv>0.7</outDiv>
+                                   </ThreeSplitPane>
+                               </ProgrammingDialog>
+                           </p>
+                       </sweepParam>
+                   </p>
+                   <p>
+                       <numericParam>helixRatio</numericParam>
+                       <v>0.44</v>
+                       <sweepParam>
+                           <name>QFA.helixRatio</name>
+                           <listed>false</listed>
+                           <p><n>points</n><v>100</v></p>
+                           <p><n>from</n><v>0</v></p>
+                           <p><n>to</n><v>0</v></p>
+                           <p><n>log</n><v>lin</v></p>
+                           <p><n>doSweep</n><v>n</v></p>
+                           <p>
+                               <n>expr</n>
+                               <v>Vary</v>
+                               <fontScale>1</fontScale>
+                               <w>696</w>
+                               <h>529</h>
+                               <relx>252</relx>
+                               <rely>589</rely>
+                               <ProgrammingDialog>
+                                   <ThreeSplitPane>
+                                       <errDiv>0.3</errDiv>
+                                       <outDiv>0.7</outDiv>
+                                   </ThreeSplitPane>
+                               </ProgrammingDialog>
+                           </p>
+                       </sweepParam>
+                   </p>
+                   <p>
                        <numericParam>H1</numericParam>
-                       <v>223.3</v>
+                       <v>223.33345977780502</v>
                        <sweepParam>
                            <name>QFA.H1</name>
                            <listed>false</listed>
@@ -510,8 +604,8 @@ dcl largeDrive = NECSource({drv, gnd}, $wireLarge, 10);
                                <fontScale>1</fontScale>
                                <w>781</w>
                                <h>511</h>
-                               <relx>-820</relx>
-                               <rely>824</rely>
+                               <relx>-62</relx>
+                               <rely>910</rely>
                                <ProgrammingDialog>
                                    <ThreeSplitPane>
                                        <errDiv>0.3</errDiv>
@@ -523,7 +617,7 @@ dcl largeDrive = NECSource({drv, gnd}, $wireLarge, 10);
                    </p>
                    <p>
                        <numericParam>D1</numericParam>
-                       <v>97.25</v>
+                       <v>98.26672230223421</v>
                        <sweepParam>
                            <name>QFA.D1</name>
                            <listed>false</listed>
@@ -538,8 +632,8 @@ dcl largeDrive = NECSource({drv, gnd}, $wireLarge, 10);
                                <fontScale>1</fontScale>
                                <w>781</w>
                                <h>511</h>
-                               <relx>-704</relx>
-                               <rely>804</rely>
+                               <relx>54</relx>
+                               <rely>890</rely>
                                <ProgrammingDialog>
                                    <ThreeSplitPane>
                                        <errDiv>0.3</errDiv>
@@ -551,7 +645,7 @@ dcl largeDrive = NECSource({drv, gnd}, $wireLarge, 10);
                    </p>
                    <p>
                        <numericParam>H2</numericParam>
-                       <v>212.4</v>
+                       <v>212.4391446666926</v>
                        <sweepParam>
                            <name>QFA.H2</name>
                            <listed>false</listed>
@@ -566,8 +660,8 @@ dcl largeDrive = NECSource({drv, gnd}, $wireLarge, 10);
                                <fontScale>1</fontScale>
                                <w>781</w>
                                <h>511</h>
-                               <relx>-704</relx>
-                               <rely>804</rely>
+                               <relx>54</relx>
+                               <rely>890</rely>
                                <ProgrammingDialog>
                                    <ThreeSplitPane>
                                        <errDiv>0.3</errDiv>
@@ -579,7 +673,7 @@ dcl largeDrive = NECSource({drv, gnd}, $wireLarge, 10);
                    </p>
                    <p>
                        <numericParam>D2</numericParam>
-                       <v>93.46</v>
+                       <v>93.47322365334475</v>
                        <sweepParam>
                            <name>QFA.D2</name>
                            <listed>false</listed>
@@ -594,36 +688,8 @@ dcl largeDrive = NECSource({drv, gnd}, $wireLarge, 10);
                                <fontScale>1</fontScale>
                                <w>781</w>
                                <h>511</h>
-                               <relx>-704</relx>
-                               <rely>804</rely>
-                               <ProgrammingDialog>
-                                   <ThreeSplitPane>
-                                       <errDiv>0.3</errDiv>
-                                       <outDiv>0.7</outDiv>
-                                   </ThreeSplitPane>
-                               </ProgrammingDialog>
-                           </p>
-                       </sweepParam>
-                   </p>
-                   <p>
-                       <numericParam>shorten</numericParam>
-                       <v>15</v>
-                       <sweepParam>
-                           <name>QFA.shorten</name>
-                           <listed>true</listed>
-                           <p><n>points</n><v>10</v></p>
-                           <p><n>from</n><v>8</v></p>
-                           <p><n>to</n><v>18</v></p>
-                           <p><n>log</n><v>lin</v></p>
-                           <p><n>doSweep</n><v>n</v></p>
-                           <p>
-                               <n>expr</n>
-                               <v>Vary</v>
-                               <fontScale>1</fontScale>
-                               <w>663</w>
-                               <h>443</h>
-                               <relx>-583</relx>
-                               <rely>954</rely>
+                               <relx>54</relx>
+                               <rely>890</rely>
                                <ProgrammingDialog>
                                    <ThreeSplitPane>
                                        <errDiv>0.3</errDiv>
@@ -673,34 +739,6 @@ dcl largeDrive = NECSource({drv, gnd}, $wireLarge, 10);
                        </sweepParam>
                    </p>
                    <p>
-                       <numericParam>totalAngle</numericParam>
-                       <v>180</v>
-                       <sweepParam>
-                           <name>QFA.totalAngle</name>
-                           <listed>false</listed>
-                           <p><n>points</n><v>100</v></p>
-                           <p><n>from</n><v>0</v></p>
-                           <p><n>to</n><v>0</v></p>
-                           <p><n>log</n><v>lin</v></p>
-                           <p><n>doSweep</n><v>n</v></p>
-                           <p>
-                               <n>expr</n>
-                               <v>Vary</v>
-                               <fontScale>1</fontScale>
-                               <w>647</w>
-                               <h>529</h>
-                               <relx>-323</relx>
-                               <rely>457</rely>
-                               <ProgrammingDialog>
-                                   <ThreeSplitPane>
-                                       <errDiv>0.3</errDiv>
-                                       <outDiv>0.7</outDiv>
-                                   </ThreeSplitPane>
-                               </ProgrammingDialog>
-                           </p>
-                       </sweepParam>
-                   </p>
-                   <p>
                        <numericParam>stepAngle</numericParam>
                        <v>6</v>
                        <sweepParam>
@@ -717,8 +755,8 @@ dcl largeDrive = NECSource({drv, gnd}, $wireLarge, 10);
                                <fontScale>1</fontScale>
                                <w>866</w>
                                <h>529</h>
-                               <relx>-323</relx>
-                               <rely>457</rely>
+                               <relx>435</relx>
+                               <rely>543</rely>
                                <ProgrammingDialog>
                                    <ThreeSplitPane>
                                        <errDiv>0.3</errDiv>
@@ -745,8 +783,8 @@ dcl largeDrive = NECSource({drv, gnd}, $wireLarge, 10);
                                <fontScale>1</fontScale>
                                <w>1060</w>
                                <h>567</h>
-                               <relx>-21</relx>
-                               <rely>967</rely>
+                               <relx>737</relx>
+                               <rely>1053</rely>
                                <ProgrammingDialog>
                                    <ThreeSplitPane>
                                        <errDiv>0.3</errDiv>
@@ -773,8 +811,8 @@ dcl largeDrive = NECSource({drv, gnd}, $wireLarge, 10);
                                <fontScale>1</fontScale>
                                <w>1060</w>
                                <h>567</h>
-                               <relx>-21</relx>
-                               <rely>967</rely>
+                               <relx>737</relx>
+                               <rely>1053</rely>
                                <ProgrammingDialog>
                                    <ThreeSplitPane>
                                        <errDiv>0.3</errDiv>
@@ -801,8 +839,8 @@ dcl largeDrive = NECSource({drv, gnd}, $wireLarge, 10);
                                <fontScale>1</fontScale>
                                <w>710</w>
                                <h>510</h>
-                               <relx>-369</relx>
-                               <rely>416</rely>
+                               <relx>389</relx>
+                               <rely>502</rely>
                                <ProgrammingDialog>
                                    <ThreeSplitPane>
                                        <errDiv>0.3</errDiv>
@@ -825,11 +863,11 @@ dcl largeDrive = NECSource({drv, gnd}, $wireLarge, 10);
                    </fromFile>
                    <showInPath>true</showInPath>
                    <escapeHatch/>
-                   <p><n>~deg</n><v>182.36114860387852</v></p>
-                   <p><n>@MHz</n><v>435</v></p>
+                   <p><n>~deg</n><v>145.64643452653223</v></p>
+                   <p><n>@MHz</n><v>450</v></p>
                    <p>
                        <n>ft</n>
-                       <v>0.7636190542425129</v>
+                       <v>0.58955053561096</v>
                        <sweepParam>
                            <name>JumperCable.ft</name>
                            <listed>false</listed>
@@ -844,8 +882,8 @@ dcl largeDrive = NECSource({drv, gnd}, $wireLarge, 10);
                                <fontScale>1</fontScale>
                                <w>866</w>
                                <h>531</h>
-                               <relx>-323</relx>
-                               <rely>456</rely>
+                               <relx>435</relx>
+                               <rely>542</rely>
                                <ProgrammingDialog>
                                    <ThreeSplitPane>
                                        <errDiv>0.3</errDiv>
@@ -874,8 +912,8 @@ dcl largeDrive = NECSource({drv, gnd}, $wireLarge, 10);
                                <fontScale>1</fontScale>
                                <w>866</w>
                                <h>531</h>
-                               <relx>-323</relx>
-                               <rely>456</rely>
+                               <relx>435</relx>
+                               <rely>542</rely>
                                <ProgrammingDialog>
                                    <ThreeSplitPane>
                                        <errDiv>0.3</errDiv>
@@ -917,13 +955,13 @@ dcl largeDrive = NECSource({drv, gnd}, $wireLarge, 10);
                    <escapeHatch/>
                    <p>
                        <n>MHz</n>
-                       <v>435</v>
+                       <v>450</v>
                        <sweepParam>
                            <name>G.MHz</name>
                            <listed>true</listed>
-                           <p><n>points</n><v>100</v></p>
-                           <p><n>from</n><v>380</v></p>
-                           <p><n>to</n><v>480</v></p>
+                           <p><n>points</n><v>101</v></p>
+                           <p><n>from</n><v>400</v></p>
+                           <p><n>to</n><v>500</v></p>
                            <p><n>log</n><v>lin</v></p>
                            <p><n>doSweep</n><v>y</v></p>
                            <p>
@@ -932,8 +970,8 @@ dcl largeDrive = NECSource({drv, gnd}, $wireLarge, 10);
                                <fontScale>1</fontScale>
                                <w>635</w>
                                <h>364</h>
-                               <relx>-715</relx>
-                               <rely>694</rely>
+                               <relx>43</relx>
+                               <rely>780</rely>
                                <ProgrammingDialog>
                                    <ThreeSplitPane>
                                        <errDiv>0.3</errDiv>
@@ -960,8 +998,8 @@ dcl largeDrive = NECSource({drv, gnd}, $wireLarge, 10);
                                <fontScale>1</fontScale>
                                <w>635</w>
                                <h>364</h>
-                               <relx>-715</relx>
-                               <rely>694</rely>
+                               <relx>43</relx>
+                               <rely>780</rely>
                                <ProgrammingDialog>
                                    <ThreeSplitPane>
                                        <errDiv>0.3</errDiv>
@@ -977,8 +1015,8 @@ dcl largeDrive = NECSource({drv, gnd}, $wireLarge, 10);
                        <fontScale>1</fontScale>
                        <w>635</w>
                        <h>364</h>
-                       <relx>-36</relx>
-                       <rely>855</rely>
+                       <relx>730</relx>
+                       <rely>728</rely>
                        <ProgrammingDialog>
                            <ThreeSplitPane>
                                <errDiv>0.3</errDiv>
@@ -992,8 +1030,8 @@ dcl largeDrive = NECSource({drv, gnd}, $wireLarge, 10);
                        <fontScale>1</fontScale>
                        <w>635</w>
                        <h>364</h>
-                       <relx>-311</relx>
-                       <rely>746</rely>
+                       <relx>447</relx>
+                       <rely>832</rely>
                        <ProgrammingDialog>
                            <ThreeSplitPane>
                                <errDiv>0.3</errDiv>
@@ -1004,12 +1042,8 @@ dcl largeDrive = NECSource({drv, gnd}, $wireLarge, 10);
                </element>
                <scale><w>0.9903846153846154</w><h>1</h></scale>
            </CIRCUIT>
-           <SCATTERGUN><n>G.MHz</n><n>QFA.shorten</n></SCATTERGUN>
-           <CHARTIMPORTS>
-               <import>
-                   <name>/Users/jan/Desktop/s1p/SJ000027.s1p</name>
-               </import>
-           </CHARTIMPORTS>
+           <SCATTERGUN><n>G.MHz</n></SCATTERGUN>
+           <CHARTIMPORTS/>
            <STANDARDS>
                <resistors>&lt;none&gt;</resistors>
                <capacitors>&lt;none&gt;</capacitors>
@@ -1017,13 +1051,13 @@ dcl largeDrive = NECSource({drv, gnd}, $wireLarge, 10);
            </STANDARDS>
            <ROUNDCHART>
                <displayMode>Both</displayMode>
-               <gammaOffsetReal>6.123233995736765E-18</gammaOffsetReal>
-               <gammaOffsetImag>-0.09999999999999998</gammaOffsetImag>
-               <zoom>0.9</zoom>
-               <swr>2</swr>
+               <gammaOffsetReal>-0.06679214883000055</gammaOffsetReal>
+               <gammaOffsetImag>-0.17067753469799962</gammaOffsetImag>
+               <zoom>0.9463821415320153</zoom>
+               <swr>2.06</swr>
                <q>50</q>
-               <lmiR>3.8974400165486784</lmiR>
-               <lmiX>-14.109586569164444</lmiX>
+               <lmiR>88.41686137536612</lmiR>
+               <lmiX>27.64431637992865</lmiX>
            </ROUNDCHART>
            <SQUARECHART>
                <plotYAxis>
@@ -1047,9 +1081,9 @@ dcl largeDrive = NECSource({drv, gnd}, $wireLarge, 10);
                    <otherSnap/>
                </plotY2Axis>
                <swrAxis>
-                   <offset>79.991</offset>
-                   <pivot>79.999</pivot>
-                   <perDivision>0.001</perDivision>
+                   <offset>269</offset>
+                   <pivot>270.8</pivot>
+                   <perDivision>0.5</perDivision>
                    <snap/>
                    <otherOffset>0</otherOffset>
                    <otherPivot>0</otherPivot>
@@ -1127,17 +1161,17 @@ dcl largeDrive = NECSource({drv, gnd}, $wireLarge, 10);
                    <otherPivot>0</otherPivot>
                    <otherPerDivision>1</otherPerDivision>
                </xferAxisIndB>
-               <mouseFractionX>0.3732876712328767</mouseFractionX>
-               <mouseFractionY>0.7722772277227723</mouseFractionY>
+               <mouseFractionX>0.6983957219251337</mouseFractionX>
+               <mouseFractionY>0.6567534076827757</mouseFractionY>
                <newPlotSParams>Sprm</newPlotSParams>
                <plotLinear>lin</plotLinear>
                <bands>fold</bands>
-               <zoom>1</zoom>
-               <nonWaveOffset>0</nonWaveOffset>
+               <zoom>1.4504334264791439</zoom>
+               <nonWaveOffset>-4.149844511093747</nonWaveOffset>
                <waveZoom>1</waveZoom>
-               <waveOffsetInX>0</waveOffsetInX>
+               <waveOffsetInX>-29</waveOffsetInX>
            </SQUARECHART>
-           <CHARTCONTROL><showRound>false</showRound></CHARTCONTROL>
+           <CHARTCONTROL><showRound>true</showRound></CHARTCONTROL>
            <NOTESBOX>
                <relX>10</relX>
                <relY>10</relY>
@@ -1373,8 +1407,8 @@ dcl reset() {return false;}
                            <fontScale>1</fontScale>
                            <w>760</w>
                            <h>441</h>
-                           <relx>-145</relx>
-                           <rely>1032</rely>
+                           <relx>613</relx>
+                           <rely>1118</rely>
                            <ProgrammingDialog>
                                <ThreeSplitPane>
                                    <errDiv>0.3</errDiv>
@@ -1399,8 +1433,8 @@ dcl reset() {return false;}
                                    <fontScale>1</fontScale>
                                    <w>760</w>
                                    <h>441</h>
-                                   <relx>-145</relx>
-                                   <rely>1032</rely>
+                                   <relx>613</relx>
+                                   <rely>1118</rely>
                                    <ProgrammingDialog>
                                        <ThreeSplitPane>
                                            <errDiv>0.3</errDiv>
@@ -1526,28 +1560,25 @@ dcl reset() {return false;}
            </SimNECLibraries>
            <NECRENDER>
                <NEC2DISPLAY>
-                   <w>880</w>
-                   <h>651</h>
-                   <relx>1053</relx>
+                   <w>1405</w>
+                   <h>803</h>
+                   <relx>633</relx>
                    <rely>366</rely>
                    <VANTAGE>
-                       <canvasScale>1.0410203556852171</canvasScale>
+                       <canvasScale>0.22594815553402323</canvasScale>
                        <userScale>1</userScale>
-                       <canvasOffset>-0.5590315641640136 -2.0382724228333022 0.0</canvasOffset>
+                       <canvasOffset>-44.623012104646364 -167.06371274659656 0.0</canvasOffset>
                        <fieldOffset>0.0 0.0 0.0</fieldOffset>
                    </VANTAGE>
-                   <scales> 122.87709953979488 0.16279789538842465 55.599598329897994 Infinity Infinity Infinity</scales>
+                   <scales> 158.64102204127474 0.22343867774922516 494.0664865581741 Infinity Infinity Infinity</scales>
                    <dotsMode>0</dotsMode>
                    <VISIBLE>FARFIELD</VISIBLE>
-                   <VISIBLE>Azimuth</VISIBLE>
-                   <VISIBLE>Elevation</VISIBLE>
-                   <VISIBLE>CURRENTS</VISIBLE>
                    <VISIBLE>WIRES</VISIBLE>
                    <VIEWPARAMS>
                        <p><n>view</n><v>track x</v></p>
                        <p>
                            <n>viewAz</n>
-                           <v>66</v>
+                           <v>144</v>
                            <format>
                                <p><n>range</n><v/></p>
                                <p><n>numDigits</n><v>system</v></p>
@@ -1574,7 +1605,7 @@ dcl reset() {return false;}
                <XPARAMS>
                    <p>
                        <n>Eh</n>
-                       <v>0.006737460947556209</v>
+                       <v>0.006169271274920095</v>
                        <format>
                            <p><n>range</n><v/></p>
                            <p><n>numDigits</n><v>system</v></p>
@@ -1586,7 +1617,7 @@ dcl reset() {return false;}
                    </p>
                    <p>
                        <n>Ev</n>
-                       <v>0.0074470619603699785</v>
+                       <v>0.003269413000079001</v>
                        <format>
                            <p><n>range</n><v/></p>
                            <p><n>numDigits</n><v>system</v></p>
@@ -1596,13 +1627,13 @@ dcl reset() {return false;}
                            <p><n>displayFormat</n><v>polar</v></p>
                        </format>
                    </p>
-                   <p><n>Etot</n><v>0.010042515215892608</v></p>
-                   <p><n>dBW</n><v>5.2686465527964685</v></p>
-                   <p><n>dBi</n><v>5.744153091968438</v></p>
-                   <p><n>APG</n><v>2.0597</v></p>
+                   <p><n>Etot</n><v>0.006982046220746451</v></p>
+                   <p><n>dBW</n><v>2.1114509741536285</v></p>
+                   <p><n>dBi</n><v>6.32673536990539</v></p>
+                   <p><n>APG</n><v>1.5452</v></p>
                    <p>
                        <n>az</n>
-                       <v>66</v>
+                       <v>144</v>
                        <format>
                            <p><n>range</n><v/></p>
                            <p><n>numDigits</n><v>system</v></p>
@@ -1614,7 +1645,7 @@ dcl reset() {return false;}
                    </p>
                    <p>
                        <n>ele</n>
-                       <v>88</v>
+                       <v>6</v>
                        <format>
                            <p><n>range</n><v/></p>
                            <p><n>numDigits</n><v>system</v></p>
