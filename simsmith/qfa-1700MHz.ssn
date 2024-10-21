@@ -1,6 +1,191 @@
 <?xml version="1.0" encoding="utf-8"?>
    <SimNEC1p0>
        <SmithChartCircuit>
+           <PREFERENCES>
+               <XMLVersionControl>SimNEC:2.2a2</XMLVersionControl>
+               <NEC2Portal>
+                   <logLevel>0</logLevel>
+                   <parameters>
+                       <p>
+                           <n>necCommand</n>
+                           <v>/Users/jan/.SimNEC/2/2/Examples/nec2c.ae6ty/bin/nec2c-mac-m1</v>
+                       </p>
+                       <p><n>necVersion</n><v>5b4az.ae6ty.1.16</v></p>
+                       <p><n>logLevel</n><v>0</v></p>
+                       <p><n>necCrewSize</n><v>16</v></p>
+                       <p>
+                           <n>necMP #segs #Proc blockSize</n>
+                           <v>256 16 32</v>
+                       </p>
+                   </parameters>
+                   <w>640</w>
+                   <h>160</h>
+                   <x>25</x>
+                   <y>50</y>
+               </NEC2Portal>
+               <width>1000</width>
+               <height>500</height>
+               <relx>-52</relx>
+               <rely>384</rely>
+               <lastLoadStoreName>/Users/jan/Desktop/quadrifilar/simsmith/qfa-1700MHz.ssn</lastLoadStoreName>
+               <lastImageFile>/Users/jan/image1</lastImageFile>
+               <lastImpedanceFile>/Users/jan/Desktop/s2p/SJ000007.s2p</lastImpedanceFile>
+               <lastS1PFile>touchstone</lastS1PFile>
+               <lastS2PFile>touchstone</lastS2PFile>
+               <lastTraceFile>lastTraceFile</lastTraceFile>
+               <runningMenuItem>run</runningMenuItem>
+               <Switches/>
+               <parameters>
+                   <p><n>units</n><v>mm</v></p>
+                   <p><n>NormalSweepSize</n><v>10K</v></p>
+                   <p><n>ExtendedSweepSize</n><v>100K</v></p>
+                   <p><n>staleDataMode</n><v>sampling</v></p>
+                   <p><n>Max/Min value ratio</n><v>1.2</v></p>
+                   <p><n>Initial Capacitor Q</n><v>2K</v></p>
+                   <p><n>Initial Inductor Q</n><v>200</v></p>
+                   <p><n>Transformer Inductor Q</n><v>1M</v></p>
+                   <p><n>RUSE Pulldown R</n><v>1G</v></p>
+                   <p><n>defaultTLineModel</n><v>simplified</v></p>
+                   <p><n>Initial TLine Loss Freq</n><v>10</v></p>
+                   <p>
+                       <n>Initial TLine Loss/100 Units</n>
+                       <v>0.0016404199475065617</v>
+                   </p>
+                   <p><n>Initial VF</n><v>0.66668</v></p>
+                   <p><n>Initial Zo</n><v>0</v></p>
+                   <p><n>tLineDB</n><v>&lt;none&gt;</v></p>
+                   <p><n>drag Tune Depth</n><v>10</v></p>
+                   <p><n>Touchstone Format</n><v>S</v></p>
+                   <p><n>Touchstone Reference Impedance</n><v>0</v></p>
+                   <p><n>background</n><v>grey</v></p>
+                   <p><n>interpolationMode</n><v>polar</v></p>
+                   <p><n>savedImageFormat</n><v>pdf</v></p>
+                   <p><n>pinSizeAndLocation</n><v>maintain</v></p>
+                   <p><n>pinnedSize</n><v>1280 720</v></p>
+                   <p><n>pinnedLocation</n><v>80 40</v></p>
+                   <p><n>xlateNAndRuseParams</n><v>unasked</v></p>
+                   <p><n>ChartScale</n><v>Zo</v></p>
+                   <p><n>powerUnit</n><v>W</v></p>
+                   <p><n>ZLegendBrightness</n><v>50</v></p>
+                   <p><n>ZLineBrightness</n><v>50</v></p>
+                   <p><n>YLegendBrightness</n><v>50</v></p>
+                   <p><n>YLineBrightness</n><v>50</v></p>
+                   <p><n>ComponentLineBrightness</n><v>255</v></p>
+                   <p><n>numParamDigits</n><v>4</v></p>
+                   <p><n>displayMode</n><v>rect</v></p>
+                   <p>
+                       <n>default TLine deg/rad/wave/secs</n>
+                       <v>~deg</v>
+                   </p>
+                   <p>
+                       <n>wheelGain p S h v R</n>
+                       <v>0.01 -0.01 -0.01 -0.01 -0.01</v>
+                   </p>
+                   <p><n>none s c s&amp;c</n><v>1 0.1 0.01 0.001</v></p>
+                   <p><n>wheelLowPassFilter</n><v>1</v></p>
+                   <p><n>mouseClickTimer</n><v>100</v></p>
+                   <p><n>mouseSnapDistance</n><v>10</v></p>
+                   <p><n>chartMinimumScale</n><v>0.9</v></p>
+                   <p><n>markerSizeFactor</n><v>1</v></p>
+                   <p><n>circleSizeFactor</n><v>1</v></p>
+                   <p><n>windowReveal</n><v>partial</v></p>
+                   <p><n>fontChoice</n><v>Dialog</v></p>
+                   <p><n>dialogLinesOnScreen</n><v>0</v></p>
+                   <p><n>lineWidthMultiplier</n><v>0</v></p>
+                   <p><n>UniverseLogLevel</n><v>0</v></p>
+                   <p><n>nominalTabs</n><v>4</v></p>
+                   <p><n>isolateV</n><v>cloneGen;
+cloneLoad</v></p>
+                   <p><n>defaultV</n><v>useZo</v></p>
+                   <p><n>featuresKeys</n><v/></p>
+                   <p><n>traceParams</n><v/></p>
+               </parameters>
+               <SCREENSIZE>
+                   <x>203</x>
+                   <y>60</y>
+                   <width>1605</width>
+                   <height>1038</height>
+                   <controllerFractionX>0.2732142857142857</controllerFractionX>
+                   <controllerFractionY>0.5442729488220959</controllerFractionY>
+                   <showController>false</showController>
+               </SCREENSIZE>
+               <FILECHOOSER>
+                   <xLoc>562</xLoc>
+                   <yLoc>368</yLoc>
+                   <width>1211</width>
+                   <height>783</height>
+                   <workingPath>/Users/jan/Desktop/quadrifilar/simsmith</workingPath>
+                   <NavButtons>nnnnn</NavButtons>
+                   <recent>/Users/jan/.SimNEC/2/2/Examples</recent>
+                   <recent>/Users/jan/Desktop/quadrifilar/simsmith/qfa-1700MHz.ssn</recent>
+                   <recent>/Users/jan/Desktop/quadrifilar/simsmith</recent>
+                   <recent>/Users/jan/Desktop/quadrifilar</recent>
+                   <recent>/Users/jan/Desktop</recent>
+                   <recent>/Users/jan/Desktop/s2p</recent>
+                   <recent>/Users/jan/Desktop/s1p</recent>
+                   <recent>/Users/jan/Desktop/quadrifilar/simsmith/qfa-noaa137MHz.ssn</recent>
+                   <recent>/Users/jan/Desktop/quadrifilar/simsmith/qfa-2m.ssn</recent>
+                   <recent>/Users/jan/Desktop/HoppingLoop/simulation/simnec/Spiral</recent>
+                   <recent>/Users/jan/SimNECCircuit.ssn</recent>
+               </FILECHOOSER>
+               <WARNINGFRAME>
+                   <relx>76</relx>
+                   <rely>720</rely>
+                   <w>300</w>
+                   <h>150</h>
+               </WARNINGFRAME>
+               <SPLASH>
+                   <Leeson/>
+                   <SteppedDiameter/>
+                   <SteppedDiameterAdjust/>
+                   <EnforceCenterDriveSDC/>
+                   <RadiusToDiameterSDC/>
+                   <SteppedDiameterCorrectionArgs/>
+                   <SDCFrequencyCheck/>
+                   <ThroughPath/>
+                   <ThroughPathCrash/>
+                   <SteppedDiameterVertical/>
+                   <ReverseLobe/>
+                   <MinSegCount/>
+                   <NECPortalj2/>
+                   <NMUpdateTraceLoop/>
+                   <NMUpdateTraceLoop/>
+                   <NECGrounds/>
+                   <Finalize/>
+                   <CurrentAtEndOfWireRefinement/>
+                   <PerWireMhos/>
+                   <K6OIKInsulation/>
+                   <SquareChartPerDivision5/>
+                   <InsulationOption/>
+                   <WireCatcherAndStamping2/>
+                   <SymbolExplorerForRUSE/>
+                   <HangForNewCurrents/>
+                   <SegmentationUsingYagi5AsCheck/>
+                   <getInsulationDefault/>
+                   <notesAndImportsToWhite/>
+                   <NEC2DisplayColorizeImports/>
+                   <FixRUSENName/>
+                   <FixRUSENName/>
+                   <CloselySpacedSegmentationRewrite/>
+                   <ZipAndUnzip/>
+                   <InsulationSigma/>
+                   <SegmentationBecauseOfLoops/>
+                   <SegmentationBecauseOfLoops/>
+                   <JamSegments/>
+                   <JamSegmentsDriven/>
+                   <AddLoad/>
+                   <NECSourceImpedance/>
+                   <passingNECBLOCK/>
+                   <file13/>
+                   <FixWireRenamingAlgorithm/>
+                   <NECDECKWire_NECBLOCK/>
+                   <NECDisplayFrameTooSmall/>
+                   <dBFormat/>
+                   <TransformerStaleData/>
+                   <HexFormat/>
+                   <BadNegateSynatx/>
+               </SPLASH>
+           </PREFERENCES>
            <XMLVersionControl>SimNEC:2.2a2</XMLVersionControl>
            <PLOTENVIRONMENT/>
            <FILEARCHIVE/>
@@ -40,8 +225,8 @@
                                <fontScale>1</fontScale>
                                <w>635</w>
                                <h>364</h>
-                               <relx>253</relx>
-                               <rely>792</rely>
+                               <relx>259</relx>
+                               <rely>817</rely>
                                <ProgrammingDialog>
                                    <ThreeSplitPane>
                                        <errDiv>0.3</errDiv>
@@ -68,8 +253,8 @@
                                <fontScale>1</fontScale>
                                <w>635</w>
                                <h>364</h>
-                               <relx>253</relx>
-                               <rely>792</rely>
+                               <relx>259</relx>
+                               <rely>817</rely>
                                <ProgrammingDialog>
                                    <ThreeSplitPane>
                                        <errDiv>0.3</errDiv>
@@ -116,8 +301,8 @@ R0 0 w1 w2;
 </v>
                        <w>1419</w>
                        <h>1181</h>
-                       <relx>375</relx>
-                       <rely>8</rely>
+                       <relx>390</relx>
+                       <rely>6</rely>
                        <Schematic>
                            <WORKSETMENU>
                                <allow><n>SPRM</n><v>false</v></allow>
@@ -299,7 +484,7 @@ dcl setConductivity(mat) {
      case Bajs:             return 1e5;
    }
 }
-                                </text>
+                                   </text>
                            </STextBlock>
                            <SComponent>
                                <type>P1</type>
@@ -368,8 +553,8 @@ dcl setConductivity(mat) {
                                <fontScale>1</fontScale>
                                <w>696</w>
                                <h>529</h>
-                               <relx>128</relx>
-                               <rely>553</rely>
+                               <relx>134</relx>
+                               <rely>578</rely>
                                <ProgrammingDialog>
                                    <ThreeSplitPane>
                                        <errDiv>0.3</errDiv>
@@ -381,7 +566,7 @@ dcl setConductivity(mat) {
                    </p>
                    <p>
                        <numericParam>delta_MHz</numericParam>
-                       <v>70</v>
+                       <v>100</v>
                        <sweepParam>
                            <name>QFA.delta_MHz</name>
                            <listed>false</listed>
@@ -396,8 +581,8 @@ dcl setConductivity(mat) {
                                <fontScale>1</fontScale>
                                <w>696</w>
                                <h>529</h>
-                               <relx>210</relx>
-                               <rely>541</rely>
+                               <relx>216</relx>
+                               <rely>566</rely>
                                <ProgrammingDialog>
                                    <ThreeSplitPane>
                                        <errDiv>0.3</errDiv>
@@ -424,8 +609,8 @@ dcl setConductivity(mat) {
                                <fontScale>1</fontScale>
                                <w>696</w>
                                <h>529</h>
-                               <relx>462</relx>
-                               <rely>601</rely>
+                               <relx>468</relx>
+                               <rely>626</rely>
                                <ProgrammingDialog>
                                    <ThreeSplitPane>
                                        <errDiv>0.3</errDiv>
@@ -452,8 +637,8 @@ dcl setConductivity(mat) {
                                <fontScale>1</fontScale>
                                <w>696</w>
                                <h>529</h>
-                               <relx>462</relx>
-                               <rely>601</rely>
+                               <relx>468</relx>
+                               <rely>626</rely>
                                <ProgrammingDialog>
                                    <ThreeSplitPane>
                                        <errDiv>0.3</errDiv>
@@ -465,7 +650,7 @@ dcl setConductivity(mat) {
                    </p>
                    <p>
                        <numericParam>helixOffset</numericParam>
-                       <v>5</v>
+                       <v>6</v>
                        <sweepParam>
                            <name>QFA.helixOffset</name>
                            <listed>true</listed>
@@ -480,8 +665,8 @@ dcl setConductivity(mat) {
                                <fontScale>1</fontScale>
                                <w>1120</w>
                                <h>630</h>
-                               <relx>80</relx>
-                               <rely>598</rely>
+                               <relx>86</relx>
+                               <rely>623</rely>
                                <ProgrammingDialog>
                                    <ThreeSplitPane>
                                        <errDiv>0.3</errDiv>
@@ -506,7 +691,7 @@ dcl setConductivity(mat) {
                    </p>
                    <p>
                        <numericParam>H1</numericParam>
-                       <v>54.85292910184986</v>
+                       <v>54.201829292998646</v>
                        <sweepParam>
                            <name>QFA.H1</name>
                            <listed>false</listed>
@@ -521,8 +706,8 @@ dcl setConductivity(mat) {
                                <fontScale>1</fontScale>
                                <w>781</w>
                                <h>511</h>
-                               <relx>148</relx>
-                               <rely>922</rely>
+                               <relx>154</relx>
+                               <rely>947</rely>
                                <ProgrammingDialog>
                                    <ThreeSplitPane>
                                        <errDiv>0.3</errDiv>
@@ -534,7 +719,7 @@ dcl setConductivity(mat) {
                    </p>
                    <p>
                        <numericParam>D1</numericParam>
-                       <v>24.13528880481394</v>
+                       <v>23.848804888919403</v>
                        <sweepParam>
                            <name>QFA.D1</name>
                            <listed>false</listed>
@@ -549,8 +734,8 @@ dcl setConductivity(mat) {
                                <fontScale>1</fontScale>
                                <w>781</w>
                                <h>511</h>
-                               <relx>264</relx>
-                               <rely>902</rely>
+                               <relx>270</relx>
+                               <rely>927</rely>
                                <ProgrammingDialog>
                                    <ThreeSplitPane>
                                        <errDiv>0.3</errDiv>
@@ -562,7 +747,7 @@ dcl setConductivity(mat) {
                    </p>
                    <p>
                        <numericParam>H2</numericParam>
-                       <v>52.17717646273524</v>
+                       <v>51.044441178843385</v>
                        <sweepParam>
                            <name>QFA.H2</name>
                            <listed>false</listed>
@@ -577,8 +762,8 @@ dcl setConductivity(mat) {
                                <fontScale>1</fontScale>
                                <w>781</w>
                                <h>511</h>
-                               <relx>264</relx>
-                               <rely>902</rely>
+                               <relx>270</relx>
+                               <rely>927</rely>
                                <ProgrammingDialog>
                                    <ThreeSplitPane>
                                        <errDiv>0.3</errDiv>
@@ -590,7 +775,7 @@ dcl setConductivity(mat) {
                    </p>
                    <p>
                        <numericParam>D2</numericParam>
-                       <v>22.957957643603507</v>
+                       <v>22.45955411869109</v>
                        <sweepParam>
                            <name>QFA.D2</name>
                            <listed>false</listed>
@@ -605,8 +790,8 @@ dcl setConductivity(mat) {
                                <fontScale>1</fontScale>
                                <w>781</w>
                                <h>511</h>
-                               <relx>264</relx>
-                               <rely>902</rely>
+                               <relx>270</relx>
+                               <rely>927</rely>
                                <ProgrammingDialog>
                                    <ThreeSplitPane>
                                        <errDiv>0.3</errDiv>
@@ -647,7 +832,7 @@ dcl setConductivity(mat) {
                        <v>
                            <SelectHeader>
                                <name>helixHand</name>
-                               <value>Left-Handed</value>
+                               <value>Right-Handed</value>
                            </SelectHeader>
                        </v>
                        <sweepParam>
@@ -672,8 +857,8 @@ dcl setConductivity(mat) {
                                <fontScale>1</fontScale>
                                <w>866</w>
                                <h>529</h>
-                               <relx>645</relx>
-                               <rely>555</rely>
+                               <relx>651</relx>
+                               <rely>580</rely>
                                <ProgrammingDialog>
                                    <ThreeSplitPane>
                                        <errDiv>0.3</errDiv>
@@ -700,8 +885,8 @@ dcl setConductivity(mat) {
                                <fontScale>1</fontScale>
                                <w>1060</w>
                                <h>567</h>
-                               <relx>947</relx>
-                               <rely>1065</rely>
+                               <relx>953</relx>
+                               <rely>1090</rely>
                                <ProgrammingDialog>
                                    <ThreeSplitPane>
                                        <errDiv>0.3</errDiv>
@@ -728,8 +913,8 @@ dcl setConductivity(mat) {
                                <fontScale>1</fontScale>
                                <w>1060</w>
                                <h>567</h>
-                               <relx>947</relx>
-                               <rely>1065</rely>
+                               <relx>953</relx>
+                               <rely>1090</rely>
                                <ProgrammingDialog>
                                    <ThreeSplitPane>
                                        <errDiv>0.3</errDiv>
@@ -756,123 +941,8 @@ dcl setConductivity(mat) {
                                <fontScale>1</fontScale>
                                <w>710</w>
                                <h>510</h>
-                               <relx>599</relx>
-                               <rely>514</rely>
-                               <ProgrammingDialog>
-                                   <ThreeSplitPane>
-                                       <errDiv>0.3</errDiv>
-                                       <outDiv>0.7</outDiv>
-                                   </ThreeSplitPane>
-                               </ProgrammingDialog>
-                           </p>
-                       </sweepParam>
-                   </p>
-               </element>
-               <element>
-                   <type>XMATCH</type>
-                   <sweeperLabel>LC1</sweeperLabel>
-                   <fromFile>
-                       <powerFormat>0</powerFormat>
-                       <voltageFormat>0</voltageFormat>
-                       <rotationCount>0</rotationCount>
-                   </fromFile>
-                   <showInPath>true</showInPath>
-                   <escapeHatch/>
-                   <p><n>mode</n><v>auto</v></p>
-                   <p><n>pass</n><v>low</v></p>
-                   <p>
-                       <n>R</n>
-                       <v>0</v>
-                       <sweepParam>
-                           <name>LC1.R</name>
-                           <listed>false</listed>
-                           <p><n>points</n><v>100</v></p>
-                           <p><n>from</n><v>0</v></p>
-                           <p><n>to</n><v>0</v></p>
-                           <p><n>log</n><v>lin</v></p>
-                           <p><n>doSweep</n><v>n</v></p>
-                           <p>
-                               <n>expr</n>
-                               <v>Vary</v>
-                               <fontScale>1</fontScale>
-                               <w>908</w>
-                               <h>529</h>
-                               <relx>0</relx>
-                               <rely>529</rely>
-                               <ProgrammingDialog>
-                                   <ThreeSplitPane>
-                                       <errDiv>0.3</errDiv>
-                                       <outDiv>0.7</outDiv>
-                                   </ThreeSplitPane>
-                               </ProgrammingDialog>
-                           </p>
-                       </sweepParam>
-                       <format>
-                           <p><n>range</n><v>0 {.005,50k}</v></p>
-                           <p><n>numDigits</n><v>system</v></p>
-                           <p><n>incrementMode</n><v>geometric</v></p>
-                           <p><n>increment</n><v>1</v></p>
-                           <p><n>values</n><v>1 1.4 2 3 5 7</v></p>
-                           <p><n>displayFormat</n><v>system</v></p>
-                       </format>
-                   </p>
-                   <p>
-                       <n>X</n>
-                       <v>0</v>
-                       <sweepParam>
-                           <name>LC1.X</name>
-                           <listed>false</listed>
-                           <p><n>points</n><v>100</v></p>
-                           <p><n>from</n><v>0</v></p>
-                           <p><n>to</n><v>0</v></p>
-                           <p><n>log</n><v>lin</v></p>
-                           <p><n>doSweep</n><v>n</v></p>
-                           <p>
-                               <n>expr</n>
-                               <v>Vary</v>
-                               <fontScale>1</fontScale>
-                               <w>908</w>
-                               <h>529</h>
-                               <relx>0</relx>
-                               <rely>529</rely>
-                               <ProgrammingDialog>
-                                   <ThreeSplitPane>
-                                       <errDiv>0.3</errDiv>
-                                       <outDiv>0.7</outDiv>
-                                   </ThreeSplitPane>
-                               </ProgrammingDialog>
-                           </p>
-                       </sweepParam>
-                       <format>
-                           <p><n>range</n><v>0 {-50k,50k}</v></p>
-                           <p><n>numDigits</n><v>system</v></p>
-                           <p><n>incrementMode</n><v>linear</v></p>
-                           <p><n>increment</n><v>1</v></p>
-                           <p><n>values</n><v>1 1.4 2 3 5 7</v></p>
-                           <p><n>displayFormat</n><v>system</v></p>
-                       </format>
-                   </p>
-                   <p><n>Qc</n><v>2K</v></p>
-                   <p><n>Ql</n><v>200</v></p>
-                   <p>
-                       <n>MHz</n>
-                       <v>1700</v>
-                       <sweepParam>
-                           <name>LC1.MHz</name>
-                           <listed>false</listed>
-                           <p><n>points</n><v>100</v></p>
-                           <p><n>from</n><v>1551.8805795979708</v></p>
-                           <p><n>to</n><v>1862.2566955175646</v></p>
-                           <p><n>log</n><v>lin</v></p>
-                           <p><n>doSweep</n><v>n</v></p>
-                           <p>
-                               <n>expr</n>
-                               <v>Vary</v>
-                               <fontScale>1</fontScale>
-                               <w>908</w>
-                               <h>529</h>
-                               <relx>0</relx>
-                               <rely>529</rely>
+                               <relx>605</relx>
+                               <rely>539</rely>
                                <ProgrammingDialog>
                                    <ThreeSplitPane>
                                        <errDiv>0.3</errDiv>
@@ -903,8 +973,8 @@ dcl setConductivity(mat) {
                            <name>G.MHz</name>
                            <listed>true</listed>
                            <p><n>points</n><v>100</v></p>
-                           <p><n>from</n><v>1650</v></p>
-                           <p><n>to</n><v>1.750K</v></p>
+                           <p><n>from</n><v>1.6k</v></p>
+                           <p><n>to</n><v>1.8K</v></p>
                            <p><n>log</n><v>lin</v></p>
                            <p><n>doSweep</n><v>y</v></p>
                            <p>
@@ -913,8 +983,8 @@ dcl setConductivity(mat) {
                                <fontScale>1</fontScale>
                                <w>635</w>
                                <h>364</h>
-                               <relx>192</relx>
-                               <rely>787</rely>
+                               <relx>198</relx>
+                               <rely>812</rely>
                                <ProgrammingDialog>
                                    <ThreeSplitPane>
                                        <errDiv>0.3</errDiv>
@@ -941,8 +1011,8 @@ dcl setConductivity(mat) {
                                <fontScale>1</fontScale>
                                <w>635</w>
                                <h>364</h>
-                               <relx>192</relx>
-                               <rely>787</rely>
+                               <relx>198</relx>
+                               <rely>812</rely>
                                <ProgrammingDialog>
                                    <ThreeSplitPane>
                                        <errDiv>0.3</errDiv>
@@ -958,8 +1028,8 @@ dcl setConductivity(mat) {
                        <fontScale>1</fontScale>
                        <w>635</w>
                        <h>364</h>
-                       <relx>879</relx>
-                       <rely>735</rely>
+                       <relx>885</relx>
+                       <rely>760</rely>
                        <ProgrammingDialog>
                            <ThreeSplitPane>
                                <errDiv>0.3</errDiv>
@@ -973,8 +1043,8 @@ dcl setConductivity(mat) {
                        <fontScale>1</fontScale>
                        <w>635</w>
                        <h>364</h>
-                       <relx>596</relx>
-                       <rely>839</rely>
+                       <relx>602</relx>
+                       <rely>864</rely>
                        <ProgrammingDialog>
                            <ThreeSplitPane>
                                <errDiv>0.3</errDiv>
@@ -994,13 +1064,13 @@ dcl setConductivity(mat) {
            </STANDARDS>
            <ROUNDCHART>
                <displayMode>Both</displayMode>
-               <gammaOffsetReal>-0.19440304812148565</gammaOffsetReal>
-               <gammaOffsetImag>-0.2775079022054693</gammaOffsetImag>
-               <zoom>1.046440622480053</zoom>
+               <gammaOffsetReal>-0.10955318789588246</gammaOffsetReal>
+               <gammaOffsetImag>-0.20888911749407638</gammaOffsetImag>
+               <zoom>0.9463821415320153</zoom>
                <swr>2.06</swr>
                <q>50</q>
-               <lmiR>51.83429389774684</lmiR>
-               <lmiX>-33.480006538125316</lmiX>
+               <lmiR>51.025514778386125</lmiR>
+               <lmiX>-46.93550565145841</lmiX>
            </ROUNDCHART>
            <SQUARECHART>
                <plotYAxis>
@@ -1104,17 +1174,17 @@ dcl setConductivity(mat) {
                    <otherPivot>0</otherPivot>
                    <otherPerDivision>1</otherPerDivision>
                </xferAxisIndB>
-               <mouseFractionX>0.6267379679144385</mouseFractionX>
-               <mouseFractionY>0.6877323420074349</mouseFractionY>
+               <mouseFractionX>0.5152838427947598</mouseFractionX>
+               <mouseFractionY>0.7443037974683544</mouseFractionY>
                <newPlotSParams>Sprm</newPlotSParams>
                <plotLinear>lin</plotLinear>
                <bands>fold</bands>
-               <zoom>1</zoom>
-               <nonWaveOffset>0</nonWaveOffset>
+               <zoom>1.0101010101010102</zoom>
+               <nonWaveOffset>-1.7224043715846165</nonWaveOffset>
                <waveZoom>1</waveZoom>
                <waveOffsetInX>-29</waveOffsetInX>
            </SQUARECHART>
-           <CHARTCONTROL><showRound>true</showRound></CHARTCONTROL>
+           <CHARTCONTROL><showRound>false</showRound></CHARTCONTROL>
            <NOTESBOX>
                <relX>10</relX>
                <relY>10</relY>
@@ -1350,8 +1420,8 @@ dcl reset() {return false;}
                            <fontScale>1</fontScale>
                            <w>760</w>
                            <h>441</h>
-                           <relx>600</relx>
-                           <rely>1106</rely>
+                           <relx>606</relx>
+                           <rely>1131</rely>
                            <ProgrammingDialog>
                                <ThreeSplitPane>
                                    <errDiv>0.3</errDiv>
@@ -1376,8 +1446,8 @@ dcl reset() {return false;}
                                    <fontScale>1</fontScale>
                                    <w>760</w>
                                    <h>441</h>
-                                   <relx>579</relx>
-                                   <rely>1103</rely>
+                                   <relx>585</relx>
+                                   <rely>1128</rely>
                                    <ProgrammingDialog>
                                        <ThreeSplitPane>
                                            <errDiv>0.3</errDiv>
@@ -1505,15 +1575,15 @@ dcl reset() {return false;}
                <NEC2DISPLAY>
                    <w>1187</w>
                    <h>851</h>
-                   <relx>304</relx>
-                   <rely>213</rely>
+                   <relx>615</relx>
+                   <rely>166</rely>
                    <VANTAGE>
-                       <canvasScale>12.461380468401664</canvasScale>
+                       <canvasScale>0.7249803359578623</canvasScale>
                        <userScale>1</userScale>
-                       <canvasOffset>-183.38208749442697 -210.12530858736426 0.0</canvasOffset>
+                       <canvasOffset>64.49833572833084 35.45015995766197 0.0</canvasOffset>
                        <fieldOffset>0.0 0.0 0.0</fieldOffset>
                    </VANTAGE>
-                   <scales> 4671.814671814672 0.05668774888732724 3230.974632843792 Infinity Infinity Infinity</scales>
+                   <scales> 4726.5625 0.008044143066081639 93.15574717068289 Infinity Infinity Infinity</scales>
                    <dotsMode>0</dotsMode>
                    <VISIBLE>WIRES</VISIBLE>
                    <VIEWPARAMS>
@@ -1547,7 +1617,7 @@ dcl reset() {return false;}
                <XPARAMS>
                    <p>
                        <n>Eh</n>
-                       <v>0.005453184072671479</v>
+                       <v>0.0040243880418119075</v>
                        <format>
                            <p><n>range</n><v/></p>
                            <p><n>numDigits</n><v>system</v></p>
@@ -1559,7 +1629,7 @@ dcl reset() {return false;}
                    </p>
                    <p>
                        <n>Ev</n>
-                       <v>0.0050635032790001715</v>
+                       <v>0.0034427449205932568</v>
                        <format>
                            <p><n>range</n><v/></p>
                            <p><n>numDigits</n><v>system</v></p>
@@ -1569,10 +1639,10 @@ dcl reset() {return false;}
                            <p><n>displayFormat</n><v>polar</v></p>
                        </format>
                    </p>
-                   <p><n>Etot</n><v>0.00744152417095338</v></p>
-                   <p><n>dBW</n><v>2.6650345189908773</v></p>
-                   <p><n>dBi</n><v>3.172725340410572</v></p>
-                   <p><n>APG</n><v>0.84903</v></p>
+                   <p><n>Etot</n><v>0.005296054352001058</v></p>
+                   <p><n>dBW</n><v>-0.2891547456205815</v></p>
+                   <p><n>dBi</n><v>1.8740825456368602</v></p>
+                   <p><n>APG</n><v>0.86162</v></p>
                    <p>
                        <n>az</n>
                        <v>0</v>
@@ -1587,7 +1657,7 @@ dcl reset() {return false;}
                    </p>
                    <p>
                        <n>ele</n>
-                       <v>90</v>
+                       <v>-88</v>
                        <format>
                            <p><n>range</n><v/></p>
                            <p><n>numDigits</n><v>system</v></p>
