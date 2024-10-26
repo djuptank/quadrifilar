@@ -101,8 +101,8 @@ cloneLoad</v></p>
                    <p><n>traceParams</n><v/></p>
                </parameters>
                <SCREENSIZE>
-                   <x>203</x>
-                   <y>60</y>
+                   <x>78</x>
+                   <y>61</y>
                    <width>1605</width>
                    <height>1038</height>
                    <controllerFractionX>0.2732142857142857</controllerFractionX>
@@ -110,8 +110,8 @@ cloneLoad</v></p>
                    <showController>false</showController>
                </SCREENSIZE>
                <FILECHOOSER>
-                   <xLoc>562</xLoc>
-                   <yLoc>368</yLoc>
+                   <xLoc>239</xLoc>
+                   <yLoc>221</yLoc>
                    <width>1211</width>
                    <height>783</height>
                    <workingPath>/Users/jan/Desktop/quadrifilar/simsmith</workingPath>
@@ -129,8 +129,8 @@ cloneLoad</v></p>
                    <recent>/Users/jan/SimNECCircuit.ssn</recent>
                </FILECHOOSER>
                <WARNINGFRAME>
-                   <relx>76</relx>
-                   <rely>720</rely>
+                   <relx>44</relx>
+                   <rely>804</rely>
                    <w>300</w>
                    <h>150</h>
                </WARNINGFRAME>
@@ -225,8 +225,8 @@ cloneLoad</v></p>
                                <fontScale>1</fontScale>
                                <w>635</w>
                                <h>364</h>
-                               <relx>259</relx>
-                               <rely>817</rely>
+                               <relx>384</relx>
+                               <rely>816</rely>
                                <ProgrammingDialog>
                                    <ThreeSplitPane>
                                        <errDiv>0.3</errDiv>
@@ -253,8 +253,8 @@ cloneLoad</v></p>
                                <fontScale>1</fontScale>
                                <w>635</w>
                                <h>364</h>
-                               <relx>259</relx>
-                               <rely>817</rely>
+                               <relx>384</relx>
+                               <rely>816</rely>
                                <ProgrammingDialog>
                                    <ThreeSplitPane>
                                        <errDiv>0.3</errDiv>
@@ -301,8 +301,8 @@ R0 0 w1 w2;
 </v>
                        <w>1419</w>
                        <h>1181</h>
-                       <relx>390</relx>
-                       <rely>6</rely>
+                       <relx>515</relx>
+                       <rely>5</rely>
                        <Schematic>
                            <WORKSETMENU>
                                <allow><n>SPRM</n><v>false</v></allow>
@@ -484,7 +484,7 @@ dcl setConductivity(mat) {
      case Bajs:             return 1e5;
    }
 }
-                                   </text>
+                                    </text>
                            </STextBlock>
                            <SComponent>
                                <type>P1</type>
@@ -553,8 +553,8 @@ dcl setConductivity(mat) {
                                <fontScale>1</fontScale>
                                <w>696</w>
                                <h>529</h>
-                               <relx>134</relx>
-                               <rely>578</rely>
+                               <relx>259</relx>
+                               <rely>577</rely>
                                <ProgrammingDialog>
                                    <ThreeSplitPane>
                                        <errDiv>0.3</errDiv>
@@ -566,7 +566,7 @@ dcl setConductivity(mat) {
                    </p>
                    <p>
                        <numericParam>delta_MHz</numericParam>
-                       <v>100</v>
+                       <v>161.74916689314728</v>
                        <sweepParam>
                            <name>QFA.delta_MHz</name>
                            <listed>false</listed>
@@ -581,8 +581,8 @@ dcl setConductivity(mat) {
                                <fontScale>1</fontScale>
                                <w>696</w>
                                <h>529</h>
-                               <relx>216</relx>
-                               <rely>566</rely>
+                               <relx>341</relx>
+                               <rely>565</rely>
                                <ProgrammingDialog>
                                    <ThreeSplitPane>
                                        <errDiv>0.3</errDiv>
@@ -609,8 +609,8 @@ dcl setConductivity(mat) {
                                <fontScale>1</fontScale>
                                <w>696</w>
                                <h>529</h>
-                               <relx>468</relx>
-                               <rely>626</rely>
+                               <relx>593</relx>
+                               <rely>625</rely>
                                <ProgrammingDialog>
                                    <ThreeSplitPane>
                                        <errDiv>0.3</errDiv>
@@ -637,8 +637,8 @@ dcl setConductivity(mat) {
                                <fontScale>1</fontScale>
                                <w>696</w>
                                <h>529</h>
-                               <relx>468</relx>
-                               <rely>626</rely>
+                               <relx>593</relx>
+                               <rely>625</rely>
                                <ProgrammingDialog>
                                    <ThreeSplitPane>
                                        <errDiv>0.3</errDiv>
@@ -665,8 +665,8 @@ dcl setConductivity(mat) {
                                <fontScale>1</fontScale>
                                <w>1120</w>
                                <h>630</h>
-                               <relx>86</relx>
-                               <rely>623</rely>
+                               <relx>211</relx>
+                               <rely>622</rely>
                                <ProgrammingDialog>
                                    <ThreeSplitPane>
                                        <errDiv>0.3</errDiv>
@@ -691,7 +691,7 @@ dcl setConductivity(mat) {
                    </p>
                    <p>
                        <numericParam>H1</numericParam>
-                       <v>54.201829292998646</v>
+                       <v>52.404101724513936</v>
                        <sweepParam>
                            <name>QFA.H1</name>
                            <listed>false</listed>
@@ -706,8 +706,8 @@ dcl setConductivity(mat) {
                                <fontScale>1</fontScale>
                                <w>781</w>
                                <h>511</h>
-                               <relx>154</relx>
-                               <rely>947</rely>
+                               <relx>279</relx>
+                               <rely>946</rely>
                                <ProgrammingDialog>
                                    <ThreeSplitPane>
                                        <errDiv>0.3</errDiv>
@@ -719,7 +719,7 @@ dcl setConductivity(mat) {
                    </p>
                    <p>
                        <numericParam>D1</numericParam>
-                       <v>23.848804888919403</v>
+                       <v>23.057804758786133</v>
                        <sweepParam>
                            <name>QFA.D1</name>
                            <listed>false</listed>
@@ -734,8 +734,8 @@ dcl setConductivity(mat) {
                                <fontScale>1</fontScale>
                                <w>781</w>
                                <h>511</h>
-                               <relx>270</relx>
-                               <rely>927</rely>
+                               <relx>395</relx>
+                               <rely>926</rely>
                                <ProgrammingDialog>
                                    <ThreeSplitPane>
                                        <errDiv>0.3</errDiv>
@@ -747,7 +747,7 @@ dcl setConductivity(mat) {
                    </p>
                    <p>
                        <numericParam>H2</numericParam>
-                       <v>51.044441178843385</v>
+                       <v>49.35143560463933</v>
                        <sweepParam>
                            <name>QFA.H2</name>
                            <listed>false</listed>
@@ -762,8 +762,8 @@ dcl setConductivity(mat) {
                                <fontScale>1</fontScale>
                                <w>781</w>
                                <h>511</h>
-                               <relx>270</relx>
-                               <rely>927</rely>
+                               <relx>395</relx>
+                               <rely>926</rely>
                                <ProgrammingDialog>
                                    <ThreeSplitPane>
                                        <errDiv>0.3</errDiv>
@@ -775,7 +775,7 @@ dcl setConductivity(mat) {
                    </p>
                    <p>
                        <numericParam>D2</numericParam>
-                       <v>22.45955411869109</v>
+                       <v>21.714631666041303</v>
                        <sweepParam>
                            <name>QFA.D2</name>
                            <listed>false</listed>
@@ -790,8 +790,8 @@ dcl setConductivity(mat) {
                                <fontScale>1</fontScale>
                                <w>781</w>
                                <h>511</h>
-                               <relx>270</relx>
-                               <rely>927</rely>
+                               <relx>395</relx>
+                               <rely>926</rely>
                                <ProgrammingDialog>
                                    <ThreeSplitPane>
                                        <errDiv>0.3</errDiv>
@@ -857,8 +857,8 @@ dcl setConductivity(mat) {
                                <fontScale>1</fontScale>
                                <w>866</w>
                                <h>529</h>
-                               <relx>651</relx>
-                               <rely>580</rely>
+                               <relx>776</relx>
+                               <rely>579</rely>
                                <ProgrammingDialog>
                                    <ThreeSplitPane>
                                        <errDiv>0.3</errDiv>
@@ -885,8 +885,8 @@ dcl setConductivity(mat) {
                                <fontScale>1</fontScale>
                                <w>1060</w>
                                <h>567</h>
-                               <relx>953</relx>
-                               <rely>1090</rely>
+                               <relx>1078</relx>
+                               <rely>1089</rely>
                                <ProgrammingDialog>
                                    <ThreeSplitPane>
                                        <errDiv>0.3</errDiv>
@@ -913,8 +913,8 @@ dcl setConductivity(mat) {
                                <fontScale>1</fontScale>
                                <w>1060</w>
                                <h>567</h>
-                               <relx>953</relx>
-                               <rely>1090</rely>
+                               <relx>1078</relx>
+                               <rely>1089</rely>
                                <ProgrammingDialog>
                                    <ThreeSplitPane>
                                        <errDiv>0.3</errDiv>
@@ -941,8 +941,8 @@ dcl setConductivity(mat) {
                                <fontScale>1</fontScale>
                                <w>710</w>
                                <h>510</h>
-                               <relx>605</relx>
-                               <rely>539</rely>
+                               <relx>730</relx>
+                               <rely>538</rely>
                                <ProgrammingDialog>
                                    <ThreeSplitPane>
                                        <errDiv>0.3</errDiv>
@@ -983,8 +983,8 @@ dcl setConductivity(mat) {
                                <fontScale>1</fontScale>
                                <w>635</w>
                                <h>364</h>
-                               <relx>198</relx>
-                               <rely>812</rely>
+                               <relx>323</relx>
+                               <rely>811</rely>
                                <ProgrammingDialog>
                                    <ThreeSplitPane>
                                        <errDiv>0.3</errDiv>
@@ -1011,8 +1011,8 @@ dcl setConductivity(mat) {
                                <fontScale>1</fontScale>
                                <w>635</w>
                                <h>364</h>
-                               <relx>198</relx>
-                               <rely>812</rely>
+                               <relx>323</relx>
+                               <rely>811</rely>
                                <ProgrammingDialog>
                                    <ThreeSplitPane>
                                        <errDiv>0.3</errDiv>
@@ -1028,8 +1028,8 @@ dcl setConductivity(mat) {
                        <fontScale>1</fontScale>
                        <w>635</w>
                        <h>364</h>
-                       <relx>885</relx>
-                       <rely>760</rely>
+                       <relx>1010</relx>
+                       <rely>759</rely>
                        <ProgrammingDialog>
                            <ThreeSplitPane>
                                <errDiv>0.3</errDiv>
@@ -1043,8 +1043,8 @@ dcl setConductivity(mat) {
                        <fontScale>1</fontScale>
                        <w>635</w>
                        <h>364</h>
-                       <relx>602</relx>
-                       <rely>864</rely>
+                       <relx>727</relx>
+                       <rely>863</rely>
                        <ProgrammingDialog>
                            <ThreeSplitPane>
                                <errDiv>0.3</errDiv>
@@ -1174,13 +1174,13 @@ dcl setConductivity(mat) {
                    <otherPivot>0</otherPivot>
                    <otherPerDivision>1</otherPerDivision>
                </xferAxisIndB>
-               <mouseFractionX>0.5152838427947598</mouseFractionX>
-               <mouseFractionY>0.7443037974683544</mouseFractionY>
+               <mouseFractionX>0.5633187772925764</mouseFractionX>
+               <mouseFractionY>0.6810126582278481</mouseFractionY>
                <newPlotSParams>Sprm</newPlotSParams>
                <plotLinear>lin</plotLinear>
                <bands>fold</bands>
-               <zoom>1.0101010101010102</zoom>
-               <nonWaveOffset>-1.7224043715846165</nonWaveOffset>
+               <zoom>1.4948314143157355</zoom>
+               <nonWaveOffset>-64.03285382880745</nonWaveOffset>
                <waveZoom>1</waveZoom>
                <waveOffsetInX>-29</waveOffsetInX>
            </SQUARECHART>
@@ -1420,8 +1420,8 @@ dcl reset() {return false;}
                            <fontScale>1</fontScale>
                            <w>760</w>
                            <h>441</h>
-                           <relx>606</relx>
-                           <rely>1131</rely>
+                           <relx>731</relx>
+                           <rely>1130</rely>
                            <ProgrammingDialog>
                                <ThreeSplitPane>
                                    <errDiv>0.3</errDiv>
@@ -1446,8 +1446,8 @@ dcl reset() {return false;}
                                    <fontScale>1</fontScale>
                                    <w>760</w>
                                    <h>441</h>
-                                   <relx>585</relx>
-                                   <rely>1128</rely>
+                                   <relx>710</relx>
+                                   <rely>1127</rely>
                                    <ProgrammingDialog>
                                        <ThreeSplitPane>
                                            <errDiv>0.3</errDiv>
@@ -1617,7 +1617,7 @@ dcl reset() {return false;}
                <XPARAMS>
                    <p>
                        <n>Eh</n>
-                       <v>0.0040243880418119075</v>
+                       <v>0.0038019997909199354</v>
                        <format>
                            <p><n>range</n><v/></p>
                            <p><n>numDigits</n><v>system</v></p>
@@ -1629,7 +1629,7 @@ dcl reset() {return false;}
                    </p>
                    <p>
                        <n>Ev</n>
-                       <v>0.0034427449205932568</v>
+                       <v>0.003237393820641541</v>
                        <format>
                            <p><n>range</n><v/></p>
                            <p><n>numDigits</n><v>system</v></p>
@@ -1639,10 +1639,10 @@ dcl reset() {return false;}
                            <p><n>displayFormat</n><v>polar</v></p>
                        </format>
                    </p>
-                   <p><n>Etot</n><v>0.005296054352001058</v></p>
-                   <p><n>dBW</n><v>-0.2891547456205815</v></p>
-                   <p><n>dBi</n><v>1.8740825456368602</v></p>
-                   <p><n>APG</n><v>0.86162</v></p>
+                   <p><n>Etot</n><v>0.004993588004639877</v></p>
+                   <p><n>dBW</n><v>-0.7999492540739986</v></p>
+                   <p><n>dBi</n><v>1.8503306653787508</v></p>
+                   <p><n>APG</n><v>0.86649</v></p>
                    <p>
                        <n>az</n>
                        <v>0</v>
